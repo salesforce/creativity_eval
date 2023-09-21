@@ -1,0 +1,3362 @@
+[
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "0_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "1_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "2_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "3_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "3_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "4_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "5_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "6_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "6_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "7_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "8_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "9_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "10_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_Claude",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 3,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 4,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 11,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT3.5",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 1,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 2,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 5,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 6,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 7,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 8,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 9,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 10,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 12,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 13,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_NewYorker",
+        "ttcw_idx": 14,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 1,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 2,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 3,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 4,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 5,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 6,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 7,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 8,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 9,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 10,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 11,
+        "binary_verdict": "Yes"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 12,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 13,
+        "binary_verdict": "No"
+    },
+    {
+        "story_id": "11_GPT4",
+        "ttcw_idx": 14,
+        "binary_verdict": "No"
+    }
+]
