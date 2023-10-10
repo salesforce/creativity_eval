@@ -14,3 +14,13 @@ In this repository, we release: (1) the tests we've designed and their associate
 - For each of the 48 stories, we obtained annotations from three independent experts for each of the 14 TTCW, amounting to a total of (48x3x14) 2,016 test outcomes. Each test consists of a binary verdict, and a plain-text explanation from the expert.
 
 The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Data_Inspection.ipynb) notebook shows how to open all three of the files, to obtain the judgements on any given story for any given test.
+
+
+If you use this code or data please cite
+
+            @article{chakrabarty2023art,
+              title={Art or Artifice? Large Language Models and the False Promise of Creativity},
+              author={Chakrabarty, Tuhin and Laban, Philippe and Agarwal, Divyansh and Muresan, Smaranda and Wu, Chien-Sheng},
+              journal={arXiv preprint arXiv:2309.14556},
+              year={2023}
+            }
