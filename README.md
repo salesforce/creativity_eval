@@ -15,6 +15,7 @@ In this repository, we release: (1) the tests we've designed and their associate
 
 The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Data_Inspection.ipynb) notebook shows how to open all three of the files, to obtain the judgements on any given story for any given test.
 
+Huggingface data link : https://huggingface.co/datasets/Salesforce/ttcw_creativity_eval
 
 If you use this code or data please cite
 
