@@ -1,14 +1,15 @@
-# Evaluation of Creativity of LLMs in Short Fictional Stories
+# Idiosyncrasies in LLM writing
 
-Code repository for the CHI 2024 paper `Art or Artifice? Large Language Models and the False Promise of Creativity`
+Code repository for the paper `Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits`
 
 <p align="center" style="width: 750px;">
-  <img width="750" style='vertical-align: middle;' src="images/creative_writing_image.png">
+  <img width="750" style='vertical-align: middle;' src="images/intro.png">
 </p>
 
 ## 1. Data Release
 
-In this repository, we release (1) the tests we've designed and their associated prompts, (2) the corpus of short stories we conducted expert annotation on, (3) the 2,000+ annotations we collected on these stories:
+In this repository, we release (1) The LAMP corpus 1057 instruction,response pair with finegrained_edits, (2) 50 samples that are reannoted by 3 writers, (3) the 600 preference annotations we collected on to judge alignment:
+
 - The 14 TTCW tests are included in the `tests/` folder, which includes information on the Torrance dimension, the question formulation of the test, and the full prompt containing additional context about the test.
 - The corpus of 48 short stories is included in the `stories/` folder. 12 stories are original pieces published on the New Yorker website: we do not include the full-text version of these stories, and instead, provide a link to the original stories. For the other 36 LLM-generated stories in the corpus, we include the stories in plain text in the corpus release.
 - For each of the 48 stories, we obtained annotations from three independent experts for each of the 14 TTCW, amounting to a total of (48x3x14) 2,016 test outcomes. Each test consists of a binary verdict and a plain-text explanation from the expert.
@@ -28,10 +29,11 @@ The [Evaluating_LLM.ipynb](https://github.com/salesforce/creativity_eval/blob/ma
 
 If you use this code or data please cite
 ```
-@article{chakrabarty2023art,
-  title={Art or Artifice? Large Language Models and the False Promise of Creativity},
-  author={Chakrabarty, Tuhin and Laban, Philippe and Agarwal, Divyansh and Muresan, Smaranda and Wu, Chien-Sheng},
+@article{chakrabarty2024alignment,
+  title={Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI
+Alignment in the Writing Process through Edits},
+  author={Chakrabarty, Tuhin and Laban, Philippe and and Wu, Chien-Sheng},
   journal={arXiv preprint arXiv:2309.14556},
-  year={2023}
+  year={2024}
 }
 ```
