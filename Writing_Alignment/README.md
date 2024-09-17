@@ -81,18 +81,15 @@ In this repository, we release (1) The LAMP corpus 1057 instruction,response pai
 - To calculate the IAA with Kendall Tau look at preference_ranking/calc_kendall_tau.py
 - To understand at our `LLM_edited_oracle' and LLM_edited_full set up look at the files LLM_edited_oracle.json and LLM_edited_full.json
 
-The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Data_Inspection.ipynb) notebook shows how to open all three of the files, to obtain the judgments on any given story for any given test.
+The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Writing_Alignment/notebooks/Data_Analysis.ipynb) notebook shows how to reproduce all the analysis in Section 5 of our data.
 
-For convenience, we've also put the dataset on HuggingFace: https://huggingface.co/datasets/Salesforce/ttcw_creativity_eval
+The [Detection_Task_Agreement](https://github.com/salesforce/creativity_eval/blob/main/Writing_Alignment/notebooks/Detection_Task_Agreement.ipynb) notebook shows how to reproduce all the results for span level precision.
 
-## 2. LLM Creativity Benchmark (Update March 2024)
+The [rewriting_prompts.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Writing_Alignment/notebooks/rewriting_prompts.ipynb) notebook shows how to get rewrites for a span by loading the prompts/rewrite_prompts_fewshot25.json. It is shown for GPT4o but you can try with any model
 
-The expert judgments we collected can be used to benchmark LLMs' ability at creative writing evaluation (see Section 6 of the paper).
-As new LLMs get released, we release code to facilitate benchmarking, as well as model assessments for an initial set of LLMs (GPT3.5-turbo, GPT4-Turbo, Gemini-Pro, Claude {1.3,2.0,2.1,3-opus}).
+If you are curious about the syntactic idiosyncrasies look at the respective folder 
 
-The [Evaluating_LLM.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Evaluating_LLM.ipynb) notebook provides the process to (1) create benchmark files, (2) benchmark a new LLM using the `run_llm_eval.py` script (3) analyze the results.
-
-## 3. Citing work
+## 2. Citing work
 
 If you use this code or data please cite
 ```
