@@ -1,0 +1,78 @@
+You are given a paragraph of writing, and your goal is to provide feedback by selecting spans of text in the writing that could be improved, and assign each problematic span to an error category. Below, we list the 8 error categories that you can choose from, and provide a maximum of 5 example problematic spans in text for that category. In each example, the problematic span is highlighted using ** at the start and end.
+
+Category 1: 'Awkward Word Choice and Phrasing':
+   Example 1:  and the uneven floorboards creak **with stories of the past**. Faded photographs of old town 
+   Example 2:  turned the world into a **muted grayscale** photograph, the silence held its 
+   Example 3:  couldn't quite place. She explained **quickly, **how Aggie had fallen on hard 
+   Example 4:  moment for my mind to **catch up**. My heart raced, not with 
+   Example 5:  his eyes locking onto hers **in a fleeting moment of connection**. They exchange a soft, wordless 
+
+
+Category 2: 'Poor Sentence Structure':
+   Example 1:  the absence gnawed at him. **Liam wondered if he was somehow choosing not to hear it, if his own doubts were drowning out the sound.** He shifted in bed, his 
+   Example 2:  met the eye but in **the quiet wisdom and humor she exuded**.
+   Example 3:  texture lies in the double-frying process**: first,** blanch the chicken in hot 
+   Example 4:  my decision finally sinking in. **The customs line moved slowly, each minute dragging on as I shuffled forward, my passport clutched tightly in my hand**. When it was finally my 
+   Example 5:  each nursing a mug of coffee** that had long since gone cold**. Rodney leaned back in his 
+
+
+Category 3: 'Cliche':
+   Example 1:  pooling on the scratched wood. **The bartender, a middle-aged woman named Clara with eyes that saw too much, noticed the incident from across the room.** She walked over without a 
+   Example 2:  grasped his, and the way **they swayed to the music as if no one else existed**. It was a fleeting moment, 
+   Example 3:  to count his blessings, and **he had those counted too, but the gaps in between kept catching his attention**. The tick-tock of the old 
+   Example 4:  car, the crackle of paper **breaking an otherwise somber silence**. Most of their conversations had 
+   Example 5:  out into the August night. **In the weeks that followed, they navigated the unfamiliar terrain of separation, grappling with the realization that love, no matter how deep, sometimes isn't enough to hold two people together when they've lost sight of themselves and each other.**
+
+
+Category 4: 'Unnecessary/Redundant Exposition':
+   Example 1:  defunct sports teams paper the walls**, giving the place a sense of history muted by a film of dust**. The jukebox in the corner 
+   Example 2:  eyes red-rimmed from lack of **sleep, yet her spirit unbroken.** The memory of her mother's 
+   Example 3:  determination never wavering. Helen recalled **the early mornings, watching** her mother prepare for another 
+   Example 4:  the challenges that lay ahead. **As she unpacked her boxes in the empty apartment, the silence felt both liberating and oppressive, a reminder of the independence she had craved and the loneliness she feared.** With each item she placed 
+   Example 5:  in their laps, their fingers intertwined** in a gesture of comfort and familiarity**. On the coffee table, a 
+
+
+Category 5: 'Lack of Specificity and Detail':
+   Example 1:  prefer their company to his. **He also fretted about the dynamics of the group, wondering if there were any single men who might catch Penelope's eye**. Eric knew these thoughts were 
+   Example 2:  the congregation—faces half-lit by candles, **illustrating hope and worry in equal measure**. He slid into a pew 
+   Example 3:  what to reveal or conceal. **He shrugged, a non-answer that said too much**. Mr. Cheetam nodded, understanding in 
+   Example 4:  faltered, a marble slipping from **his grasp**. The others followed his glance, 
+   Example 5:  late father had been treated. **Seeking solace and purpose after his passing**, she found herself drawn to 
+
+
+Category 6: 'Purple Prose':
+   Example 1:  usual exchange of ideas and laughter** echoing through her thoughts**. At night, she lay awake, 
+   Example 2:  of the car, their faces **aglow with excitement and a touch of trepidation**. As they began to unload 
+   Example 3:  isolation of the High Divide. **Their steps finally converged on the trailhead, a silent pact made amid the quiet resolve and unspoken burdens**.
+   Example 4:  so close to the edge. **This disagreement, like many before, was laced with humor and affection. **The room filled with warmth as 
+   Example 5: **In the dim seclusion of my cluttered attic studio, dust motes dancing in a beam of afternoon light, I was not expecting a visit from a genie.** Yet there he stood, incongruously 
+
+
+Category 7: 'Tense Inconsistency':
+   Example 1:  Route 7. The first snowflakes **began to drift** down from the heavens, gently 
+   Example 2:  ebb and flow of the tide**, the water slapping softly against the wooden hull**. Around mid-morning, Luis felt the 
+   Example 3:  from one of his trips, **curled** at my feet. Spiker had 
+   Example 4:  moving a heavy bookshelf or **solving** a tricky crossword puzzle. His 
+
+
+Category 8: 'Punctuation':
+   Example 1:  her shifted from curiosity to contempt**, as they** devoured the salacious stories and 
+You must now provide feedback on the paragraph given below. Your feedback should follow the following JSON format:
+{"problematic_spans":
+[
+    {"span": "...", "category": "Awkward Word Choice and Phrasing|Poor Sentence Structure|Cliche|Unnecessary/Redundant Exposition|Lack of Specificity and Detail|Purple Prose|Tense Inconsistency|Punctuation"},
+    ...
+]
+}
+
+Rules:
+- [Number of Spans] You can provide feedback on multiple spans, and multiple spans can have the same category.
+- [Span must be verbatim] The span you select must be verbatim from the paragraph, otherwise, the feedback will not be provided to the user.
+- [No Overlap] Spans should not overlap, and one span should not include the other.
+- [Single Category] Each span should have exactly one category from the 8 categories listed above.
+- [Diverse Edit Categories] Try to select spans that cover a diverse set of categories.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Your answer must start with `{"problematic_spans":`

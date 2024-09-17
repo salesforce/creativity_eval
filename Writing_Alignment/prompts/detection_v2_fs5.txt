@@ -1,0 +1,66 @@
+You are given a paragraph of writing, and your goal is to provide feedback by selecting spans of text in the writing that could be improved, and assign each problematic span to an error category. Below, we list the 7 error categories that you can choose from.
+
+You are also provided 5 examples of paragraphs that were annotated by professional writers, which you can use to better understand the task and the error categories.
+
+Error Categories:
+- "Awkward Word Choice and Phrasing": Suggestions for better word choices or more precise phrasing to enhance clarity and readability.
+- "Cliche": The use of hackneyed phrases or overly common imagery that lack originality or depth.
+- "Poor Sentence Structure": Feedback on the construction of sentences, recommending changes for better flow, clarity, or impact.
+- "Unnecessary/Redundant Exposition": Redundant or non-essential parts of the text that could be removed/rephrased for conciseness.
+- "Lack of Specificity and Detail": Need for more concrete details or specific information to enrich the text and make it more engaging.
+- "Purple Prose": Identifying parts of the text that are seen as unnecessary ornamental and overly verbose.
+- "Tense Consistency": Comments pointing out inconsistencies in verb tense that need to be addressed for uniformity.
+
+Few-shot Examples:
+
+
+Example 1:
+Input Text:
+In the dim seclusion of my cluttered attic studio, dust motes dancing in a beam of afternoon light, I was not expecting a visit from a genie. Yet there he stood, incongruously calm amidst the chaos; a robed figure materializing from a lamp rummaged from an old box. He offered a choice, unblinking: a Picasso to possess or to become Picasso himself. My eyes darted to my unfinished canvases, the palpable struggle of creation hanging heavy. Owning a Picasso would grant instant acclaim, financial security, no more scraping by on sporadic commissions. But would it hollow me out to know that my worth hinged on someone else's genius? To become Picasso, though, would mean losing me—the very me shaping these imperfect, yet deeply mine, works. The genius would be there, but the struggle, the growth, the small victories would be gone. I gazed at the genie, and in the narrow silence, I realized the true essence of creation lies not in just a finished masterpiece, but in the person wrought from the art's process.
+
+Output:
+{"problematic_spans": [{"span": "In the dim seclusion of my cluttered attic studio, dust motes dancing in a beam of afternoon light, I was not expecting a visit from a genie.", "category": "Purple Prose"}, {"span": "incongruously calm amidst the chaos; a robed figure materializing from a lamp rummaged from an old box.", "category": "Purple Prose"}, {"span": "Yet there he stood,", "category": "Awkward Word Choice and Phrasing"}, {"span": "a Picasso to possess or to become Picasso himself", "category": "Awkward Word Choice and Phrasing"}, {"span": "offered a", "category": "Awkward Word Choice and Phrasing"}, {"span": "My eyes darted to my unfinished canvases,", "category": "Lack of Specificity and Detail"}, {"span": "the palpable struggle of creation hanging heavy", "category": "Unnecessary/Redundant Exposition"}, {"span": "To become Picasso, though, would mean losing me\u2014the very me shaping these imperfect, yet deeply mine, works.", "category": "Poor Sentence Structure"}, {"span": "small victories ", "category": "Awkward Word Choice and Phrasing"}, {"span": "narrow", "category": "Awkward Word Choice and Phrasing"}]}
+
+
+Example 2:
+Input Text:
+Maria's evenings with the orchestra were intricate studies in unspoken relationships. Each rehearsal was a blend of individual discipline and collective harmony, a silent negotiation among the musicians. She had a special rapport with the principal cellist, Daniel, that went beyond the music they shared. Their glances across the rehearsal room were fleeting but loaded with meaning, a silent conversation that only they could decipher. During one late-night session, when the others had packed up and left, Daniel lingered. They didn't speak much; they didn't need to. He handed her his cello, a gesture of trust as she let her fingers travel across the strings. The resonance of the instrument under her touch was a language of its own, melding vulnerability with an unspoken promise. In those moments, their connection was as clear and as hauntingly beautiful as the music they created together. Their relationship transcended the personal shadows that often plagued the heart, becoming a private duet no audience could ever interpret.
+
+Output:
+{"problematic_spans": [{"span": "Maria's evenings with the orchestra were intricate studies in unspoken relationships.", "category": "Purple Prose"}, {"span": "Each rehearsal was a blend of individual discipline and collective harmony, a silent negotiation among the musicians.", "category": "Poor Sentence Structure"}, {"span": "She had a special rapport with the principal cellist, Daniel, that went beyond the music they shared.", "category": "Poor Sentence Structure"}, {"span": "Their glances across the rehearsal room were fleeting but loaded with meaning, a silent conversation that only they could decipher.", "category": "Unnecessary/Redundant Exposition"}, {"span": "The resonance of the instrument under her touch was a language of its own, melding vulnerability with an unspoken promise.", "category": "Purple Prose"}, {"span": " as she let her fingers travel across the strings", "category": "Cliche"}, {"span": "In those moments,", "category": "Awkward Word Choice and Phrasing"}, {"span": "often plagued the heart", "category": "Purple Prose"}]}
+
+
+Example 3:
+Input Text:
+Elena stared blankly at the award ceremony playing on her television, her fingers limp around the remote. Each name called and each blinding smile churned something cold and heavy in her chest. The room felt smaller, the air thicker, as if the walls were inching closer to trap her in this moment of cruel clarity. She had worked harder than anyone she knew, yet here she was, seated in a thrift store armchair with fabric rough enough to scratch skin. Her best efforts seemed like tiny, smudged stickers beside the shining medals others carried with ease. She could almost hear a distant ticking, the sound of time slipping away silently, carrying her chances with it. Her friends' voices echoed in her mind, always urging patience and perseverance, but they felt like ghostly whispers in an empty, mocking room. The world outside her small apartment seemed to throb with opportunities she couldn't touch. Her breath hitched, not in sorrow, but in a quiet, persistent resignation. Life moved on, often leaving her stranded on the shore, watching the waves that never reached her feet.
+
+Output:
+{"problematic_spans": [{"span": "thrift store armchair with fabric rough enough to scratch skin.", "category": "Unnecessary/Redundant Exposition"}, {"span": "Her best efforts seemed like tiny, smudged stickers beside the shining medals others carried with ease.", "category": "Purple Prose"}, {"span": "knew, yet", "category": "Lack of Specificity and Detail"}, {"span": "they felt like ghostly whispers in an empty, mocking room.", "category": "Cliche"}, {"span": "The world outside her small apartment seemed to throb with opportunities she couldn't touch.", "category": "Purple Prose"}, {"span": "Life moved on, often leaving her stranded on the shore, watching the waves that never reached her feet.", "category": "Cliche"}]}
+
+
+Example 4:
+Input Text:
+In the bustling streets of Taipei, the aroma of Taiwanese Popcorn Chicken wafts from street vendors and night markets, tantalizing passersby with its crispy, savory allure. To recreate this beloved snack at home, start by marinating bite-sized chicken pieces in a mixture of soy sauce, sugar, garlic, and five-spice powder. The key to achieving the signature "popcorn" texture lies in the double-frying process: first, blanch the chicken in hot oil to cook it through, then chill it before re-frying until golden and puffed. Meanwhile, prepare the fried basil by coating fresh leaves in a light batter of flour, cornstarch, and ice-cold soda water, then frying them until crispy and fragrant. To add depth to the dish, Taiwanese cooks often employ a trio of peppercorns: Szechuan peppercorns, with their unique numbing quality, add a subtle tingling sensation; white peppercorns provide a sharp, clean heat; and black peppercorns contribute a rich, earthy undertone. Grind the peppercorns coarsely and sprinkle them over the chicken and basil, allowing the flavors to meld together. As you take your first bite, the combination of textures and flavors will transport you to the vibrant streets of Taiwan, where the humble snack is elevated to an art form.
+
+Output:
+{"problematic_spans": [{"span": "In the bustling streets of Taipei, the aroma of Taiwanese Popcorn Chicken wafts from street vendors and night markets, tantalizing passersby with its crispy, savory allure.", "category": "Poor Sentence Structure"}, {"span": ": first,", "category": "Poor Sentence Structure"}]}
+
+
+Example 5:
+Input Text:
+Mariama Ekwensi moved to the small coastal town after years of drifting through shaded cities and sun-soaked villages. Her skin held stories in its scars, her eyes a flicker of ancient wisdom. Mariama's life twisted into unexpected roles, the most recent being a caretaker for a cluster of children who filled her otherwise quiet days with laughter and chaos. She found herself particularly drawn to Philip Walker, a boy whose silence was his loudest cry. With eyes like slate, Philip watched her as if she were a new moon he was still trying to understand. Mariama's gentle persistence slowly chipped away at his guarded exterior, not through grand gestures but in the simple, consistent ways she let him know he was seen. On windy afternoons, she would make kites out of old newspapers and teach him to fly them, his grip tightening on the string as though each flight tethered him a bit more securely to her world. As months rolled by, the lines of her responsibility blurred into genuine care, for in nurturing Philip, she was also stitching the frayed edges of her own wandering spirit.
+
+Output:
+{"problematic_spans": [{"span": " through shaded cities and sun-soaked villages", "category": "Unnecessary/Redundant Exposition"}, {"span": "Her skin held stories in its scars, her eyes a flicker of ancient wisdom", "category": "Cliche"}, {"span": "Mariama's life twisted into unexpected roles, the most recent being", "category": "Unnecessary/Redundant Exposition"}, {"span": "a boy whose silence was his loudest cry", "category": "Lack of Specificity and Detail"}, {"span": "With eyes like slate, ", "category": "Unnecessary/Redundant Exposition"}, {"span": "Mariama's gentle persistence slowly chipped away at his guarded exterior, not through grand gestures but in the simple, consistent ways she let him know he was seen. On windy afternoons,", "category": "Purple Prose"}, {"span": " as though each flight tethered him a bit more securely to her world", "category": "Unnecessary/Redundant Exposition"}, {"span": "As months rolled by, the lines of her responsibility blurred into genuine care, for in nurturing Philip, she was also stitching the frayed edges of her own wandering spirit.", "category": "Unnecessary/Redundant Exposition"}]}
+You must now provide feedback on the paragraph given below. Your feedback should follow the JSON format provided in the examples above.
+
+Rules:
+- [Number of Spans] You can provide feedback on multiple spans, and multiple spans can have the same category.
+- [Span must be verbatim] The span you select must be verbatim from the paragraph, otherwise, the feedback will not be provided to the user.
+- [No Overlap] Spans should not overlap, and one span should not include the other.
+- [Single Category] Each span should have exactly one category from the categories listed above.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Your answer must start with `{"problematic_spans":`

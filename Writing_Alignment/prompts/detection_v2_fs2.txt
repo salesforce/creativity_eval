@@ -1,0 +1,42 @@
+You are given a paragraph of writing, and your goal is to provide feedback by selecting spans of text in the writing that could be improved, and assign each problematic span to an error category. Below, we list the 7 error categories that you can choose from.
+
+You are also provided 2 examples of paragraphs that were annotated by professional writers, which you can use to better understand the task and the error categories.
+
+Error Categories:
+- "Awkward Word Choice and Phrasing": Suggestions for better word choices or more precise phrasing to enhance clarity and readability.
+- "Cliche": The use of hackneyed phrases or overly common imagery that lack originality or depth.
+- "Poor Sentence Structure": Feedback on the construction of sentences, recommending changes for better flow, clarity, or impact.
+- "Unnecessary/Redundant Exposition": Redundant or non-essential parts of the text that could be removed/rephrased for conciseness.
+- "Lack of Specificity and Detail": Need for more concrete details or specific information to enrich the text and make it more engaging.
+- "Purple Prose": Identifying parts of the text that are seen as unnecessary ornamental and overly verbose.
+- "Tense Consistency": Comments pointing out inconsistencies in verb tense that need to be addressed for uniformity.
+
+Few-shot Examples:
+
+
+Example 1:
+Input Text:
+The small room was dimly lit by a single bulb, lending a cozy glow that softened the lines on Marfa and Zinaida’s faces. The two women sat opposite each other, nursing steaming cups of tea, their eyes reflecting shared years and secrets. Marfa, with a half-smile playing on her lips, recalled their harebrained scheme to sell homemade pickles at the winter market, a venture that ended in near disaster when a stray dog knocked over their stall. Zinaida chuckled, retorting that it had been Marfa’s idea to place the samples so close to the edge. This disagreement, like many before, was laced with humor and affection. The room filled with warmth as they descended into stories of ration lines, makeshift holidays, and late-night confessions by the river. The laughter that erupted wasn’t just about the memories they were reliving, but also an acknowledgment of how those hardships had cemented their bond. They teased and corrected each other’s recollections, creating a tapestry of resilience and camaraderie. It wasn’t all smooth—sharp words resurfaced around old wound, about a lover lost and unsolicited advice. But even those sharp moments were softened by time’s passage, leading to a gentle, shared silence. The evening ended not with grand declarations but a simple clinking of their cups, a toast to enduring friendship.
+
+Output:
+{"problematic_spans": [{"span": "dimly ", "category": "Awkward Word Choice and Phrasing"}, {"span": ", lending a", "category": "Awkward Word Choice and Phrasing"}, {"span": "that ", "category": "Tense Inconsistency"}, {"span": ", their eyes reflecting shared years and secrets", "category": "Unnecessary/Redundant Exposition"}, {"span": "Marfa, with a half-smile playing on her lips,", "category": "Awkward Word Choice and Phrasing"}, {"span": ", retorting that it", "category": "Unnecessary/Redundant Exposition"}, {"span": "edge", "category": "Awkward Word Choice and Phrasing"}, {"span": "This disagreement, like many before, was laced with humor and affection. ", "category": "Purple Prose"}, {"span": "they", "category": "Awkward Word Choice and Phrasing"}, {"span": "The laughter that erupted wasn\u2019t just about the memories they were reliving, but also an acknowledgment of how those hardships had cemented their bond. ", "category": "Purple Prose"}, {"span": ", creating a tapestry of resilience and camaraderie", "category": "Unnecessary/Redundant Exposition"}, {"span": "It wasn\u2019t all smooth\u2014sharp words resurfaced around old wound, about a lover lost and unsolicited advice.", "category": "Lack of Specificity and Detail"}, {"span": "even", "category": "Awkward Word Choice and Phrasing"}, {"span": "time\u2019s passage", "category": "Awkward Word Choice and Phrasing"}, {"span": ", leading to ", "category": "Awkward Word Choice and Phrasing"}, {"span": "not with grand declarations but a simple clinking of their cups, a toast to enduring friendship", "category": "Poor Sentence Structure"}]}
+
+
+Example 2:
+Input Text:
+Bill kept one hand loosely on the steering wheel, the other tapping restless fingers on his knee. The headlights carved out tunnels in the darkness as they rolled through the empty, rain-slick streets. He glanced over at the passenger seat where a small, scruffy cat carrier sat, unnaturally still. "You know," he started, breaking the quiet, "I never saw the point of cats." His voice held no contempt, just a detached curiosity. "They're independent, sure, but almost too much. Like they don't need anyone." He looked over at the carrier again, half-expecting an answer. "Dogs, now there's an animal that shows you it's happy you're around. You'll never see a cat wag its tail." He sighed, a heavy sound that filled the car. "But maybe that's why people like them—because they're a challenge." The rhythm of his tapping changed as if marking a new thought. "Or maybe," he said, quieter this time, "they remind us of who we wish we could be. Not needing anyone, but still finding comfort in small pockets of connection." He didn't speak after that, letting the silence stretch and settle.
+
+Output:
+{"problematic_spans": [{"span": "loosely ", "category": "Awkward Word Choice and Phrasing"}, {"span": ", the other tapping restless fingers on his knee", "category": "Poor Sentence Structure"}, {"span": "as they rolled ", "category": "Unnecessary/Redundant Exposition"}, {"span": ", scruffy", "category": "Awkward Word Choice and Phrasing"}, {"span": "His voice held no contempt, just a detached curiosity.", "category": "Poor Sentence Structure"}, {"span": ", a heavy sound that filled the car", "category": "Unnecessary/Redundant Exposition"}, {"span": ", letting the silence stretch and settle", "category": "Unnecessary/Redundant Exposition"}]}
+You must now provide feedback on the paragraph given below. Your feedback should follow the JSON format provided in the examples above.
+
+Rules:
+- [Number of Spans] You can provide feedback on multiple spans, and multiple spans can have the same category.
+- [Span must be verbatim] The span you select must be verbatim from the paragraph, otherwise, the feedback will not be provided to the user.
+- [No Overlap] Spans should not overlap, and one span should not include the other.
+- [Single Category] Each span should have exactly one category from the categories listed above.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Your answer must start with `{"problematic_spans":`
