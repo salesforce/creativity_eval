@@ -11,6 +11,7 @@ Code repository for the paper `Can AI writing be salvaged? Mitigating Idiosyncra
 In this repository, we release (1) The LAMP corpus 1057 instruction,response pair with finegrained_edits, (2) 50 samples that are reannoted by 3 writers, (3) the 600 preference annotations we collected on to judge alignment:
 
 - The LAMP folder contains LAMP.json and a reannotation folder. The schema for each sample is as follow
+    ```
         {
         "instruction": "What happens when she goes outside to smoke a menthol cigarette and starts thinking about Shirley?",
         "preedit": "She steps out into the crisp evening air, [......]",
@@ -72,7 +73,7 @@ In this repository, we release (1) The LAMP corpus 1057 instruction,response pai
         ],
         "split": "test",
     },
-  
+  ```
 - The corpus of 48 short stories is included in the `stories/` folder. 12 stories are original pieces published on the New Yorker website: we do not include the full-text version of these stories, and instead, provide a link to the original stories. For the other 36 LLM-generated stories in the corpus, we include the stories in plain text in the corpus release.
 - For each of the 48 stories, we obtained annotations from three independent experts for each of the 14 TTCW, amounting to a total of (48x3x14) 2,016 test outcomes. Each test consists of a binary verdict and a plain-text explanation from the expert.
 
