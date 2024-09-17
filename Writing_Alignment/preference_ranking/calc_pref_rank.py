@@ -5,12 +5,12 @@ from scipy.stats import wilcoxon
 oracle = []
 pred = []
 
-with open('./AI_Pred_AI_edited.json') as f:
+with open('./LLM_edited_full.json') as f:
     data = json.load(f)
 
 pred = [elem['id'] for elem in data]
 
-with open('./Human_Pred_AI_edited.json') as f:
+with open('./LLM_edited_oracle.json') as f:
     data = json.load(f)
 
 oracle = [elem['id'] for elem in data]
