@@ -1,0 +1,126 @@
+You are given a paragraph of writing, and spans that have been identified as problematic, according the the category 'Unnecessary/Redundant Exposition'. Your goal is to propose a revision for each span that corrects the issue.
+
+You should take inspiration from the following 20 examples of problematic spans, and how they were each revised.
+
+Examples:
+Example 1:
+Context:  siblings rushed out the front door**, their faces beaming with anticipation**. The sun-scorched grass crunched beneath 
+Input: {"span_id": 1, "span": ", their faces beaming with anticipation"}
+Output: {"span_id": 1, "revision": " and crowded around it"}
+
+Example 2:
+Context:  aside respectfully, nodding as she passed**, acknowledging her quiet authority without words**. She moved among them with 
+Input: {"span_id": 2, "span": ", acknowledging her quiet authority without words"}
+Output: {"span_id": 2, "revision": ""}
+
+Example 3:
+Context:  a semblance of grace. The officers**, emboldened by her steadiness,** returned to their tasks, a 
+Input: {"span_id": 3, "span": ", emboldened by her steadiness,"}
+Output: {"span_id": 3, "revision": ""}
+
+Example 4:
+Context:  and neglect. The Brooklyn-Queens Expressway **loomed above, a concrete behemoth that cast long shadows over the desolate landscape.** Mingus, his eyes scanning the 
+Input: {"span_id": 4, "span": "loomed above, a concrete behemoth that cast long shadows over the desolate landscape."}
+Output: {"span_id": 4, "revision": "cast a long shadow."}
+
+Example 5:
+Context:  background, arranging papers and dusting shelves** with clinical precision**. Each afternoon, he would bring 
+Input: {"span_id": 5, "span": " with clinical precision"}
+Output: {"span_id": 5, "revision": ""}
+
+Example 6:
+Context:  near Husna with a slight nod**, a ritual as consistent as the old clock on the mantelpiece**. Husna's method of typing was 
+Input: {"span_id": 6, "span": ", a ritual as consistent as the old clock on the mantelpiece"}
+Output: {"span_id": 6, "revision": ""}
+
+Example 7:
+Context:  and she returned to her **work, both aware, yet choosing to ignore, that some encounters leave impressions deeper than words**.
+Input: {"span_id": 7, "span": "work, both aware, yet choosing to ignore, that some encounters leave impressions deeper than words"}
+Output: {"span_id": 7, "revision": "work"}
+
+Example 8:
+Context:  he gazed out at the **expressway, his expression a mask of quiet intensity**. For a moment, he stood 
+Input: {"span_id": 8, "span": "expressway, his expression a mask of quiet intensity"}
+Output: {"span_id": 8, "revision": "expressway"}
+
+Example 9:
+Context:  called out, "Emily?" Her voice **echoed back at her,** the silence growing heavier. She 
+Input: {"span_id": 9, "span": "echoed back at her,"}
+Output: {"span_id": 9, "revision": "echoed,"}
+
+Example 10:
+Context:  worn swing set in the backyard**, triggering a flood of memories—**laughter, skinned knees, and the comforting 
+Input: {"span_id": 10, "span": ", triggering a flood of memories—"}
+Output: {"span_id": 10, "revision": ""}
+
+Example 11:
+Context:  fast food wrappers. Dylan trailed **behind, her gaze fixed on Mingus's back, her senses on high alert as she took in the eerie atmosphere.** As they walked, Mingus's hands 
+Input: {"span_id": 11, "span": "behind, her gaze fixed on Mingus's back, her senses on high alert as she took in the eerie atmosphere."}
+Output: {"span_id": 11, "revision": "behind on high alert, her gaze fixed on Mingus's back."}
+
+Example 12:
+Context:  of my phone startled me awake**, its blue glow illuminating** the dark bedroom. An unfamiliar 
+Input: {"span_id": 12, "span": ", its blue glow illuminating"}
+Output: {"span_id": 12, "revision": ", illuminating"}
+
+Example 13:
+Context:  quiver in his lip betrayed **his own inner turmoil**. The house that had been 
+Input: {"span_id": 13, "span": "his own inner turmoil"}
+Output: {"span_id": 13, "revision": "him"}
+
+Example 14:
+Context:  she whispered prayers under her breath**. Her presence seemed to anchor the space, melding sorrow with a semblance of grace.** The officers, emboldened by her 
+Input: {"span_id": 14, "span": ". Her presence seemed to anchor the space, melding sorrow with a semblance of grace."}
+Output: {"span_id": 14, "revision": ""}
+
+Example 15:
+Context:  belongings into the moving van, **a bittersweet mix of excitement and trepidation swirled within her.** Her father, silently watching from 
+Input: {"span_id": 15, "span": "a bittersweet mix of excitement and trepidation swirled within her."}
+Output: {"span_id": 15, "revision": ""}
+
+Example 16:
+Context:  woman standing by the garden, **seemingly lost in thought as she** gently fingered the petals of 
+Input: {"span_id": 16, "span": "seemingly lost in thought as she"}
+Output: {"span_id": 16, "revision": ""}
+
+Example 17:
+Context:  the challenges that lay ahead. **As she unpacked her boxes in the empty apartment, the silence felt both liberating and oppressive, a reminder of the independence she had craved and the loneliness she feared.** With each item she placed 
+Input: {"span_id": 17, "span": "As she unpacked her boxes in the empty apartment, the silence felt both liberating and oppressive, a reminder of the independence she had craved and the loneliness she feared."}
+Output: {"span_id": 17, "revision": ""}
+
+Example 18:
+Context:  ready to let go. Her father**, in a rare display of vulnerability,** pulled her into a tight 
+Input: {"span_id": 18, "span": ", in a rare display of vulnerability,"}
+Output: {"span_id": 18, "revision": ""}
+
+Example 19:
+Context:  towards the door every few minutes**, as if willing his loved one to emerge**. A soft murmur of hushed 
+Input: {"span_id": 19, "span": ", as if willing his loved one to emerge"}
+Output: {"span_id": 19, "revision": ""}
+
+Example 20:
+Context:  scent of stale coffee and disinfectant**, a potent reminder of the fragility of human life**. To my left, a young 
+Input: {"span_id": 20, "span": ", a potent reminder of the fragility of human life"}
+Output: {"span_id": 20, "revision": ""}
+
+
+
+Now perform the task for the paragraph given below, and the spans that have been identified as problematic.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Identified Spans:
+[[SPANS]]
+
+Rules:
+- [Format] You should output your revision for each span in the following JSON format:
+{"revisions":
+    [
+        {"span_id": "...", "revision": "..."},
+        ...
+    ]
+}
+- [Span ID] The span_id should match the span_id provided in the "Identified Spans" section.
+- [Single Revision] You must provide one revision suggestion for each span in the "Identified Spans" section.
+- [Paragraph Appropriateness] Your revision should be appropriate and fit within the paragraph given.

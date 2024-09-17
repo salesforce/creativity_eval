@@ -1,0 +1,1652 @@
+[
+    {
+        "instruction": "Can you narrate an encounter where a teen-ager makes an obscure gesture towards someone in a crowded room, prompting that person to reconsider their path?",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "In the bustling high school cafeteria, Mia's fingers twitched, forming a subtle shape against her thigh. The gesture, a family code passed down through generations, caught Mr. Garner's eye as he weaved between tables. He paused, furrowing his brow, recognizing the motion from his own childhood. Mia held his gaze for a moment before returning to her lunch, leaving the chemistry teacher to ponder its meaning. As the lunch period ended, Mr. Garner found himself hesitating at his desk, the college recommendation letter for a prestigious research program left unsigned. He recalled Mia's quiet dedication in class, her insightful questions often overshadowed by more outspoken peers. The mysterious gesture nagged at him, a reminder of his own past struggles and the mentors who had believed in him. With a slight nod to himself, he picked up his pen and began to write, his words painting a picture of a student whose potential was just beginning to unfold. Later that week, as Mia received her acceptance letter, she caught Mr. Garner's eye in the hallway and offered a small, knowing smile.",
+        "postedit": "In the bustling high school cafeteria, Mia's fingers twitched, forming a subtle shape against her thigh. Middle and pink finger outstretched, the blood rushed to the surface beneath them— a family code passed down through generations. It caught Mr. Garner's eye as he weaved between tables. He paused, furrowing his brow, recognizing the motion from his own childhood. Mia held his gaze for a moment before returning to her lunch, leaving the chemistry teacher to wonder how a child could know of such a storied and powerful symbol. As the lunch period ended, Mr. Garner found himself hesitating at his desk, the college recommendation letter for a prestigious research program left unsigned. Mia was not a particularly remarkable student, and he knew that this was all a farce. But he thought of the symbol, the weight it carried in the darker sides of the world, and what it could mean for him if he agreed. And then, what it could mean if he disobeyed. With a slight nod to himself, he picked up his pen and began to write, his words painting a picture of a student whose potential was just beginning to unfold. Later that week, as Mia received her acceptance letter, she caught Mr. Garner's eye in the hallway and offered a small, wicked smile.",
+        "id": "stefan_batch1_21",
+        "fine_grained_edits": [
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "The gesture",
+                "editedText": "Middle and pink finger outstretched, the blood rushing to the surface beneath them,",
+                "modelEdited": "The gesture, a quick flick of her thumb and forefinger followed by a subtle tap on her knee,"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", caught ",
+                "editedText": ". It caught",
+                "modelEdited": " was caught by"
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "ponder its meaning",
+                "editedText": "wonder how a child could know of such a storied and powerful symbol.",
+                "modelEdited": "ponder its significance. Was it a cry for help, a secret message, or just a nervous tic?"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": " He recalled Mia's quiet dedication in class, her insightful questions often overshadowed by more outspoken peers. The mysterious gesture nagged at him, a reminder of his own past struggles and the mentors who had believed in him.",
+                "editedText": "Mia was not a particularly remarkable student, and he knew that this was all a farce. But he thought of the symbol. The weight is carried in the darker sides of the world, and what it could mean for him if he agreed. And then, what it could mean if he disobeyed.",
+                "modelEdited": "He thought of Mia's quiet dedication in class, her insightful questions. The gesture reminded him of his own past and the teachers who had helped him."
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "knowing",
+                "editedText": "wicked",
+                "modelEdited": "grateful"
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2020/05/18/the-afterlife",
+        "Human-Written": "A teen-ager, grinning, reached down, and touched the knees of R.’s pants. The gesture was obscure, not necessarily unfriendly. In any case, the teen mingled into the bodies and was lost. The crowd, loose at the outset, seemed to be growing denser. Was this happening only in the side room he’d entered? Perhaps it had grown crowded with those like R., who’d felt curious to see what it held. It appeared as though at the far end of the side room it opened to another enormous indoor space, one perhaps as without boundary as the one that R. had just left. Yet the density of bodies in the current room made it unappealing to attempt to cross. So R. turned back toward the large room from which he’d come, seeking free space.",
+        "creativity_scores": [
+            "3",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.8141819735155916,
+        "AI-edited": "In the bustling high school cafeteria, Mia's fingers twitched, forming a subtle shape against her thigh. The gesture, a quick flick of her thumb and forefinger followed by a subtle tap on her knee—a family code passed down through generations—was caught by Mr. Garner's eye as he weaved between tables. He paused, furrowing his brow, recognizing the motion from his own childhood. Mia held his gaze for a moment before returning to her lunch, leaving the chemistry teacher to ponder its significance. Was it a cry for help, a secret message, or just a nervous tic? As the lunch period ended, Mr. Garner found himself hesitating at his desk, the college recommendation letter for a prestigious research program left unsigned. He thought of Mia's quiet dedication in class, her insightful questions. The gesture reminded him of his own past and the teachers who had helped him. With a slight nod to himself, he picked up his pen and began to write, his words painting a picture of a student whose potential was just beginning to unfold. Later that week, as Mia received her acceptance letter, she caught Mr. Garner's eye in the hallway and offered a small, grateful smile.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "What reflection encapsulates a personal moment of peace amidst deeper underlying struggles, involving illicit drug use and a feeling of getting away with it?",
+        "source": "gpt4o",
+        "type": "Personal Experience",
+        "preedit": "As I lay on the rooftop, the city's muffled heartbeat thrumming below, I felt a rare stillness. The familiar buzz whispered through my veins, anesthetizing the weight of unspoken worries. It wasn't the high I chased but these stolen fragments of calm—moments where the world's relentless demands faded, leaving only the quiet promise of temporary escape. Downstairs, responsibilities and remorse twisted in the air, but up here, with the stars hanging like faint memories, I could pretend they belonged to someone else. I knew it wouldn't last; the thin veneer of peace would crack, and reality would seep back in, but for now, I relished the illusion of being in control. The taste of freedom mingled with guilt, bittersweet and precious. In the quiet, I traced the skyline with my eyes, knowing tomorrow's burdens would soon return. Still, tonight the city felt like a gentle accomplice, indifferent to my secret, complicit in my silent rebellion.",
+        "postedit": "As I lay on the rooftop, I felt a rare stillness. The buzz of the city below numbed me. In the void I fell into, I could be anyone if I tried hard enough. I knew it wouldn't last; the thin veneer of peace would crack, and reality would seep back in, but for now, I relished the illusion of being in control. The taste of freedom was acrid and powdery. In the quiet, I traced the skyline with my eyes, picking which building I would spend the night in. But the city refused my request. The prolonged squeal of a horn wired my eyes open. My shirt was torn. It was raining.",
+        "id": "stefan_batch1_25",
+        "fine_grained_edits": [
+            {
+                "categorization": "Cliche",
+                "originalText": ", the city's muffled heartbeat thrumming below",
+                "editedText": "",
+                "modelEdited": " "
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "The familiar buzz whispered through my veins, anesthetizing the weight of unspoken worries",
+                "editedText": "The buzz of the city below numbed me.",
+                "modelEdited": "The usual buzz numbed my silent worries"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "It wasn't the high I chased but these stolen fragments of calm—moments where the world's relentless demands faded, leaving only the quiet promise of temporary escape",
+                "editedText": "",
+                "modelEdited": "It wasn't the high I chased but those stolen moments of calm"
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": ". Downstairs, responsibilities and remorse twisted in the air, but up here, with the stars hanging like faint memories, I could pretend they belonged to someone else",
+                "editedText": "In the void I fell into, I could be anyone if I tried hard enough.",
+                "modelEdited": ". Below, responsibilities and remorse lingered, but up here, with the stars above, they felt distant"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": "mingled with guilt, bittersweet and precious",
+                "editedText": "acrid and powdery",
+                "modelEdited": "was fleeting and tinged with guilt"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": "knowing tomorrow's burdens would soon return",
+                "editedText": "picking which building I would spend the night in",
+                "modelEdited": "trying to forget tomorrow's burdens"
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "Still, tonight the city felt like a gentle accomplice, indifferent to my secret, complicit in my silent rebellion",
+                "editedText": "But the city refused my request. The prolonged squeal of a horn wired my eyes open. My shirt was torn. It was raining.",
+                "modelEdited": "Still, tonight the city felt like it shared my secret, as though it was part of my quiet rebellion."
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2010/01/18/a-death-in-kitchawank",
+        "Human-Written": "I see I’ve written myself into the scene after all, a refugee from my own fractured family, at peace in the moment. Fair enough. But peace neither lasts nor suffices, and the fact was that Lester and I pursued the available pharmacopoeia far more assiduously than Miriam could ever have imagined. We were stoned at that very moment, I’m sure of it, and not on anything as innocuous as marijuana—stoned, and feeling blessed. Feeling, in the midst of all that radiant love and tranquillity, that we were getting away with something.]",
+        "creativity_scores": [
+            "4",
+            "8"
+        ],
+        "split": "test",
+        "lev_ratio": 0.5795379537953795,
+        "AI-edited": "As I lay on the rooftop, I felt a rare stillness. The usual buzz numbed my silent worries. It wasn't the high I chased but those stolen moments of calm. Below, responsibilities and remorse lingered, but up here, with the stars above, they felt distant. I knew it wouldn't last; the thin veneer of peace would crack, and reality would seep back in, but for now, I relished the illusion of being in control. The taste of freedom was fleeting and tinged with guilt. In the quiet, I traced the skyline with my eyes, trying to forget tomorrow's burdens. Still, tonight the city felt like it shared my secret, as though it was part of my quiet rebellion.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you recount your experience in the library when it was empty during the break, from using a key card to enter, selecting a novel by Dostoevsky, immersing yourself in the story, to the moment you had to remind yourself of your surroundings?",
+        "source": "gpt4o",
+        "type": "Creative NonFiction",
+        "preedit": "The metallic beep of the key card against the scanner echoed down the empty corridor as the library door creaked open. There I was, greeted by rows of silent sentinels—the bookshelves, standing guard over their leather-bound prisoners. As my footsteps reverberated on the wooden floor, I felt the weight of solitude settle in. My fingers skimmed along the spines of countless stories until I landed on Dostoevsky. I selected \"Crime and Punishment\" and made my way to a secluded corner. The stillness was punctuated only by the rustle of pages turning. Time began to dissolve as I became engrossed in Raskolnikov’s tormented mind. A distant hum of the air conditioning was the only tether to reality. It wasn't until my eyes grew heavy and a glance at the clock shocked me back to the present did I remember where I was. As I closed the book, the library once again became a hollow echo, reminding me that, just like Raskolnikov, I too was alone—but by choice, not by guilt.",
+        "postedit": "The metallic beep of the key card against the scanner echoed down the empty corridor as the library door creaked open. There, I was greeted by rows of bookshelves. As my footsteps reverberated on the wooden floor, I felt the weight of solitude settle in. My fingers skimmed along the spines. I landed on Dostoevsky and pulled \"Crime and Punishment\" from the metal shelf. I made my way to a secluded corner and sat facing the window. Rain fell lightly outside. I turned on the reading lamp. Time began to dissolve as I became engrossed in Raskolnikov’s tormented mind. There were ways that he was correct, weren't there? If he had succeeded, would he have been Napoleon? Was that the only difference, in the end? No. I closed the book. I didn't want to entertain those thoughts too quickly. Like Raskolnikov, I was alone, but it was by choice, not by guilt. Of course, the thought crept into my mind that his loneliness was not so far from choice either. No, not yet. Not yet.",
+        "id": "cgreer_batch2_27",
+        "fine_grained_edits": [
+            {
+                "span": "greeted by rows of silent sentinels—the bookshelves, standing guard over their leather-bound prisoners.",
+                "category": "Cliche",
+                "modelEdited": "greeted by the rows of bookshelves, silent and imposing."
+            },
+            {
+                "span": "I felt the weight of solitude settle in.",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "Time began to dissolve as I became engrossed in Raskolnikov’s tormented mind.",
+                "category": "Cliche",
+                "modelEdited": "Time slipped away as I became lost in Raskolnikov's tormented mind."
+            },
+            {
+                "span": "A distant hum of the air conditioning was the only tether to reality.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "A hum of the air conditioning was the only reminder of reality."
+            },
+            {
+                "span": "the library once again became a hollow echo, reminding me that, just like Raskolnikov, I too was alone—but by choice, not by guilt.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "the library's silence enveloped me, emphasizing my solitude."
+            }
+        ],
+        "Human-Written": "The library was deserted during the break. I entered with a key card and took a novel by Dostoevsky down from the shelves. I placed the book on a table and opened it and then leaned down into the splayed pages, reading and breathing. We seemed to assimilate each other, the characters and I, and when I raised my head I had to tell myself where I was.",
+        "url": "https://www.newyorker.com/magazine/2009/11/30/midnight-in-dostoevsky",
+        "creativity_scores": [
+            "3",
+            "7"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6700872242175475,
+        "AI-edited": "The metallic beep of the key card against the scanner echoed down the empty corridor as the library door creaked open. There I was, greeted by rows of bookshelves, silent and imposing. As my footsteps reverberated on the wooden floor, my fingers skimmed along the spines of countless stories until I landed on Dostoevsky. I selected \"Crime and Punishment\" and made my way to a secluded corner. The stillness was punctuated only by the rustle of pages turning. Time slipped away as I became lost in Raskolnikov's tormented mind. The hum of the air conditioning was the only reminder of reality. It wasn't until my eyes grew heavy and a glance at the clock shocked me back to the present that I remembered where I was. As I closed the book, the library's silence enveloped me, emphasizing my solitude.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What did Debra realize about her emotions and her ex-husband's new relationship?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Debra sat in the quiet of her apartment, the stillness only broken by the faint hum of her neighbor's television. It was in this calm that she realized her feelings about Greg's new relationship weren't as straightforward as she had thought. It wasn't jealousy, she discovered, but a bittersweet clarity that settled over her like a fog lifting. Seeing him with someone else had pulled into focus the charade they had been living before their split. Her irritation now seemed misplaced, a distraction from the quieter truth that their ending was inevitable, perhaps even overdue. She wasn't envious of his new partner; rather, she felt a pang of empathy for the woman stepping into shoes that were always a size too small. Debra understood that Greg's patterns might never change, and this brought her an odd solace, though it was laced with a touch of sorrow. She realized she had been mourning an illusion rather than an actual loss. The resentment she felt melted away, replaced by an acceptance that freed her from the shackles of past grievances. As the reality settled in, Debra felt lighter, more herself than she had in months. She closed her eyes, breathing in the newfound peace, and exhaled the remnants of an old life that no longer fit.",
+        "postedit": "Debra sat in the quiet of her apartment. She could hear the faint hum of her neighbor's television through the wall. She was thinking about her ex-husband, Greg, and his new relationship, and she was finding that her feelings weren't as straightforward as she thought. It wasn't jealousy, exactly. Seeing him with someone else had pulled into focus the charade they had been living before their split. Her irritation now seemed misplaced, a distraction from the quieter truth that the ending of their relationship had been inevitable, perhaps even overdue. Greg's patterns might never change. This brought her an odd solace, though it was laced with a touch of sorrow and a pang of empathy for the woman who was, not exactly, but for lack of a better phrase, \"taking her place.\" Debra felt lighter, more herself than she had in months. She closed her eyes and took a breath.",
+        "id": "cgreer_batch2_44",
+        "fine_grained_edits": [
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", the stillness only broken by the faint hum of her neighbor's television",
+                "editedText": ". She could hear the faint hum of her neighbor's television through the wall",
+                "modelEdited": ". Only the faint hum of her neighbor's television broke the stillness"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "It was in this calm that she realized her feelings about Greg's new relationship weren't as straightforward as she had thought.",
+                "editedText": "She was thinking about her ex-husband, Greg. About his new relationship. And she was finding that her feelings weren't as straightforward as she thought.",
+                "modelEdited": "In these quiet moments, she understood that her feelings about Greg's new relationship were more complicated than she had realized."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "It wasn't jealousy, she discovered, but a bittersweet clarity that settled over her like a fog lifting",
+                "editedText": "It wasn't jealousy, exactly",
+                "modelEdited": "It wasn't jealousy but a bittersweet clarity."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "their ending was inevitable",
+                "editedText": "the ending of their relationship had been inevitable",
+                "modelEdited": "the end of their relationship had always been inescapable"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "She wasn't envious of his new partner; rather, she felt a pang of empathy for the woman stepping into shoes that were always a size too small. Debra understood that ",
+                "editedText": "",
+                "modelEdited": "Debra realized"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", and this",
+                "editedText": ". This",
+                "modelEdited": ". This"
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "sorrow.",
+                "editedText": "sorrow and a pang of empathy for the woman who was, not exactly, but for lack of a better phrase, \"taking her place.\"",
+                "modelEdited": "heaviness."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "She realized she had been mourning an illusion rather than an actual loss. The resentment she felt melted away, replaced by an acceptance that freed her from the shackles of past grievances. As the reality settled in,",
+                "editedText": "",
+                "modelEdited": "She had been mourning an illusion rather than an actual loss, freeing her from past grievances."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": " breathing in the newfound peace, and exhaled the remnants of an old life that no longer fit.",
+                "editedText": ". She took a breath.",
+                "modelEdited": "breathing in newfound peace."
+            }
+        ],
+        "Human-Written": "And Debra sighed, because she knew that sometimes there was nothing to be done with feelings but to feel them. There was nothing to be done about her ex-husband and his new relationship except to watch events unfold. Debra understood all that. (She was good at therapy.) If only Richard and Heather would hurry up and get it over with.",
+        "url": "https://www.newyorker.com/magazine/2023/02/27/the-last-grownup",
+        "creativity_scores": [
+            "4",
+            "5"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6657263751763047,
+        "AI-edited": "Debra sat in the quiet of her apartment. Only the faint hum of her neighbor's television broke the stillness. In these quiet moments, she understood that her feelings about Greg's new relationship were more complicated than she had realized. It wasn't jealousy but a bittersweet clarity. Seeing him with someone else had pulled into focus the charade they had been living before their split. Her irritation now seemed misplaced, a distraction from the quieter truth that the end of their relationship had always been inescapable, perhaps even overdue. Debra realized Greg's patterns might never change. This brought her an odd solace, though it was laced with a touch of heaviness. She had been mourning an illusion rather than an actual loss, freeing her from past grievances. Debra felt lighter, more herself than she had in months. She closed her eyes, breathing in newfound peace.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Write a descriptive paragraph that includes elements of arrest, emotional turmoil, cultural identity, and sensory details.",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "The cold metal of the handcuffs bit into Amira's wrists as the officer led her to the patrol car. She caught a glimpse of her reflection in the window—dark circles under her eyes, hijab slightly askew. The scent of her mother's cooking still clung to her clothes, a cruel reminder of the family dinner she'd never make it to. As the car pulled away, Amira watched her neighborhood recede, the familiar storefronts and street corners blurring together. The low hum of the engine couldn't drown out the voice in her head, questioning every decision that had led to this moment. She thought of her parents, imagining their faces when they'd hear the news—disappointment etched into the lines around their eyes, shame weighing down their shoulders. The officer's radio crackled, the static cutting through Amira's spiraling thoughts. She closed her eyes, feeling the vibration of the road beneath her. In that moment, caught between two worlds, Amira felt more alone than ever—a feeling that settled in her chest like a stone, heavy and unyielding.",
+        "postedit": "The bite of frigid metal handcuffs against Amira's wrists made it real to her that she was being arrested. The police officer fit her into the back of the patrol car, closing the door with a decisive thud. She managed to catch a glimpse of her reflection a moment before—dark circles under her eyes, hijab slightly askew. The scent of her mother's cooking still clung to her clothes, a cruel reminder of the family dinner she'd never make it to. \n\nAs the car pulled away, Amira watched her neighborhood recede, the familiar storefronts and street corners blurring together as tears welled in her eyes. The low hum of the engine couldn't drown out the voice in her that questioned every decision that had led to this moment. She thought of her parents, imagining their faces when they heard the news—disappointment etched into the lines around their eyes, shame weighing down their shoulders. \n\nThe officer's radio crackled, the static cutting through Amira's spiraling thoughts. She blinked back the rest of her tears and tried to focus on the vibration of the road beneath her. In that moment, something as heavy and unyielding as a stone settled in Amira's chest. She had never been more alone.",
+        "id": "imani_batch1_3",
+        "fine_grained_edits": [
+            {
+                "span": "The cold metal of the handcuffs bit into Amira's wrists",
+                "category": "Cliche",
+                "modelEdited": "The handcuffs dug into Amira's wrists"
+            },
+            {
+                "span": "a cruel reminder of the family dinner she'd never make it to",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "a reminder of the missed family dinner"
+            },
+            {
+                "span": "Amira watched her neighborhood recede, the familiar storefronts and street corners blurring together",
+                "category": "Cliche",
+                "modelEdited": "Amira watched her neighborhood disappear"
+            },
+            {
+                "span": "The low hum of the engine couldn't drown out the voice in her head, questioning every decision that had led to this moment",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "Her mind raced, questioning every decision that had led to this moment. The engine's hum couldn't drown out her thoughts."
+            },
+            {
+                "span": "disappointment etched into the lines around their eyes, shame weighing down their shoulders",
+                "category": "Cliche",
+                "modelEdited": "their faces would fall, shoulders slumping"
+            },
+            {
+                "span": "The officer's radio crackled, the static cutting through Amira's spiraling thoughts",
+                "category": "Awkward Word Choice and Phrasing",
+                "modelEdited": "The crackling radio interrupted Amira's spiraling thoughts"
+            },
+            {
+                "span": "In that moment, caught between two worlds, Amira felt more alone than ever—a feeling that settled in her chest like a stone, heavy and unyielding",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "In that moment, Amira felt utterly alone"
+            }
+        ],
+        "Human-Written": "One of the policemen clamped handcuffs around his wrists. He felt himself watching the scene from far away, watching himself walk to the police car outside, and sink into the too-soft seat in the back. There had been so many times in the past when he had feared that this would happen, so many moments that had become one single blur of panic, and now it felt like the dull echo of an aftermath. Cleotilde flung herself on the ground and began to cry. She may never have visited her father’s country, but he was convinced at that moment of her Africanness; how else would she have been able to fling herself to the ground with that perfect dramatic flourish? He wondered if her tears were for him or for herself, or for what might have been between them. She had no need to worry; the policemen barely glanced at her. It was he who felt the heaviness of the handcuffs during the drive to the police station, he who silently handed over his watch and his belt and his wallet and his phone. Nicholas’s large trousers were slipping down his hips.",
+        "url": "https://www.newyorker.com/magazine/2013/03/18/checking-out",
+        "creativity_scores": [
+            "5",
+            "9"
+        ],
+        "split": "test",
+        "lev_ratio": 0.8246869409660107,
+        "AI-edited": "The handcuffs dug into Amira's wrists as the officer led her to the patrol car. She caught a glimpse of her reflection in the window—dark circles under her eyes, hijab slightly askew. The scent of her mother's cooking still clung to her clothes, a reminder of the missed family dinner. As the car pulled away, Amira watched her neighborhood disappear. Her mind raced, questioning every decision that had led to this moment. The engine's hum couldn't drown out her thoughts. She thought of her parents, imagining their faces when they'd hear the news—their faces would fall, shoulders slumping. The crackling radio interrupted Amira's spiraling thoughts. She closed her eyes, feeling the vibration of the road beneath her. In that moment, Amira felt utterly alone.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "How did your father approach encouraging you and Birju to read books, and how did your mother contrast American parenting styles with her own views?",
+        "source": "gpt4o",
+        "type": "Creative NonFiction",
+        "preedit": "My father approached encouraging me and Birju to read in a way that felt like an invitation rather than a mandate. He’d leave books around the house in conspicuous places—on the coffee table beside his worn-out leather chair, at the kitchen counter next to our cereal bowls, even in the bathroom because, he claimed, “no place is too mundane for learning.” When he caught us with a new book, he’d give a subtle nod, a silent approval that felt more rewarding than any praise. My mother, on the other hand, often remarked on this passive approach by comparing it to what she observed of American parenting styles. She found herself puzzled by their emphasis on scheduled “reading times” and charted activities, often calling it “all structure, no soul.” She didn't believe in the rigidity of coaxing children into pursuits; instead, she trusted in the silent pull of curiosity and the organic path that a child’s interests naturally take. This contrast in their methods wasn’t a point of conflict but a tapestry of differing philosophies that, together, shaped our approach to learning—one marked by a balance between gentle guidance and the freedom to wander.",
+        "postedit": "My father encouraged Birju and me to read by leaving books around the house in conspicuous places. He thought of himself as a subtle man. Books on the coffee table beside his worn-out leather chair. Books on the kitchen counter next to our cereal bowls. Books even in the bathroom because, he claimed, “no place is too mundane for learning.” My mother, on the other hand, was puzzled by this emphasis on reading and on designated activities, things she considered distinctly American as a parenting style, often calling it “all structure, no soul.” She didn't believe in the rigidity of coaxing children into pursuits; instead, she trusted in the silent pull of curiosity and the organic path that a child’s interests naturally take. Luckily, this contrast in their methods wasn't a point of conflict between them but instead a way to learn about each other and, indeed, to learn about us, what we responded to, how, and why.",
+        "id": "cgreer_batch2_30",
+        "fine_grained_edits": [
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "My father approached encouraging me and Birju to read in a way that felt like an invitation rather than a mandate. He’d leave books around the house in conspicuous places",
+                "editedText": "My father encouraged Birju and I to read by leaving books around the house in conspicuous places. He thought of himself as a subtle man.",
+                "modelEdited": "My father encouraged Birju and me to read by leaving books around the house in conspicuous places, making it feel more like an invitation than a mandate"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "—on",
+                "editedText": " Books on",
+                "modelEdited": "— by"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", at",
+                "editedText": ". Books at",
+                "modelEdited": "or on"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", even",
+                "editedText": ". Books even",
+                "modelEdited": "—even"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "When he caught us with a new book, he’d give a subtle nod, a silent approval that felt more rewarding than any praise.",
+                "editedText": "",
+                "modelEdited": "When we found a new book, his subtle nod felt more rewarding than any praise."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "often remarked on this passive approach by comparing it to what she observed of American parenting styles. She found herself puzzled by their emphasis on scheduled “reading times” and charted activities",
+                "editedText": "was puzzled by this emphasis on reading and on designated activities, things she considered distinctly American as a parenting style",
+                "modelEdited": "would often compare this method to what she saw in American families, with their scheduled 'reading times' and planned activities, which puzzled her"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "This contrast in their methods ",
+                "editedText": "Luckily, this contrast in their methods ",
+                "modelEdited": "Such differences"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "conflict",
+                "editedText": "conflict between them",
+                "modelEdited": "disagreement"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "a tapestry of differing philosophies that, together, shaped our approach to learning—one marked by a balance between gentle guidance and the freedom to wander",
+                "editedText": "instead a way to learn about each other and, indeed, to learn about us. What we responded to, how, and why.",
+                "modelEdited": "a blend of philosophies that shaped our approach to learning, balancing gentle guidance with the freedom to explore"
+            }
+        ],
+        "Human-Written": "My father told Birju and me that he would give us fifty cents for each book we read. This bribing struck me as un-Indian and wrong. My mother had told us that Americans were afraid to demand things from their children. She’d said that this was because American parents did not care about their children and were unwilling to do the hard work of disciplining them. If my father wanted us to read, what he should do was threaten to beat us. I wondered whether my father had become too American during the year that he had lived alone.",
+        "url": "https://www.newyorker.com/magazine/2014/01/20/a-mistake",
+        "creativity_scores": [
+            "3",
+            "5"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6957773512476008,
+        "AI-edited": "My father encouraged Birju and me to read by leaving books around the house in conspicuous places, making it feel more like an invitation than a mandate—by the coffee table beside his worn-out leather chair, on the kitchen counter next to our cereal bowls, even in the bathroom because, he claimed, “no place is too mundane for learning.” When we found a new book, his subtle nod felt more rewarding than any praise. My mother, on the other hand, would often compare this method to what she saw in American families, with their scheduled 'reading times' and planned activities, which puzzled her, often calling it “all structure, no soul.” She didn't believe in the rigidity of coaxing children into pursuits; instead, she trusted in the silent pull of curiosity and the organic path that a child’s interests naturally take. Such differences weren’t a point of disagreement but a tapestry of differing philosophies that, together, shaped our approach to learning—marked by a balance between gentle guidance and the freedom to wander.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "What series of sensory experiences leads James to recognize their home now has its unique smell?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "As James stepped through the front door, he noticed a faint, unfamiliar scent lingering in the air. It was subtle at first, mingling with the more recognizable notes of his wife’s lavender diffuser and freshly baked bread. He shrugged it off, chalking it up to something from the outside clinging to his clothes. But as the evening wore on, the smell changed its nature; it began to feel oddly comforting, like an old blanket with new memories woven in. While stacking the day's mail on the kitchen counter, he caught whiffs of rosemary, a spice they’d used in a new recipe last week, blending with the faint undertone of cedar from the furniture polish. Then, sitting on the living room couch, a wave of warmth washed over him, wrapping him in a complex blend of their shared life—the damp scent of evening rain sneaking in through the open window, mixed with the subtle aroma of his daughter’s crayon drawings scattered on the floor. He realized that this was no passing accident; it was the smell of home evolving, a tapestry of all the little moments and changes that had rooted themselves into the core of their shared space.",
+        "postedit": "As James stepped through the front door, he noticed a faint, unfamiliar scent lingering in the air—something evasive tucked under his wife’s lavender diffuser and the aroma of freshly baked bread. He shrugged it off, chalking it up to something from the outside clinging to his clothes. But as the evening wore on, the smell changed its nature; it demanded his attention, a changing of the guard, a marking of new territory that was not his. While stacking the day's mail on the kitchen counter, he caught whiffs of rosemary, a spice they’d used in a new recipe last week, blending with the faint undertone of cedar from the furniture polish. Then, sitting on the living room couch, he realized that this was no passing accident; it was the smell of home evolving, a tapestry of all the little moments and changes that had rooted themselves into the core of their shared space.",
+        "id": "stefan_batch1_16",
+        "fine_grained_edits": [
+            {
+                "categorization": "Cliche",
+                "originalText": "It was subtle at first, mingling with the more recognizable notes of",
+                "editedText": "Something evasive tucked under",
+                "modelEdited": "At first, it blended with"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": "it began to feel oddly comforting, like an old blanket with new memories woven in.",
+                "editedText": "it demanded his attention, a changing of the guard, a marking of new territory that was not his.",
+                "modelEdited": "it began to feel oddly comforting, like something that had always been there but was newly discovered."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": " a wave of warmth washed over him, wrapping him in a complex blend of their shared life—the damp scent of evening rain sneaking in through the open window, mixed with the subtle aroma of his daughter’s crayon drawings scattered on the floor.",
+                "editedText": "",
+                "modelEdited": "he felt a blend of their shared life—the scent of rain through the window mingling with the aroma of his daughter’s crayons."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ". He realized",
+                "editedText": ", he realized",
+                "modelEdited": "He realized then"
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2013/11/18/find-the-bad-guy",
+        "Human-Written": "Then the smell hits me. It’s not the De Rougemonts. It’s partly dinner—lamb chops, plus cooking wine. Nice. Partly, too, a shampoo smell from Meg’s having just showered upstairs. Moist, warm, perfumey air is filtering down the staircase. I can feel it on my cheeks. I can also smell Forelock, who’s too old to even come and greet his master, which under the circumstances is O.K. by me. It’s all these smells at once, which means that it’s our smell. The D.s! We’ve finally lived here long enough to displace the old-person smell of the De Rougemonts. I just didn’t realize it before. I had to get kicked out of my own house to be able to come and smell this smell, which I don’t think, even if I were a little kid with super-smelling abilities, would be anything other than pleasant.",
+        "creativity_scores": [
+            "5",
+            "7"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7929824561403509,
+        "AI-edited": "As James stepped through the front door, he noticed a faint, unfamiliar scent lingering in the air. At first, it blended with his wife’s lavender diffuser and freshly baked bread. He shrugged it off, chalking it up to something from the outside clinging to his clothes. But as the evening wore on, the smell changed its nature; it began to feel oddly comforting, like something that had always been there but was newly discovered. While stacking the day's mail on the kitchen counter, he caught whiffs of rosemary, a spice they’d used in a new recipe last week, blending with the faint undertone of cedar from the furniture polish. Then, sitting on the living room couch, he felt a blend of their shared life—the scent of rain through the window mingling with the aroma of his daughter’s crayons. He realized then that this was no passing accident; it was the smell of home evolving, a tapestry of all the little moments and changes that had rooted themselves into the core of their shared space.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "What events transpired in Kostya's life after Emil left a year ago, and how did Kostya's routine and relationships change over time?",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "In the year since Emil's departure, Kostya's life took on a quieter rhythm. He found himself spending more evenings at home, tending to his small balcony garden and rediscovering his passion for amateur astronomy. The telescope Emil had gifted him became a nightly companion, offering glimpses into distant worlds that felt both comforting and isolating. At work, Kostya took on additional responsibilities, partly to fill the void left by Emil's absence and partly to avoid the emptiness of his apartment. His coworkers noticed a subtle shift in his demeanor – more focused, less prone to small talk. Kostya's relationship with his elderly neighbor, Mrs. Petrova, deepened as he began helping her with groceries and home repairs. Their conversations over tea became a weekly ritual, providing Kostya with a different perspective on life and loss. He started writing letters to Emil, never sending them but finding solace in the act of putting words to paper. As autumn approached, Kostya found himself lingering in the park near their old meeting spot, watching young couples and feeling a mix of nostalgia and acceptance. The city around him seemed to change imperceptibly, mirroring his own gradual transformation.",
+        "postedit": "In the year since Emil's departure, Kostya's life took on a quieter rhythm. He spent more evenings at home, tending to his small balcony garden and rediscovering his passion for amateur astronomy. The telescope Emil had gifted him offered glimpses into distant worlds that felt both comforting and isolating. At work, Kostya took on additional responsibilities. He became more focused and less prone to small talk. His coworkers noticed the change, but they didn't engage him. They kept their distance and let him be. Kostya began helping his elderly neighbor, Mrs. Petrova, with groceries and home repairs. Their conversations over tea became a weekly ritual. He wrote letters to Emil but never sent them. As autumn approached, Kostya lingered in the park near their old meeting spot. He watched the young couples, not knowing what he was waiting for or what he could be hoping for.",
+        "id": "cgreer_batch2_5",
+        "fine_grained_edits": [
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "found himself spending",
+                "editedText": "spent",
+                "modelEdited": "spent"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "became a nightly companion, offering",
+                "editedText": "offered",
+                "modelEdited": "offered"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ", partly to fill the void left by Emil's absence and partly to avoid the emptiness of his apartment",
+                "editedText": "",
+                "modelEdited": ", taking on more work"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "His coworkers noticed a subtle shift in his demeanor – ",
+                "editedText": "He became ",
+                "modelEdited": "His coworkers noticed he was "
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "talk.",
+                "editedText": "His coworkers noticed the change, but they didn't engage him. They kept at a distance. They let him be.",
+                "modelEdited": "talk. He found himself spending more time in the breakroom, nursing a cup of coffee, lost in thought."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": " relationship with his elderly neighbor, Mrs. Petrova, deepened as he began helping her",
+                "editedText": " began helping his elderly neighbor, Mrs. Petrova, ",
+                "modelEdited": "friendship with Mrs. Petrova, his elderly neighbor, grew closer as he began helping her"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ", providing Kostya with a different perspective on life and loss",
+                "editedText": "",
+                "modelEdited": ""
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "He started writing letters to Emil, never sending them but finding solace in the act of putting words to paper",
+                "editedText": "He wrote letters to Emil, but never sent them",
+                "modelEdited": "He started writing unsent letters to Emil"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "found himself lingering",
+                "editedText": "lingered",
+                "modelEdited": "lingered"
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": ", watching young couples and feeling a mix of nostalgia and acceptance",
+                "editedText": ". He watched the young couples. He didn't know what he was waiting for. What he could be hoping for.",
+                "modelEdited": ", watching young couples and feeling a bittersweet ache in his chest, remembering stolen kisses and whispered promises under these same trees"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ". The city around him seemed to change imperceptibly, mirroring his own gradual transformation.",
+                "editedText": "",
+                "modelEdited": ""
+            }
+        ],
+        "Human-Written": "A year later, Emil boarded a train and was gone. He promised Kostya a postcard from wherever it was that he landed. He promised to bring him over to the West, where his natural gifts would be rewarded. Kostya waited for the postcard, but it never came. Gradually, he deviated from his training regimen. He spent more time with friends from the furniture plant, went to the banya, drank a little, got involved with women. Occasionally, when he felt the urge in his back and shoulders, Kostya returned to the gym, but once there he felt like a guest. People recognized his face, but fewer and fewer remembered his name.",
+        "url": "https://www.newyorker.com/magazine/2005/05/30/the-russian-riviera",
+        "creativity_scores": [
+            "4",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.710814673654121,
+        "AI-edited": "In the year since Emil's departure, Kostya's life took on a quieter rhythm. He spent more evenings at home, tending to his small balcony garden and rediscovering his passion for amateur astronomy. The telescope Emil had gifted him offered glimpses into distant worlds that felt both comforting and isolating. At work, Kostya took on additional responsibilities. His coworkers noticed he was more focused and less prone to small talk. He found himself spending more time in the breakroom, nursing a cup of coffee, lost in thought. Kostya's friendship with Mrs. Petrova, his elderly neighbor, grew closer as he began helping her with groceries and home repairs. Their conversations over tea became a weekly ritual. He started writing unsent letters to Emil. As autumn approached, Kostya lingered in the park near their old meeting spot, watching young couples and feeling a bittersweet ache in his chest, remembering stolen kisses and whispered promises under these same trees.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "What did Buck claim he once did in Key West related to Hemingway, and how did he describe Hemingway when asked about him?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Buck leaned back in his creaky chair, the dim light of the bar casting soft shadows on his weathered face. He took a sip of whiskey, the amber liquid glinting in the light, and began his tale. \"I once fished with Hemingway off Key West,\" he said, eyes narrowing as if peering into the past. \"He wasn't the man you read about. Nah, he was quieter, almost contemplative, but you'd catch glimpses of that fire when he talked about the sea. We didn't talk much—didn't need to. We just understood each other out there. He'd smile, that crooked grin of his, when he reeled in a big one, and for a moment, you'd see the legend. But mostly, he was just a man who loved the ocean.\" Buck paused, a wistful look crossing his face as he swirled the whiskey in his glass. \"People think he was all brawls and bravado, but that wasn't all. He had a sort of solemn respect for the sea, for nature. It wasn't about conquering it; it was about feeling alive. That's the Hemingway I knew, the one the stories don't capture.\" Buck's voice trailed off, and he took another sip, leaving the quiet hum of the bar to fill the space between his memories and the present.",
+        "postedit": "Buck leaned back in his creaky chair, the dim light of the bar casting soft shadows on his weathered face. He took a sip of whiskey and began his tale. \"I once fished with Hemingway off Key West,\" he said, eyes narrowing. \"He wasn't the man you read about. Nah, he was quieter, almost contemplative, but you'd catch glimpses of that fire when he talked about the sea.\" Buck paused, a wistful look crossing his face as he swirled the whiskey in his glass. \"He respected it. It meant more to him than all the brawls and bravado. It wasn't about conquering it; it was about feeling alive. That's the Hemingway I knew, the one the stories don't capture.\" Buck's voice trailed off, and he took another sip, leaving the quiet hum of the bar to fill the space.",
+        "id": "stefan_batch1_3",
+        "fine_grained_edits": [
+            {
+                "span": "the dim light of the bar casting soft shadows on his weathered face.",
+                "category": "Cliche",
+                "modelEdited": "the worn chair creaking under his weight."
+            },
+            {
+                "span": "the amber liquid glinting in the light,",
+                "category": "Cliche",
+                "modelEdited": "the amber liquid swirling in his glass,"
+            },
+            {
+                "span": "eyes narrowing as if peering into the past.",
+                "category": "Cliche",
+                "modelEdited": "as he recalled the past"
+            },
+            {
+                "span": "that crooked grin of his,",
+                "category": "Cliche",
+                "modelEdited": "his signature crooked grin,"
+            },
+            {
+                "span": "a wistful look crossing his face",
+                "category": "Cliche",
+                "modelEdited": "his face distant"
+            },
+            {
+                "span": "a sort of solemn respect for the sea, for nature.",
+                "category": "Cliche",
+                "modelEdited": "a deep respect for the ocean."
+            },
+            {
+                "span": "It wasn't about conquering it; it was about feeling alive.",
+                "category": "Cliche",
+                "modelEdited": "It was about being one with it."
+            },
+            {
+                "span": "the one the stories don't capture.",
+                "category": "Cliche",
+                "modelEdited": ""
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2004/11/22/my-heart-is-a-snake-farm",
+        "Human-Written": "After hours, hanging out with wives in the Reptile Postcard Shop & Snack Canteen, Buck claimed he had once bought Hemingway a rum drink in Key West and got invited home to “Papa’s” hacienda for an all-night poker game. I usually asked him what Hemingway was really like. Buck would shake his head sideways: “Good talker. Sore loser.”",
+        "creativity_scores": [
+            "4",
+            "5"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7565858798735511,
+        "AI-edited": "Buck leaned back in his creaky chair, the worn wood protesting under his weight. He took a sip of whiskey, the amber liquid swirling in his glass, and began his tale. \"I once fished with Hemingway off Key West,\" he recalled. \"He wasn't the man you read about. Nah, he was quieter, almost contemplative, but you'd catch glimpses of that fire when he talked about the sea. We didn't talk much—didn't need to. We just understood each other out there. He'd smile, his signature crooked grin, when he reeled in a big one, and for a moment, you'd see the legend. But mostly, he was just a man who loved the ocean.\"\n\nBuck paused, his face distant as he swirled the whiskey in his glass. \"People think he was all brawls and bravado, but that wasn't all. He had a deep respect for the ocean. It was about being one with it. That's the Hemingway I knew.\" Buck's voice trailed off, and he took another sip, leaving the quiet hum of the bar to fill the space between his memories and the present.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "Can you recount in detail the events and atmosphere surrounding Mrs. Palmer's passing, including the actions of Mrs. Blynn and any communication received from Gregory?",
+        "preedit": "In the dim light of twilight, Mrs. Palmer's breaths came slower and shallower, each one a whispered fight against time. Mrs. Blynn sat vigil at her side, her knitting needles motionless in her lap for the first time in years. The room was filled with the scent of lavender and the quiet hum of the old fan in the corner, its rhythm a stark contrast to the fading life in the bed. A letter from Gregory lay unopened on the nightstand, its foreign postmark hinting at distant lands and missed farewells. Mrs. Blynn had read and reread his previous letters, always filled with promises to return, yet always delayed. She had hoped, against hope, that this one would bring different news, but the silence that stretched between arrivals had become an unwelcome friend. As the final breath slipped from Mrs. Palmer’s lips, a tear slid down Mrs. Blynn's cheek, not from the release of grief, but from the weight of solitude settling into the room. She reached for the envelope beside the bed, hands trembling, knowing it held words that would never warm Mrs. Palmer’s heart again.",
+        "postedit": "Mrs. Palmer's breaths came slower and shallower. Mrs. Blynn sat vigil at her side, her knitting needles motionless in her lap. The scent of lavender, the quiet hum of the old fan in the corner, and a letter from Gregory unopened on the nightstand. Missed farewells. Mrs. Blynn had read and reread his previous letters. Always promises to return. Always delayed. She had hoped this one might bring different news. Instead, silence had stretched between arrivals. Bitter. The final breath slipped from Mrs. Palmer’s lips. Solitude settled into the room. Mrs. Blynn cried. She couldn't stop herself. She reached for the envelope beside the bed. Whatever was in it wasn't enough. Words weren't enough.",
+        "id": "cgreer_batch1_19",
+        "type": "Literary Fiction",
+        "source": "gpt4o",
+        "fine_grained_edits": [
+            {
+                "span": "each one a whispered fight against time",
+                "category": "Cliche",
+                "modelEdited": "each breath a step closer to the end"
+            },
+            {
+                "span": "her knitting needles motionless in her lap for the first time in years",
+                "category": "Cliche",
+                "modelEdited": "her knitting set aside"
+            },
+            {
+                "span": "its rhythm a stark contrast to the fading life in the bed",
+                "category": "Cliche",
+                "modelEdited": "while Mrs. Palmer's breaths grew fainter"
+            },
+            {
+                "span": "She had hoped, against hope",
+                "category": "Cliche",
+                "modelEdited": "She had desperately wished"
+            },
+            {
+                "span": "the silence that stretched between arrivals had become an unwelcome friend",
+                "category": "Cliche",
+                "modelEdited": "the long waits had become a constant sorrow"
+            },
+            {
+                "span": "not from the release of grief, but from the weight of solitude settling into the room",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "from the loneliness that settled all around her"
+            },
+            {
+                "span": "knowing it held words that would never warm Mrs. Palmer’s heart again",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "understanding it was too late for Mrs. Palmer to read those words"
+            }
+        ],
+        "Human-Written": "Mrs. Palmer died two days later. It was a day when Mrs. Blynn came in and out, perhaps six times, perhaps eight. A telegram had arrived that morning from Gregory, saying that he had at last wangled leave and would take off in a matter of hours, landing at a military field near Eamington. Mrs. Palmer did not know if she would see him again or not; she could not judge her strength that far. Mrs. Blynn took her temperature and felt her pulse frequently, then pivoted on one foot in the room, looking about as if she were alone and thinking her own thoughts. Her expression was blankly pleasant, her peaches-and-cream cheeks aglow with health.",
+        "url": "https://www.newyorker.com/magazine/2002/05/27/the-trouble-with-mrs-blynn-the-trouble-with-the-world",
+        "creativity_scores": [
+            "3",
+            "4"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6821266968325792,
+        "AI-edited": "In the dim light of twilight, Mrs. Palmer's breaths came slower and shallower, each breath a step closer to the end. Mrs. Blynn sat vigil at her side, her knitting set aside. The room was filled with the scent of lavender and the quiet hum of the old fan in the corner, while Mrs. Palmer's breaths grew fainter. A letter from Gregory lay unopened on the nightstand, its foreign postmark hinting at distant lands and missed farewells. Mrs. Blynn had read and reread his previous letters, always filled with promises to return, yet always delayed. She had desperately wished that this one would bring different news, but the long waits had become a constant sorrow. As the final breath slipped from Mrs. Palmer’s lips, a tear slid down Mrs. Blynn's cheek from the loneliness that settled all around her. She reached for the envelope beside the bed, hands trembling, understanding it was too late for Mrs. Palmer to read those words.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What can you infer about Joanie's emotional state and her perspective on the university students based on the neighborhoods and people she observes while walking with Buddy?",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "As Joanie walks with Buddy through the different neighborhoods, her observations reveal a complex mix of emotions. She notices the stark contrast between the pristine, manicured lawns of the university area and the more lived-in, slightly unkempt streets of the working-class district. This juxtaposition seems to stir a sense of unease in her, as if she's straddling two worlds without fully belonging to either. The students she sees appear carefree and full of potential, their laughter drifting through the air, but Joanie's gaze lingers on the small details that hint at their privilege - designer backpacks, shiny bicycles, and expensive sneakers. There's a hint of wistfulness in her demeanor, perhaps regret for opportunities missed or paths not taken. Yet, as she walks further from campus, she seems to relax, finding comfort in the familiar sights of children playing on cracked sidewalks and elderly neighbors tending to small garden plots. Joanie's emotional state is one of quiet contemplation, tinged with a mix of envy and resignation towards the students, but also a growing appreciation for the authenticity of her own surroundings. Her perspective on the university students is neither wholly positive nor negative, but rather a nuanced understanding of the differences in their lived experiences and the invisible barriers that separate their worlds.",
+        "postedit": "As Joanie walks with Buddy through the different neighborhoods, she notices the stark contrast between the pristine, manicured lawns of the university area and the more lived-in, slightly unkempt streets of the working-class district. The students she sees appear carefree and full of potential. Their laughter drifts through the air, but Joanie's gaze lingers on the small details that hint at their privilege—designer backpacks, shiny bicycles, and expensive sneakers. As she walks further from the campus, she relaxes. The familiar sights of children playing on cracked sidewalks and elderly neighbors tending to small garden plots bring her comfort. There are invisible barriers in this world, Joanie thinks. Places where privilege overwhelms the soul and places where the soul survives. An elderly man smiles at her. Those students will be elderly, too, someday. As will she. What will become of them all?",
+        "id": "cgreer_batch3_2",
+        "Human-Written": "Buddy liked the neighborhoods they were walking through, the big wooden houses with their porches, all the people out walking their dogs. There were young people, too, in twos and threes, and when Joanie watched them something that had died in her face back at the station came alive again. Bet they’re students up at the university, she murmured. Bet they’re out here because their brains are too stuffed with symphonies and history and classical Greek and they got to walk it all out to be able to sleep at night. And she smiled at Buddy and said kindly, In some ways, you’re going off to your kind of college, too, I guess.",
+        "url": "https://www.newyorker.com/magazine/2022/07/04/to-sunland",
+        "creativity_scores": [
+            "4",
+            "5"
+        ],
+        "fine_grained_edits": [
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "her observations reveal a complex mix of emotions. She",
+                "editedText": "she",
+                "modelEdited": "She"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "This juxtaposition seems to stir a sense of unease in her, as if she's straddling two worlds without fully belonging to either. ",
+                "editedText": "",
+                "modelEdited": "She feels uneasy, not fully belonging to either world."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", their laughter drifting",
+                "editedText": ". Their laughter drifts",
+                "modelEdited": ". Their laughter drifts"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "There's a hint of wistfulness in her demeanor, perhaps regret for opportunities missed or paths not taken. Yet, a",
+                "editedText": "A",
+                "modelEdited": "A"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "from campus",
+                "editedText": "from the campus",
+                "modelEdited": "away from the university"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "seems to relax",
+                "editedText": "relaxes",
+                "modelEdited": "relaxes"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", finding comfort in the",
+                "editedText": ". The",
+                "modelEdited": ". She finds comfort in"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": " and elderly",
+                "editedText": ". Elderly",
+                "modelEdited": ", elderly"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": "Joanie's emotional state is one of quiet contemplation, tinged with a mix of envy and resignation towards the students, but also a growing appreciation for the authenticity of her own surroundings. Her perspective on the university students is neither wholly positive nor negative, but rather a nuanced understanding of the differences in their lived experiences and the invisible barriers that separate their worlds.",
+                "editedText": "There are invisible barriers in this world, Joanie thinks. Places where privilege overwhelms the soul and places where the soul survives. The elderly man smiles at her. Those students will be elderly, too, someday. As will she. What will become of them all?",
+                "modelEdited": "Joanie feels conflicted. She envies the students' opportunities but appreciates the authenticity of her own neighborhood. She recognizes the invisible barriers between their worlds."
+            }
+        ],
+        "split": "test",
+        "lev_ratio": 0.6654882898806893,
+        "AI-edited": "As Joanie walks with Buddy through different neighborhoods, she notices the stark contrast between the pristine, manicured lawns of the university area and the more lived-in, slightly unkempt streets of the working-class district. She feels uneasy, not fully belonging to either world. The students she sees appear carefree and full of potential. Their laughter drifts through the air, but Joanie's gaze lingers on the small details that hint at their privilege—designer backpacks, shiny bicycles, and expensive sneakers. As she walks further away from the university, she relaxes. She finds comfort in familiar sights of children playing on cracked sidewalks and elderly neighbors tending to small garden plots. Joanie feels conflicted; she envies the students' opportunities but appreciates the authenticity of her own neighborhood. She recognizes the invisible barriers between their worlds.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you recount an experience when you felt both intimidated and amazed, using a literary reference to \"Gulliver's Travels\" to describe your emotional and physical state?",
+        "source": "gpt4o",
+        "type": "Creative NonFiction",
+        "preedit": "Standing at the edge of the ancient forest, I felt like Gulliver trapped in Brobdingnag, dwarfed by the towering redwoods that whispered secrets to the wind far above my reach. Their sheer hugeness struck awe into my heart, a blend of reverence and apprehension. I took a hesitant step forward, my feet crunching the thick carpet of fallen needles. The scent of pine mingled with the raw, primal smell of the earth, drawing me deeper into this cathedral of nature. Each rustle made me glance around, half-expecting a giant to emerge, reminding me of my smallness. I couldn't shake the feeling that I was trespassing in a sacred place, a mere speck in the vast choreography of life around me. Yet, as sunlight pierced through the canopy, casting golden streaks on the forest floor, a deep sense of peace settled within me. I reached out to touch the rough bark of a tree, feeling a connection to something timeless and infinite. The enormity of the scene and the intimacy of the moment combined to leave me both humbled and uplifted, much like Gulliver navigating the strange lands with a mix of fear and fascination.",
+        "postedit": "Standing at the edge of the ancient forest, I felt like Gulliver trapped in Brobdingnag, dwarfed by the towering redwoods. Their sheer hugeness struck awe in me. I took a hesitant step forward, my feet crunching the thick carpet of fallen needles. The scent of pine filled the air. Each rustle made me glance around, half-expecting a giant to emerge, even if only to remind me of my smallness. I couldn't shake the feeling that I was trespassing in a sacred place. I reached out to touch the rough bark of a tree. The tree's enormity and gentleness, its willingness to let me touch it gently, left me both humbled and uplifted, much like Gulliver navigating strange lands with a mix of fear and fascination.",
+        "id": "cgreer_batch2_39",
+        "fine_grained_edits": [
+            {
+                "span": "I felt like Gulliver trapped in Brobdingnag",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "Their sheer hugeness struck awe into my heart, a blend of reverence and apprehension.",
+                "category": "Awkward Word Choice and Phrasing",
+                "modelEdited": "Their immense size filled me with awe, mixing reverence with a touch of fear."
+            },
+            {
+                "span": "cathedral of nature",
+                "category": "Cliche",
+                "modelEdited": "ancient sanctuary"
+            },
+            {
+                "span": "half-expecting a giant to emerge",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "a mere speck in the vast choreography of life around me",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "a tiny part of the immense life that surrounded me"
+            },
+            {
+                "span": "a deep sense of peace settled within me",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "feeling a connection to something timeless and infinite",
+                "category": "Cliche",
+                "modelEdited": "finding comfort in its steady presence"
+            },
+            {
+                "span": "The enormity of the scene and the intimacy of the moment combined to leave me both humbled and uplifted",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "The vastness of the scene both humbled and uplifted me"
+            },
+            {
+                "span": "much like Gulliver navigating the strange lands with a mix of fear and fascination",
+                "category": "Cliche",
+                "modelEdited": ""
+            }
+        ],
+        "Human-Written": "When Johanna and I first went to bed, I was a little intimidated. I’m not a small man, but on top of Johanna? Sort of a “Gulliver’s Travels”-type situation. It was like Johanna had fallen asleep and I’d climbed up there to survey the scene. Beautiful view! Rolling hills! Fertile cropland! But there was only one of me, not a whole town of Lilliputians throwing ropes and nailing her down.",
+        "url": "https://www.newyorker.com/magazine/2013/11/18/find-the-bad-guy",
+        "creativity_scores": [
+            "3",
+            "4"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7034178610804851,
+        "AI-edited": "Standing at the edge of the ancient forest, dwarfed by the towering redwoods that whispered secrets to the wind far above my reach, I felt a mix of awe and reverence with a touch of fear. I took a hesitant step forward, my feet crunching the thick carpet of fallen needles. The scent of pine mingled with the raw, primal smell of the earth, drawing me deeper into this ancient sanctuary. Each rustle made me glance around, reminding me of my smallness. I couldn't shake the feeling that I was trespassing in a sacred place, a tiny part of the immense life that surrounded me. Yet, as sunlight pierced through the canopy, casting golden streaks on the forest floor, I reached out to touch the rough bark of a tree, finding comfort in its steady presence. The vastness of the scene both humbled and uplifted me.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "Could you describe Charity's experience and activities while staying in her grandmother’s basement, touching on her interactions with her friends and any challenges she faces?",
+        "source": "claude3.5-sonnet",
+        "type": "Creative NonFiction",
+        "preedit": "Charity's stay in her grandmother's basement was an unexpected detour in her life, filled with a mix of comfort and claustrophobia. The low ceiling and musty air reminded her of childhood visits, but now felt confining as she navigated early adulthood. She spent her days alternating between job hunting online and helping her grandmother with household chores, finding an odd sense of purpose in the routine. Her friends, initially supportive, began to drift away as weeks turned to months. Their occasional visits became stilted, conversations revolving around their advancing lives while Charity felt stuck in limbo. She found solace in late-night talks with her grandmother, learning family history she'd never known before. The basement's small window became her portal to the outside world, and she often caught herself daydreaming while watching neighbors go about their lives. As time passed, Charity grappled with feelings of inadequacy and fear of the future, but also discovered a resilience she didn't know she possessed. The challenge of living in such close quarters with her grandmother taught her patience and empathy, skills she hadn't realized she needed to develop. Despite the difficulties, Charity began to see this period as a chrysalis, sensing that when she finally emerged, she would be changed in ways she couldn't yet understand.",
+        "postedit": "Charity was no stranger to unexpected detours; she had her entire life to attest to that. However, losing her apartment and landing herself in her grandmother's claustrophobia-inducing basement for the summer was a new low. The low ceiling and musty air, once a comforting memory from childhood visits, now struck the young adult version of her as unbearable. In an effort to distract herself from her new reality, Charity began to spend her days alternating between job hunting online and helping her grandmother with household chores. Eventually, an odd sense of purpose emerged from this routine. Her friends, initially supportive of her new living situation, began to drift away as weeks became months. The infrequent times that Charity did see her friends, their conversations started to revolve around their advancing lives, while she remained stuck in limbo. As time passed, Charity grappled with feelings of inadequacy and fear of the future but also discovered a resilience she didn't know she possessed. The challenge of living in such close quarters with her grandmother taught her patience and empathy, skills she hadn't realized she needed to develop. Despite the difficulties, Charity began to see this period as a chrysalis, sensing that when she finally emerged, she would be changed in ways she couldn't yet understand.",
+        "id": "imani_batch1_2",
+        "fine_grained_edits": [
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "Charity's stay in her grandmother's basement was an unexpected detour in her life, filled with a mix of comfort and claustrophobia.",
+                "editedText": "Charity was no stranger to unexpected detours, she had her entire life to attest to that. However, losing her apartment and landing herself in her grandmother's claustrophobia-inducing basement for the summer was a new low.",
+                "modelEdited": "Charity's stay in her grandmother's basement was supposed to be temporary. A month, tops. But as the weeks stretched into months, she found herself caught between the comforting familiarity of childhood visits and the suffocating reality of her current situation."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "The low ceiling and musty air reminded her of childhood visits, but now felt confining as she navigated early adulthood",
+                "editedText": "The low ceiling and musty air, once a comforting memory from childhood visits, now struck the young adult version of her as unbearable.",
+                "modelEdited": "The low ceiling and musty air, once reminiscent of childhood visits, now felt confining as she grappled with early adulthood"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "She spent her days alternating between job hunting online and helping her grandmother with household chores, finding an odd sense of purpose in the routine",
+                "editedText": "In an effort to distract herself from her new reality, Charity began to spend her days alternating between job hunting online and helping her grandmother with household chores. Eventually, an odd sense of purpose emerged from this routine.",
+                "modelEdited": "Her days were split between online job hunting and helping her grandmother around the house. The routine, oddly enough, gave her a sense of purpose"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "Her friends, initially supportive, began to drift away as weeks turned to months",
+                "editedText": "Her friends, initially supportive of her new living situation, began to drift away as weeks became months.",
+                "modelEdited": "As weeks turned to months, her initially supportive friends began to drift away"
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "Their occasional visits became stilted",
+                "editedText": "The infrequent times that Charity did see her friends, their ",
+                "modelEdited": "Their occasional visits became stilted, filled with awkward silences and forced small talk"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", conversations revolving around their advancing lives while Charity felt stuck in limbo",
+                "editedText": "conversations started to revolve around their advancing lives, while she remained stuck in limbo",
+                "modelEdited": ". They talked about their advancing lives, while Charity felt stuck in limbo"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "She found solace in late-night talks with her grandmother, learning family history she'd never known before.",
+                "editedText": "",
+                "modelEdited": "Late-night talks with her grandmother revealed unknown family history."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "The basement's small window became her portal to the outside world, and she often caught herself daydreaming while watching neighbors go about their lives",
+                "editedText": "",
+                "modelEdited": "She often found herself watching neighbors through the basement's small window"
+            }
+        ],
+        "Human-Written": "Charity establishes herself in Grams’s basement; it’s only lightly finished, and the foldout cot isn’t super comfortable, but it beats sharing the guest room with her mom. The main thing is to avoid having to deal with anybody, which turns out to be easier than she thought it would be. After a couple of days she’s kind of stir-crazy. When she isn’t slogging through “A Tale of Two Cities,” she keeps her earbuds in and texts with Lexie, or sometimes with Evan, who’s this boy from school. She’s hung out with Evan a few times, and once, at a party, in an upstairs bathroom, let him get to second base. Under the shirt but over the bra. But lately this girl, Jenna, who goes to private school, is all over his Instagram. Not like in pictures with him, just hearting every single post and sometimes leaving “first!” as a comment, which for Jenna’s own sake Charity hopes is irony, but who can say. Lexie thinks Evan is a loser, which yeah maybe, but he’s funny and easy to be around, so if he texts her she usually texts him back, sometimes right away and sometimes after waiting some random amount of time. And sometimes, like right now, she texts him first. “My grams is losing it. All she does is clean the same clean shit. She’s like bleaching bleach.”",
+        "url": "https://www.newyorker.com/magazine/2015/05/18/so-youre-just-what-gone",
+        "creativity_scores": [
+            "4",
+            "8"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7153988868274583,
+        "AI-edited": "Charity's stay in her grandmother's basement was supposed to be temporary—a month, tops. But as the weeks stretched into months, she found herself caught between the comforting familiarity of childhood visits and the suffocating reality of her current situation. The low ceiling and musty air, once nostalgic, now felt confining as she grappled with early adulthood. Her days were split between online job hunting and helping her grandmother around the house. The routine, oddly enough, gave her a sense of purpose. As weeks turned into months, her initially supportive friends began to drift away. Their occasional visits became stilted, filled with awkward silences and forced small talk. They talked about their advancing lives, while Charity felt stuck in limbo. \n\nLate-night talks with her grandmother revealed unknown family history. She often found herself watching neighbors through the basement's small window. As time passed, Charity grappled with feelings of inadequacy and fear of the future, but also discovered a resilience she didn't know she possessed. The challenge of living in such close quarters with her grandmother taught her patience and empathy, skills she hadn't realized she needed to develop. Despite the difficulties, Charity began to see this period as a chrysalis, sensing that when she finally emerged, she would be changed in ways she couldn't yet understand.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you share an experience where someone showed interest in you that completely surprised you, detailing their appearance and demeanor, how they approached you, and how they compared to someone you had previously known or dated?",
+        "source": "claude3.5-sonnet",
+        "type": "Creative NonFiction",
+        "preedit": "I was shelving books at the library when I noticed her watching me from behind a potted ficus. She had wispy gray hair and oversized glasses that magnified her eyes, reminding me of an inquisitive owl. As I reached for a high shelf, she shuffled over and offered me a butterscotch candy from her pocket. Her hand trembled slightly as she held it out. I accepted, more out of politeness than desire for sweets. She introduced herself as Mildred and asked if I'd like to get coffee sometime. Her forwardness caught me off guard - usually it was college students asking for research help, not retirees asking me out. Mildred's earnest demeanor was worlds away from my ex Sarah's calculated flirtations. Where Sarah had played coy mind games, Mildred was refreshingly direct. I found myself intrigued by her quiet confidence, so at odds with her frail appearance. As I considered her invitation, I realized how long it had been since I'd truly connected with someone new. Maybe it was time to break out of my comfort zone. I smiled and told Mildred I'd love to get coffee, curious to see where this unexpected encounter might lead.",
+        "postedit": "I was shelving books at the library when I noticed her watching me. She had wispy gray hair and oversized glasses that magnified her eyes. I reached for a high shelf, and she shuffled over. She offered me a butterscotch candy from her pocket. Her hand trembled slightly as she held it out. I accepted. She introduced herself as Mildred and asked if I'd like to get coffee sometime. At first, I stammered. She could have been double my age. Could it have been a joke? But her eyes were earnest and kind, and her fingers were still shaking. I thought about the wrinkles under her clothes. I thought about the nature of vulnerability. I said yes, anytime. Let's do it.",
+        "id": "cgreer_batch2_8",
+        "fine_grained_edits": [
+            {
+                "span": "from behind a potted ficus",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": ""
+            },
+            {
+                "span": "reminding me of an inquisitive owl",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "Her hand trembled slightly as she held it out.",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "Her hand trembled slightly."
+            },
+            {
+                "span": "I accepted, more out of politeness than desire for sweets.",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "I accepted politely."
+            },
+            {
+                "span": "Her forwardness caught me off guard",
+                "category": "Cliche",
+                "modelEdited": "I was surprised"
+            },
+            {
+                "span": "Mildred's earnest demeanor was worlds away from my ex Sarah's calculated flirtations.",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "Mildred's earnest demeanor contrasted sharply with my ex Sarah's calculated flirtations."
+            },
+            {
+                "span": "Where Sarah had played coy mind games, Mildred was refreshingly direct.",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "Mildred was refreshingly direct."
+            },
+            {
+                "span": "I found myself intrigued by her quiet confidence, so at odds with her frail appearance.",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "Her quiet confidence intrigued me, contrasting sharply with her frail appearance."
+            },
+            {
+                "span": "As I considered her invitation, I realized how long it had been since I'd truly connected with someone new.",
+                "category": "Cliche",
+                "modelEdited": "I realized I hadn't made a new friend in years."
+            },
+            {
+                "span": "Maybe it was time to break out of my comfort zone.",
+                "category": "Cliche",
+                "modelEdited": "I decided to take a chance."
+            },
+            {
+                "span": "curious to see where this unexpected encounter might lead.",
+                "category": "Cliche",
+                "modelEdited": "wondering what stories she might share"
+            }
+        ],
+        "Human-Written": "Then my supervisor asked me out. He wasn’t anything like Ned Johnson. He was a tall, thin guy ten years older than me but with the friendly face of a young dog. Like a friendly dog, he would walk past me on the line (light assembly) with his arms behind his back, and then, at the last second, turn his head to look at me, nodding like a boss who can afford to be nice. I was surprised that he liked me, because the last girl he’d dated (another Kelly girl) had a sleek, perfect body and a blocky, confident jaw, stylish pink eyeshadow, and complex hair. But he did like me. And I liked him, though he was the opposite of the lawyer. His body was delicate; his eyes were gentle and they let you in.",
+        "url": "https://www.newyorker.com/magazine/2023/03/27/minority-report-fiction-mary-gaitskill",
+        "creativity_scores": [
+            "5",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6078212290502794,
+        "AI-edited": "I was shelving books at the library when I noticed her watching me. She had wispy gray hair and oversized glasses that magnified her eyes. As I reached for a high shelf, she shuffled over and offered me a butterscotch candy from her pocket. Her hand trembled slightly. I accepted politely. She introduced herself as Mildred and asked if I’d like to get coffee sometime. I was surprised—usually, it was college students asking for research help, not retirees asking me out. Mildred’s earnest demeanor contrasted sharply with my ex Sarah's calculated flirtations. Mildred was refreshingly direct. Her quiet confidence intrigued me, contrasting sharply with her frail appearance. I realized I hadn’t made a new friend in years. I decided to take a chance. I smiled and told Mildred I’d love to get coffee, wondering what stories she might share.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What events led Nachman to realize the importance of memories over photographs and contemplate his own identity in terms of induction and analogy?",
+        "preedit": "Nachman's epiphany about the primacy of memories over photographs came gradually, sparked by a series of seemingly mundane events. It began with the discovery of an old, faded photograph of his grandmother tucked away in a drawer. As he held the image, he realized he couldn't recall the sound of her voice or the way her hand felt in his. The photograph, once a cherished memento, now felt like a pale imitation of the real woman. In the days that followed, Nachman found himself drawn to other photographs, both his own and those of strangers in magazines and online. He studied the faces, searching for clues to their inner lives, but the images remained stubbornly silent. It was during a chance encounter with a street musician that the pieces finally fell into place. The old man's weathered face and calloused fingers told a story that no photograph could capture. In that moment, Nachman understood that his own identity was not a static image, but a living, breathing thing, shaped by the accumulation of moments and memories. He saw himself as a product of induction, his present self-built upon the foundation of his past experiences. At the same time, he recognized the power of analogy, the way his own story was woven into the larger tapestry of human experience. With this newfound understanding, Nachman resolved to focus on creating new memories rather than clinging to old photographs, to embrace the richness of life in all its imperfect beauty.",
+        "postedit": "Nachman discovered an old, faded photograph of his grandmother in the drawer of his desk. He held the image between his fingers. He couldn't recall the sound of her voice or the way her hand felt in his. The photograph felt like a pale imitation of the real woman. In the days that followed, Nachman found himself drawn to other photographs, both his own and those of strangers in magazines and online. He studied the faces, searching for clues to their inner lives. The images remained stubbornly silent. Walking along a city block, around the corner from his house, Nachman came across a street musician playing a guitar. The old man's weathered face and calloused fingers told a story that no photograph could capture. In that moment, Nachman understood that his own identity was not a static image but a living, breathing thing, shaped by the accumulation of moments and memories. The old man's life could not have been easy, performing on the street after so many years, and clearly, he was talented. Nachman could see so many lives just in the man's knuckles, in the way his head nodded slightly as he played. Every life was a tapestry, Nachman thought, stitched together by many lives and connected to every other life around it. The old man stopped playing. He gestured toward the box in front of him.",
+        "id": "cgreer_batch1_5",
+        "type": "Literary Fiction",
+        "source": "claude3.5-sonnet",
+        "fine_grained_edits": [
+            {
+                "span": "Nachman's epiphany about the primacy of memories over photographs came gradually, sparked by a series of seemingly mundane events.",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "Nachman's realization that memories were more important than photographs didn't come all at once. It was a slow process, triggered by everyday occurrences that seemed unimportant at first."
+            },
+            {
+                "span": "As he held the image, he realized he couldn't recall the sound of her voice or the way her hand felt in his.",
+                "category": "Cliche",
+                "modelEdited": "He realized he couldn't recall the sound of her voice or the feel of her hand."
+            },
+            {
+                "span": "The photograph, once a cherished memento, now felt like a pale imitation of the real woman.",
+                "category": "Cliche",
+                "modelEdited": "The photograph no longer captured her essence."
+            },
+            {
+                "span": "He studied the faces, searching for clues to their inner lives, but the images remained stubbornly silent.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "He studied the faces, but the images revealed little."
+            },
+            {
+                "span": "The old man's weathered face and calloused fingers told a story that no photograph could capture.",
+                "category": "Cliche",
+                "modelEdited": "The old man's face and fingers told a story beyond what a photograph could show."
+            },
+            {
+                "span": "In that moment, Nachman understood that his own identity was not a static image, but a living, breathing thing, shaped by the accumulation of moments and memories.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "Nachman realized that his identity was not fixed, but constantly changing, shaped by his experiences."
+            },
+            {
+                "span": "He saw himself as a product of induction, his present self-built upon the foundation of his past experiences.",
+                "category": "Awkward Word Choice and Phrasing",
+                "modelEdited": "He realized his identity was shaped by his past experiences."
+            },
+            {
+                "span": "At the same time, he recognized the power of analogy, the way his own story was woven into the larger tapestry of human experience.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "He realized his story was part of a larger human experience."
+            },
+            {
+                "span": "With this newfound understanding, Nachman resolved to focus on creating new memories rather than clinging to old photographs, to embrace the richness of life in all its imperfect beauty.",
+                "category": "Cliche",
+                "modelEdited": "He vowed to live more fully in the present, creating new experiences rather than dwelling on static images of the past."
+            }
+        ],
+        "Human-Written": "She had given him her card. He could phone her tomorrow, or perhaps the day after, from California, and explain what had happened. He could ask her to tell him her maiden name. If he finally remembered who she was, he might then be enriched by memories of himself. Memories are far superior to photographs, for example, which are good only for nostalgia, not for understanding. But did Nachman want those memories? The Nachman he no longer remembered was certainly himself. After all, who else could it be? Nachman realized that he had just performed an inductive act. Induction and analogy, in which he was highly gifted, were critical to mathematical intelligence.",
+        "url": "https://www.newyorker.com/magazine/2003/05/26/cryptology",
+        "creativity_scores": [
+            "2",
+            "5"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6952177016416845,
+        "AI-edited": "Nachman's realization that memories were more important than photographs didn't come all at once. It was a slow process, triggered by everyday occurrences that seemed unimportant at first. It began with the discovery of an old, faded photograph of his grandmother tucked away in a drawer. He realized he couldn't recall the sound of her voice or the feel of her hand. The photograph no longer captured her essence. In the days that followed, Nachman found himself drawn to other photographs, both his own and those of strangers in magazines and online. He studied the faces, but the images revealed little. It was during a chance encounter with a street musician that the pieces finally fell into place. The old man's face and fingers told a story beyond what a photograph could show. Nachman realized that his identity was not fixed but constantly changing, shaped by his experiences. He realized his story was part of a larger human experience. He vowed to live more fully in the present, creating new experiences rather than dwelling on static images of the past.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "Can you recount a memorable nighttime adventure that involved unexpected challenges, unique celestial sightings, and the discovery of an impressive art piece, ultimately leading to a significant moment with a companion?",
+        "source": "gpt4o",
+        "type": "Creative NonFiction",
+        "preedit": "Dan and I had set out under the whispering pines, our path lit only by a waning crescent moon. We intended to reach the abandoned observatory by midnight, driven by rumors of an enigmatic mural hidden within. The forest had other plans, though. A sudden rustle in the brush had us both frozen, expecting the usual deer or fox, but it was a silent owl swooping low that startled us. Pushing further, we stumbled upon a glade where the Northern Lights, uncharacteristically vibrant for our latitude, danced overhead. Spellbound, we almost missed the hidden trailhead at the edge of the clearing. When we finally reached the observatory, it was nearly two in the morning. Inside, the air was thick with history and decay. During our search for the mural, Dan tripped a decayed floorboard revealing a sub-basement. Climbing down, we found not just a mural but an intricate tableau of stars and figures, painted with an ethereal glow. As Dan traced the constellations with his fingers, he confided memories of his father's bedtime stories about star maps and journeys, lending an unexpected depth to our discovery. We left, not just with the art's beauty in our minds, but with a shared sense of something profoundly personal uncovered.",
+        "postedit": "Dan and I set out walking under the pines, our path lit only by the moon. We hoped to reach the abandoned observatory by midnight. We had heard rumors of a mural, something inexplicable. A sudden rustle in the brush made us freeze. Dan touched my shoulder. An owl swooped low, just above our heads, and then back up, gone. We almost missed the hidden trailhead at the edge of the clearing. When we finally reached the observatory, it was nearly two in the morning. Inside, the air was thick with decay and mold. Dan tripped on a decayed floorboard, revealing a sub-basement. Climbing down under the observatory, we found the mural. It was an intricate tableau of stars and figures. Dan traced the constellations with his fingers and told me about his father's bedtime stories to him as a child. They had always been about star maps and journeys.",
+        "id": "cgreer_batch2_17",
+        "fine_grained_edits": [
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "whispering ",
+                "editedText": "",
+                "modelEdited": "whispering"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "set out under",
+                "editedText": "set out walking under",
+                "modelEdited": "ventured into"
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "a waning crescent moon",
+                "editedText": "the moon",
+                "modelEdited": "a dim crescent moon"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "intended",
+                "editedText": "hoped",
+                "modelEdited": "planned"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", driven by rumors of an enigmatic mural hidden within",
+                "editedText": ". We'd heard about some rumors of a mural, something inexplicable.",
+                "modelEdited": "based on rumors of an enigmatic mural hidden inside"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ". The forest had other plans, though. A sudden rustle in the brush had us both frozen, expecting the usual deer or fox, but it was a silent owl swooping low that startled us.",
+                "editedText": " A sudden rustle in the brush. We froze. Dan touched my shoulder. An owl swooped low, just before our heads, and then back up, gone.",
+                "modelEdited": "But the forest had its own agenda. Instead of the expected deer or fox, a silent owl swooped low, startling us both."
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "Pushing further, we stumbled upon a glade where the Northern Lights, uncharacteristically vibrant for our latitude, danced overhead. Spellbound, we",
+                "editedText": "We",
+                "modelEdited": "we pushed through to a glade, where Northern Lights unexpectedly danced overhead. Amazed, we"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "history and ",
+                "editedText": "",
+                "modelEdited": " "
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "decay. ",
+                "editedText": "decay. Mold. ",
+                "modelEdited": "decay"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "During our search for the mural,",
+                "editedText": "",
+                "modelEdited": "While searching,"
+            },
+            {
+                "categorization": "Tense Inconsistency",
+                "originalText": "tripped a decayed",
+                "editedText": "tripped on a decayed",
+                "modelEdited": "tripped over a decayed"
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "we found not just a mural but",
+                "editedText": "down under the observatory, there it was, we found the mural. It was ",
+                "modelEdited": "we stumbled upon more than just an artistic mural"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ", painted with an ethereal glow. As",
+                "editedText": ".",
+                "modelEdited": "painted with an ethereal glow. When"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", he confided memories of his father's bedtime stories about star maps and journeys, lending an unexpected depth to our discovery.",
+                "editedText": ". He told me about his father's bedtime stories to him as a child. They had always been about star maps. And about journeys.",
+                "modelEdited": "and shared stories of his father’s bedtime tales about star maps and journeys. It added an unexpected depth to our discovery."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "We left, not just with the art's beauty in our minds, but with a shared sense of something profoundly personal uncovered.",
+                "editedText": "",
+                "modelEdited": "We left with the art's beauty and a shared sense of personal discovery."
+            }
+        ],
+        "Human-Written": "First, my headlamp went out. I still have no idea why—I’ve used it on half a dozen counts, and I’ve never had any issues. The pink perigee moon was visible through the windows, floating beside us like a loyal owl. But Starling was by this point a little freaked out. I could understand that, of course. She didn’t want to give me her headlamp, and so reluctantly I let her take the lead. “Look, Dad,” she called, fixing her low beam on two heavy doors. “Seems like something you’d be into.” The doors were bracketed by a beautiful W.P.A. marquetry mural, with two human figures cast as guardians of the portal. A young barefoot girl stood under the tree of life with a dove on one arm, and I swear she looked just like Starling. The wood grain turned an undersea green and mauve as she spun her light over the doors’ engraving: “Send Us Forth to Be Builders of a Better World.”",
+        "url": "https://www.newyorker.com/magazine/2021/10/11/the-ghost-birds",
+        "creativity_scores": [
+            "4",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6685633001422475,
+        "AI-edited": "Dan and I had ventured into the Whispering Pines, our path lit only by a dim crescent moon. We planned to reach the abandoned observatory by midnight, based on rumors of an enigmatic mural hidden inside. But the forest had its own agenda. Instead of the expected deer or fox, a silent owl swooped low, startling us both. We pushed through to a glade where the Northern Lights unexpectedly danced overhead. Amazed, we almost missed the hidden trailhead at the edge of the clearing.\n\nWhen we finally reached the observatory, it was nearly two in the morning. Inside, the air was thick with decay. While searching, Dan tripped over a decayed floorboard, revealing a sub-basement. Climbing down, we stumbled upon more than just an artistic mural: an intricate tableau of stars and figures painted with an ethereal glow. Dan traced the constellations with his fingers and shared stories of his father’s bedtime tales about star maps and journeys. It added an unexpected depth to our discovery. We left with the art's beauty and a shared sense of personal discovery.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you recount the scene and atmosphere described at the house affected by the fire, including Sister St. Savior's actions and the response of the officers when she arrived?",
+        "preedit": "The house stood dark against the early dawn, the charred remains smoldering faintly like an exhaled sigh. Scattered embers glimmered amid the ash, whispering silent tales of the night's devastation. Sister St. Savior approached with measured, purposeful steps, her habit rustling softly in the cool morning breeze. The officers, clustered by the skeletal frame of what was once a sturdy porch, straightened up at the sight of her, a mix of relief and weariness etched on their soot-streaked faces. They stepped aside respectfully, nodding as she passed, acknowledging her quiet authority without words. She moved among them with a calm resolve, her keen eyes surveying the ruin and the faces of those left behind. Without pronouncement or flourish, she knelt by the remains, her hands moving methodically as she whispered prayers under her breath. Her presence seemed to anchor the space, melding sorrow with a semblance of grace. The officers, emboldened by her steadiness, returned to their tasks, a shared understanding passing between them: even in the aftermath of such loss, there was a kind of solace in shared purpose.",
+        "postedit": "The house stood dark against the early dawn. The charred remains smoldered, and scattered embers glittered amid the ash. Sister St. Savior approached with measured steps, her habit rustling softly in the cool morning breeze. The officers, clustered by the skeletal frame of what was once a sturdy porch, straightened up at the sight of her. They stepped aside, nodding as she passed. Her eyes surveyed the ruin and the faces of those left behind. She knelt and whispered prayers under her breath. The officers returned to their tasks. There was a kind of solace in shared purpose.",
+        "id": "cgreer_batch1_15",
+        "type": "Literary Fiction",
+        "source": "gpt4o",
+        "fine_grained_edits": [
+            {
+                "span": "smoldering faintly like an exhaled sigh",
+                "category": "Cliche",
+                "modelEdited": "faintly smoldering"
+            },
+            {
+                "span": "whispering silent tales of the night's devastation",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "testifying to the night's fire"
+            },
+            {
+                "span": "a mix of relief and weariness etched on their soot-streaked faces",
+                "category": "Cliche",
+                "modelEdited": "their soot-streaked faces showing signs of both relief and weariness"
+            },
+            {
+                "span": "acknowledging her quiet authority without words",
+                "category": "Cliche",
+                "modelEdited": "silently acknowledging her authority"
+            },
+            {
+                "span": "her keen eyes surveying the ruin and the faces of those left behind",
+                "category": "Cliche",
+                "modelEdited": "taking in the scene and the survivors"
+            },
+            {
+                "span": "her hands moving methodically as she whispered prayers under her breath",
+                "category": "Cliche",
+                "modelEdited": "whispering prayers as she knelt by the remains"
+            },
+            {
+                "span": "Her presence seemed to anchor the space, melding sorrow with a semblance of grace",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "She brought a calmness amidst the sorrow."
+            },
+            {
+                "span": "a shared understanding passing between them",
+                "category": "Cliche",
+                "modelEdited": "feeling a common bond"
+            },
+            {
+                "span": "there was a kind of solace in shared purpose",
+                "category": "Cliche",
+                "modelEdited": "having tasks to focus on provided some solace"
+            }
+        ],
+        "Human-Written": "The house where the fire had been looked startled: the windows of all four floors were wide open, shade cords and thin curtains flailing in the cold wind. Although the rest of the building was dark, the vestibule at the top of the stone stoop was weirdly lit, crowded with policemen and firemen carrying lamps. Sister St. Savior wanted only to walk on, to get to her convent, her room, her toilet, but still she brushed through the crowd and climbed the steps. There was a limp fire hose running along the shadowy base of the bannister. Two of the officers in the hallway, turning to see her, tipped their hats and put out their hands as if she had been summoned. “Sister,” one of them said. He was flushed and perspiring, and even in the dull light she could see that the cuffs of his jacket were singed. “Right in here.”",
+        "url": "https://www.newyorker.com/magazine/2015/08/24/these-short-dark-days",
+        "creativity_scores": [
+            "4",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6647127784290738,
+        "AI-edited": "The house stood dark against the early dawn, the charred remains faintly smoldering. Scattered embers glimmered amid the ash, testifying to the night's fire. Sister St. Savior approached with measured, purposeful steps, her habit rustling softly in the cool morning breeze. The officers, clustered by the skeletal frame of what was once a sturdy porch, straightened up at the sight of her, their soot-streaked faces showing signs of both relief and weariness. They stepped aside respectfully, nodding as she passed, silently acknowledging her authority. She moved among them with a calm resolve, taking in the scene and the survivors. Without pronouncement or flourish, she knelt by the remains, whispering prayers. She brought a calmness amidst the sorrow. The officers, emboldened by her steadiness, returned to their tasks, feeling a common bond: even in the aftermath of such loss, having tasks to focus on provided some solace.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What were Mel's thoughts and feelings when the Rabbi called him by his Hebrew name?",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "As the Rabbi's voice rang out with his Hebrew name, Mel felt a sudden jolt of recognition, as if a long-forgotten door had creaked open inside him. He hadn't heard that name in years, not since his grandfather's passing. A mix of emotions washed over him: nostalgia, unease, and a peculiar sense of being exposed. It was as if the Rabbi had peeled back a layer of his carefully constructed identity, revealing a vulnerable core he'd long since buried. Mel shifted in his seat, his palms growing clammy as he glanced around, half-expecting others to notice this sudden unveiling. But no one seemed to pay him any mind. He found himself torn between the urge to flee and a growing curiosity about this part of himself he'd left behind. As the service continued, Mel's mind wandered to childhood memories of Shabbat dinners and the weight of his grandfather's hand on his shoulder. He realized, with a start, that he'd been holding his breath. Exhaling slowly, Mel felt something settle within him – not quite peace, but a tentative acceptance of this unexpected reconnection to his past.",
+        "postedit": "The Rabbi's voice rang out—a name. Mel felt a sudden jolt of recognition. He hadn't heard that name in years, not since his grandfather's passing. It was as if the Rabbi had peeled back a layer of his carefully constructed identity and revealed a vulnerable core he didn't know he had anymore. Mel shifted in his seat. His palms grew clammy. He glanced around, half-expecting the others to notice this sudden unveiling, but no one seemed to pay him any mind. As the service continued, Mel thought about childhood memories—Shabbat dinners, the weight of his grandfather's hand on his shoulder. He realized, with a start, that he'd been holding his breath.",
+        "id": "cgreer_batch2_50",
+        "fine_grained_edits": [
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "As the",
+                "editedText": "The",
+                "modelEdited": "The"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": " with his Hebrew name,",
+                "editedText": ".",
+                "modelEdited": "calling his Hebrew name,"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "Mel felt a sudden jolt of recognition",
+                "editedText": "A name. Mel felt a sudden jolt of recognition",
+                "modelEdited": "A sudden jolt of recognition coursed through Mel"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ", as if a long-forgotten door had creaked open inside him",
+                "editedText": "",
+                "modelEdited": ""
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "A mix of emotions washed over him: nostalgia, unease, and a peculiar sense of being exposed.",
+                "editedText": "",
+                "modelEdited": "He felt nostalgic, uneasy, and oddly exposed."
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": ", revealing ",
+                "editedText": " and revealed ",
+                "modelEdited": "and revealing "
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "he'd long since buried.",
+                "editedText": "he didn't know he had anymore.",
+                "modelEdited": "he had long forgotten."
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": ", his palms growing clammy as",
+                "editedText": ". His palms grew clammy.",
+                "modelEdited": ". His palms grew clammy as"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "he glanced around, half-expecting others to notice this sudden unveiling.",
+                "editedText": "He glanced around, half-expecting the others to notice this sudden unveiling.",
+                "modelEdited": "he glanced around the room. Surely everyone could see this sudden unveiling of his past."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "He found himself torn between the urge to flee and a growing curiosity about this part of himself he'd left behind",
+                "editedText": "",
+                "modelEdited": "He felt torn between fleeing and exploring this rediscovered part of himself"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "Mel's mind wandered to",
+                "editedText": "Mel thought about",
+                "modelEdited": "Memories flooded Mel's mind:"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "memories of Shabbat",
+                "editedText": "memories - Shabbat",
+                "modelEdited": "memories: Shabbat"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": " and the",
+                "editedText": ", the",
+                "modelEdited": ", the"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "Exhaling slowly, Mel felt something settle within him – not quite peace, but a tentative acceptance of this unexpected reconnection to his past.",
+                "editedText": "",
+                "modelEdited": "Exhaling slowly, Mel tentatively accepted this unexpected reconnection to his past."
+            }
+        ],
+        "Human-Written": "“Who’s Mordechai?” Mel asked, bewildered. Then he realized that the Rabbi had called him by his Hebrew name. A searing flame swept up his left side. Barbara must have told the Rabbi. He felt utterly exposed. Betrayed. His Hebrew name was like his parents’ living room, a place no one entered except for weddings and funerals. His Hebrew name was his mother’s white sofa; it was her silver tea set on the sideboard, garish and grandiose, mummified in plastic wrap, never tarnished and never used.",
+        "url": "https://www.newyorker.com/magazine/2005/07/11/long-distance-client",
+        "creativity_scores": [
+            "5",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6991404011461317,
+        "AI-edited": "The Rabbi's voice rang out, calling his Hebrew name. A sudden jolt of recognition coursed through Mel. He hadn't heard that name in years, not since his grandfather's passing. He felt nostalgic, uneasy, and oddly exposed. It was as if the Rabbi had peeled back a layer of his carefully constructed identity, revealing a vulnerable core he had long forgotten. Mel shifted in his seat. His palms grew clammy as he glanced around the room. Surely everyone could see this sudden unveiling of his past. But no one seemed to pay him any mind. He felt torn between fleeing and exploring this rediscovered part of himself. The service continued. Memories flooded Mel's mind: childhood memories, Shabbat dinners, the weight of his grandfather's hand on his shoulder. He realized, with a start, that he'd been holding his breath. Exhaling slowly, Mel tentatively accepted this unexpected reconnection to his past.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you write a passage that conveys a sense of enduring love and longing, mentioning characters named Darline and Paris?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Darline squeezed her eyes shut, feeling the soft hum of the train beneath her. The sway of the carriage seemed to match the rhythm of her heart, a gentle, steady beat that had been missing for so long. Paris had always been more than a city to her; it was the essence of the man she had left behind. She could still picture him standing by the Seine, the soft light of the setting sun casting shadows on his face, his eyes holding that look of quiet understanding. They had parted ways with a silence thicker than any words they could have spoken. Every letter he'd sent smelled faintly of lavender, a scent that now filled the air as the train neared the final stop. Her fingers traced the edge of the envelope she had kept, unopened, for years—a tangible memory of what might have been. She wasn’t sure what she would find, or if Paris would still be there, waiting. But even now, miles away from those moments, their shared silence felt like an unbroken promise, the kind that lingered long after the last word had been spoken.",
+        "postedit": "Darline squeezed her eyes shut. The train hummed softly beneath her. The sway of the carriage seemed to match the rhythm of her heart, a gentle, steady beat. Paris had always been more than a city to her; it was also an embodiment of a man she had left behind. She could still picture him standing by the Seine, the soft light of the setting sun casting shadows on his face. His eyes held a look she took to be understanding, but she didn't know for certain. He sent her letters after she left. Each one had smelled faintly of lavender. Her fingers traced the edge of the envelope she had kept, unopened, for years. She wasn’t sure what she would find, or if Paris—the city or the man—would still be there, waiting, as she remembered it and him. The silence between them felt almost like an unbroken promise, the reality that she had not opened the letter, that she had not responded. She realized it was absurd, what she was imagining, and yet here she was, on the train, imagining it.",
+        "id": "cgreer_batch3_10",
+        "Human-Written": "There are loves that outlive lovers. Some version of these words had been his prayer as he fell. Darline would now have two of those. He would also have two: Darline and Paris. He would keep trying to look for them. He would continue to hum along with Darline’s song, and keep whispering in Paris’s ear. He would also try to guide Darline back to the beach, to look for others like him. ♦",
+        "url": "https://www.newyorker.com/magazine/2018/05/14/without-inspection",
+        "creativity_scores": [
+            "3",
+            "5"
+        ],
+        "fine_grained_edits": [
+            {
+                "span": "the soft hum of the train beneath her",
+                "category": "Cliche",
+                "modelEdited": "the gentle rocking of the train"
+            },
+            {
+                "span": "a gentle, steady beat that had been missing for so long",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "Paris had always been more than a city to her; it was the essence of the man she had left behind",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "Paris was linked with the memory of the man she had left behind."
+            },
+            {
+                "span": "the soft light of the setting sun casting shadows on his face",
+                "category": "Cliche",
+                "modelEdited": "the evening sun casting soft shadows on his face"
+            },
+            {
+                "span": "a silence thicker than any words they could have spoken",
+                "category": "Cliche",
+                "modelEdited": "an unspoken understanding"
+            },
+            {
+                "span": "a scent that now filled the air as the train neared the final stop",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": ""
+            },
+            {
+                "span": "a tangible memory of what might have been",
+                "category": "Cliche",
+                "modelEdited": "an unopened message from the past"
+            },
+            {
+                "span": "their shared silence felt like an unbroken promise, the kind that lingered long after the last word had been spoken",
+                "category": "Cliche",
+                "modelEdited": "the silence between them seemed to promise more than their final words ever could"
+            }
+        ],
+        "split": "test",
+        "lev_ratio": 0.7026759167492567,
+        "AI-edited": "Darline squeezed her eyes shut, feeling the gentle rocking of the train. The sway of the carriage seemed to match the rhythm of her heart. Paris was linked with the memory of the man she had left behind. She could still picture him standing by the Seine, the evening sun casting soft shadows on his face, his eyes holding that look of quiet understanding. They had parted ways with an unspoken understanding. Every letter he'd sent smelled faintly of lavender. Her fingers traced the edge of the envelope she had kept, unopened, for years—an unopened message from the past. She wasn’t sure what she would find, or if Paris would still be there, waiting. But even now, miles away from those moments, the silence between them seemed to promise more than their final words ever could.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What happened when Lawrence spoke to Lucinda and mentioned someone staying at their house?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Lawrence’s voice trembled as he mentioned the guest, his eyes flickering towards Lucinda with an uncertainty she rarely saw. Her knitting needles paused, and the silence stretched between them, heavy with unspoken thoughts. Lucinda's lips thinned as she considered his words, but she kept her gaze on her knitting. There was a weight behind his casual tone, a shift in the air that made her chest tighten. She placed her project beside her, trying to mask the unease bubbling up inside. “Who exactly is staying here, Lawrence?” she asked evenly, though a chill ran through her. His hesitation spoke volumes. “It’s just Henry,” he finally said, the name a barely audible whisper. Lucinda’s mouth went dry, her pulse quickening. They had not spoken of Henry for years, and now he was to be a guest in their sanctuary, upending the fragile balance they’d maintained. She could see the worry etched in Lawrence's face, a silent plea for understanding. After a long pause, she nodded, the simple gesture a floodgate for the undercurrents of their shared past.",
+        "postedit": "Lawrence’s voice trembled as he mentioned the guest, his eyes flickering towards Lucinda, glazed and unfocused. Her knitting needles clicked together in a dull halt, and the silence stretched between them. Lucinda's lips thinned as she considered his words, all the while keeping her eyes downcast to the bog of fabric in her lap. There was a weight behind his casual tone, a shift in the air that made her chest tighten. “Who exactly is staying here, Lawrence?” she asked evenly. “It’s just Henry,” he finally said, the name a barely audible whisper. Lucinda’s mouth went dry. They had not spoken of Henry for years, and now he was to be a guest in their sanctuary, upending the fragile balance they’d maintained. She could see the worry etched in Lawrence's face, a silent plea for understanding. After a long pause, she nodded, the simple gesture a floodgate for the undercurrents of their shared past.",
+        "id": "stefan_batch1_11",
+        "fine_grained_edits": [
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "with an uncertainty she rarely saw",
+                "editedText": ", glazed and unfocused.",
+                "modelEdited": "with an unusual uncertainty"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "paused",
+                "editedText": "clicked together in a dull halt",
+                "modelEdited": "stilled"
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": " heavy with unspoken thoughts",
+                "editedText": "",
+                "modelEdited": "thick with tension"
+            },
+            {
+                "categorization": "Awkward Word Choice and Phrasing",
+                "originalText": "but she kept her gaze on her knitting",
+                "editedText": "all the while keeping her eyes downcast to the bog of fabric in her lap.",
+                "modelEdited": "eyes glued to her work"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "She placed her project beside her, trying to mask the unease bubbling up inside",
+                "editedText": "",
+                "modelEdited": "She placed her project aside, masking her unease."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": ", though a chill ran through her.",
+                "editedText": "",
+                "modelEdited": "as a chill ran through her."
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "His hesitation spoke volumes. ",
+                "editedText": "",
+                "modelEdited": "Lawrence hesitated."
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": ", her pulse quickening",
+                "editedText": "",
+                "modelEdited": ""
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": " She could see the worry etched in Lawrence's face, a silent plea for understanding. After a long pause, she nodded, the simple gesture a floodgate for the undercurrents of their shared past.",
+                "editedText": "",
+                "modelEdited": "Lawrence's worried face pleaded silently. She nodded slowly, acknowledging the weight of their shared past."
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2005/10/03/companion-2",
+        "Human-Written": "Lawrence threw a glance at Lucinda. “We don’t think that’s a good idea,” he said. Like his father, he was not tall. His hair curled in a single wave on top of his head. “He will be staying with us at our house for a day or two.”",
+        "creativity_scores": [
+            "3",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.8336734693877551,
+        "AI-edited": "Lawrence’s voice trembled as he mentioned the guest, his eyes flickering towards Lucinda with an unusual uncertainty. Her knitting needles stilled, and the silence stretched between them, thick with tension. Lucinda's lips thinned as she considered his words, eyes glued to her work. There was a weight behind his casual tone, a shift in the air that made her chest tighten. She placed her project aside, masking her unease. “Who exactly is staying here, Lawrence?” she asked evenly as a chill ran through her. Lawrence hesitated. “It’s just Henry,” he finally said, the name a barely audible whisper. Lucinda’s mouth went dry. They had not spoken of Henry for years, and now he was to be a guest in their sanctuary, upending the fragile balance they’d maintained. Lawrence's worried face pleaded silently. She nodded slowly, acknowledging the weight of their shared past.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Can you recount the events that transpired involving Pranab Kaku, Deborah, and your mother, and explain how these developments influenced the relationships within your family over the years?",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Pranab Kaku, who was once a close family friend, drifted into our lives like a warm breeze, bringing with him tales of home and a sense of belonging. When he met Deborah, a spirited, free-spirited American woman, my mother was cautiously optimistic but apprehensive. As their romance blossomed, it also revealed the unspoken distances between our immigrant experience and the life Deborah represented. My mother, always the silent supporter, watched with a mixture of hope and unease as Pranab Kaku married Deborah, marking a shift in our family dynamics. Over time, what seemed like an embrace of new culture became a slow drift away from old ties. My mother's subdued disapproval of the cultural compromises Pranab made began to create an unspoken strain. She was a traditionalist at heart, and as Pranab and Deborah's carefree lifestyle highlighted our conventional rigidity, small cracks formed in her perception of loyalty and identity. Slowly, family gatherings became less frequent, phone calls more stilted. Pranab Kaku's visits dwindled, and with each absence, the gap between him and our family widened. The ripple effects of their union were subtle yet profound, reshaping relationships with a blend of silent disappointment and reluctant acceptance.",
+        "postedit": "Pranab Kaku blew into our lives like a warm breeze and, before long, became a close family friend and fixture. Part of our kinship came from the fact that we shared an immigrant background. As the years went by, he met a free-spirited American woman, Deborah, and their friendship bloomed into a romance. My mother was quietly skeptical, looking on as the romance revealed unspoken differences between our shared immigrant experience and the life that Deborah represented. Eventually, Pranab married Deborah, and my mother went from outspoken friend to silent supporter. My mother was a traditionalist at heart, and the newlywed couple's carefree lifestyle only highlighted our conventional rigidity, causing fractures to form in her perception of our oldest friend's loyalty and identity. Slowly, family gatherings became less frequent, and phone calls more stilted. Pranab Kaku's visits dwindled, and with each absence, the gap between him and our family widened. The ripple effects of their union were subtle yet profound, reshaping relationships with a blend of silent disappointment and reluctant acceptance.",
+        "id": "imani_batch1_12",
+        "fine_grained_edits": [
+            {
+                "span": "drifted into our lives like a warm breeze",
+                "category": "Cliche",
+                "modelEdited": "entered our lives unassumingly"
+            },
+            {
+                "span": "a spirited, free-spirited American woman",
+                "category": "Awkward Word Choice and Phrasing",
+                "modelEdited": "a lively American woman"
+            },
+            {
+                "span": "it also revealed the unspoken distances between our immigrant experience and the life Deborah represented",
+                "category": "Lack of Specificity and Detail",
+                "modelEdited": "their divergent upbringings became starkly apparent. Deborah's free-spirited American lifestyle, marked by spontaneous road trips and casual dinners at trendy restaurants, clashed with our deeply rooted Bengali traditions of elaborate family gatherings and meticulous rituals."
+            },
+            {
+                "span": "marking a shift in our family dynamics",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "which changed our family dynamics"
+            },
+            {
+                "span": "what seemed like an embrace of new culture became a slow drift away from old ties",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "what initially appeared to be an embrace of new culture turned into a gradual drift away from old ties"
+            },
+            {
+                "span": "small cracks formed in her perception of loyalty and identity",
+                "category": "Lack of Specificity and Detail",
+                "modelEdited": "her belief in the sanctity of familial duty and cultural identity began to fracture"
+            },
+            {
+                "span": "Slowly, family gatherings became less frequent, phone calls more stilted",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "Family gatherings happened less often, calls became more awkward"
+            },
+            {
+                "span": "The ripple effects of their union were subtle yet profound, reshaping relationships with a blend of silent disappointment and reluctant acceptance",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "Over time, their marriage subtly reshaped relationships, blending silent disappointment with reluctant acceptance."
+            }
+        ],
+        "Human-Written": "In the end, my mother was right, and fourteen years after that Thanksgiving, after twenty-three years of marriage, Pranab Kaku and Deborah got divorced. It was he who had strayed, falling in love with a married Bengali woman, destroying two families in the process. The other woman was someone my parents knew, though not very well. Deborah was in her forties by then, Bonny and Sara away at college. In her shock and grief, it was my mother whom Deborah turned to, calling and weeping into the phone. Somehow, through all the years, she had continued to regard us as quasi in-laws, sending flowers when my grandparents died, and giving me a compact edition of the O.E.D. as a college-graduation present. “You knew him so well. How could he do something like this?” Deborah asked my mother. And then, “Did you know anything about it?” My mother answered truthfully that she did not. Their hearts had been broken by the same man, only my mother’s had long ago mended, and in an odd way, as my parents approached their old age, she and my father had grown fond of each other, out of habit if nothing else. I believe my absence from the house, once I left for college, had something to do with this, because over the years, when I visited, I noticed a warmth between my parents that had not been there before, a quiet teasing, a solidarity, a concern when one of them fell ill. My mother and I had also made peace; she had accepted the fact that I was not only her daughter but a child of America as well. Slowly, she accepted that I dated one American man, and then another, and then yet another, that I slept with them, and even that I lived with one though we were not married. She welcomed my boyfriends into our home and when things didn’t work out she told me I would find someone better. After years of being idle, she decided, when she turned fifty, to get a degree in library science at a nearby university.",
+        "url": "https://www.newyorker.com/magazine/2004/05/24/hell-heaven",
+        "creativity_scores": [
+            "5",
+            "8"
+        ],
+        "split": "test",
+        "lev_ratio": 0.6922428330522765,
+        "AI-edited": "Pranab Kaku, who was once a close family friend, entered our lives unassumingly, bringing with him tales of home and a sense of belonging. When he met Deborah, a lively American woman, my mother was cautiously optimistic but apprehensive. As their romance blossomed, their divergent upbringings became starkly apparent. Deborah's free-spirited American lifestyle, marked by spontaneous road trips and casual dinners at trendy restaurants, clashed with our deeply rooted Bengali traditions of elaborate family gatherings and meticulous rituals. My mother, always the silent supporter, watched with a mixture of hope and unease as Pranab Kaku married Deborah, which changed our family dynamics. Over time, what initially appeared to be an embrace of new culture turned into a gradual drift away from old ties. My mother's subdued disapproval of the cultural compromises Pranab made began to create an unspoken strain. She was a traditionalist at heart, and as Pranab and Deborah's carefree lifestyle highlighted our conventional rigidity, her belief in the sanctity of familial duty and cultural identity began to fracture. Family gatherings happened less often, calls became more awkward. Pranab Kaku's visits dwindled, and with each absence, the gap between him and our family widened. Over time, their marriage subtly reshaped relationships, blending silent disappointment with reluctant acceptance.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "What thoughts cross your mind when you realize a girl wants you for the first time?",
+        "source": "claude3.5-sonnet",
+        "type": "Creative NonFiction",
+        "preedit": "As the realization dawned on him, Jake felt an odd mix of excitement and unease. It wasn't the thunderbolt moment he'd always imagined, but rather a slow, creeping awareness that settled in his chest. He found himself noticing small details about her he'd overlooked before - the way she tucked her hair behind her ear when she was thinking, or how her eyes crinkled slightly at the corners when she smiled at him. There was a newfound tension in their interactions, like static electricity waiting to discharge. Jake wondered if he was reading too much into things, second-guessing every shared glance and casual touch. He felt both flattered and somehow unworthy, questioning what she saw in him that he couldn't see himself. There was an urge to act, to say something, but also a fear of shattering this delicate new dynamic. He realized that knowing someone was interested didn't automatically erase his own insecurities or make the next steps any clearer. Instead, it added a layer of complexity to their relationship that both thrilled and terrified him.",
+        "postedit": "Jake found himself noticing small details about her he'd overlooked before—the way she tucked her hair behind her ear when she was thinking, or how her eyes crinkled slightly at the corners when she smiled at him. There was a newfound tension in their interactions. He was suddenly filled with questions and self-consciousness—was he reading too much into things? Did that shared glance mean what he thought it did? Did they happen to brush hands, or was it intentional? (And was it intentional for him? It was, wasn't it?) Whatever this delicate new dynamic was, he was deathly afraid of shattering it. And the longer it went on, the more afraid he was, and the more questions bubbled in his mind, until he knew that there was only one real answer to any question like this, and it was the scariest answer of them all. He would have to kiss her.",
+        "id": "cgreer_batch2_46",
+        "fine_grained_edits": [
+            {
+                "span": "As the realization dawned on him,",
+                "category": "Cliche",
+                "modelEdited": "Jake realized"
+            },
+            {
+                "span": "It wasn't the thunderbolt moment he'd always imagined, but rather a slow, creeping awareness that settled in his chest.",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "He realized it slowly, over time."
+            },
+            {
+                "span": "There was a newfound tension in their interactions, like static electricity waiting to discharge.",
+                "category": "Cliche",
+                "modelEdited": "Their interactions now had a newfound tension."
+            },
+            {
+                "span": "Jake wondered if he was reading too much into things, second-guessing every shared glance and casual touch.",
+                "category": "Unnecessary/Redundant Exposition",
+                "modelEdited": "Jake second-guessed every shared glance and casual touch."
+            },
+            {
+                "span": "He felt both flattered and somehow unworthy, questioning what she saw in him that he couldn't see himself.",
+                "category": "Poor Sentence Structure",
+                "modelEdited": "He felt flattered, yet unworthy. What did she see in him that he couldn't?"
+            },
+            {
+                "span": "There was an urge to act, to say something, but also a fear of shattering this delicate new dynamic.",
+                "category": "Cliche",
+                "modelEdited": "He wanted to act, to say something, but feared ruining their friendship."
+            },
+            {
+                "span": "Instead, it added a layer of complexity to their relationship that both thrilled and terrified him.",
+                "category": "Awkward Word Choice and Phrasing",
+                "modelEdited": "It complicated their relationship, leaving him both thrilled and terrified."
+            }
+        ],
+        "Human-Written": "It is the first time any girl ever wanted you. And so you sit with it. Let it roll around in the channels of your mind. This is nuts, you say to yourself. And later, absently, to Paloma. She doesn’t hear you. You don’t know what to do with the knowledge. You ain’t your brother, who would have run right over and put a rabo in Miss Lora. Even though you know, you’re scared you’re wrong. You’re scared she’d laugh at you.",
+        "url": "https://www.newyorker.com/magazine/2012/04/23/miss-lora",
+        "creativity_scores": [
+            "3",
+            "7"
+        ],
+        "split": "test",
+        "lev_ratio": 0.5787545787545787,
+        "AI-edited": "Jake felt an odd mix of excitement and unease. He realized it slowly, over time. He found himself noticing small details about her he'd overlooked before—the way she tucked her hair behind her ear when she was thinking or how her eyes crinkled slightly at the corners when she smiled at him. Their interactions now had a newfound tension. Jake second-guessed every shared glance and casual touch. He felt flattered, yet unworthy. What did she see in him that he couldn't? He wanted to act, to say something, but he feared ruining their friendship. He realized that knowing someone was interested didn't automatically erase his own insecurities or make the next steps any clearer. It complicated their relationship, leaving him both thrilled and terrified.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "Write a paragraph describing the contrast between modern city life and a nostalgic view of the past, using the example of someone who works in a high-rise office building but feels disconnected from the city's history and their own personal inclinations.",
+        "source": "gpt4o",
+        "type": "Literary Fiction",
+        "preedit": "Jackson leaned back in his office chair, staring out through the expansive glass windows of the high-rise building. Below him, the city churned with relentless energy, a tapestry of modernity threaded with the hum of traffic, the glow of digital billboards, and the unceasing flow of pedestrians. His desk, a chaotic mixture of reports and coffee cups, contrasted sharply with the sleek orderliness of the cityscape. Despite the apparent advancement that framed his daily life, Jackson felt an inexplicable disconnection. His mind often wandered to an untouched box of old photographs at home, depicting simpler times – wooden houses, dirt paths, faces etched with stories of a bygone era. Those images spoke to him more than the polished chrome and glass now surrounding him. He couldn’t help but yearn for the intangible warmth of community gatherings under open skies, unhurried conversations, and the tangible reality of a slower pace. Here, in the heart of progress, he was a mere observer, detached from the legacy beneath the steel and concrete, his own inclinations buried beneath the layers of modernity.",
+        "postedit": "Jackson leaned back in his office chair and stared out through the expansive glass windows of the high-rise building. Below him, the city churned with energy—the glow of digital billboards, the unceasing flow of cars, bicycles, and pedestrians. Jackson's desk was a chaotic mixture of reports and coffee cups. The skyline outside the window contrasted starkly with the scene below. The buildings were hard and rectangular. Jackson's mind often wandered to an untouched box of old photographs at home, depicting simpler times—wooden houses, dirt paths, faces etched with stories of a bygone era. Those images spoke to him more than the polished chrome and glass now surrounding him. He imagined that somewhere in those photos was a community—a place where people gathered together, unhurried by rush or money, talking under trees and having picnics in the grass. It frightened him that this slowness might have left, or at least left his world. He didn't know what to do.",
+        "id": "cgreer_batch3_1",
+        "Human-Written": "On our drive back downtown we were both, naturally enough, sunk into a kind of woolly, disheartened silence. From up on the interstate, the spectacle of modern, Southern city life and ambitious new construction where once had been a low, genteel old river city seemed particularly gruesome and unpromising and probably seemed the same to Sallie. To me, who labored in one of the tall, metal-and-glass enormities (I could actually see my office windows in Place St. Charles, small, undistinguished rectangles shining high up among countless others), it felt particularly alien to history and to my own temperament. Behind these square mirrored windows, human beings were writing and discussing and preparing cases; and on other floors were performing biopsies, CAT scans, drilling out cavities, delivering news both welcome and unwelcome to all sorts of other expectants—clients, patients, partners, spouses, children. People were in fact there waiting for me to arrive that very afternoon, anticipating news of the Brownlow-Maisonette case—where were things, how were our prospects developing, what was my over-all take on matters, and what were our hopes for a settlement (most of my \"take\" wouldn't be all that promising). In no time I'd be entering their joyless company and would've forgotten about myself here on the highway, peering out in near despair because of the fate of an insignificant little dog. Frankly, it made me feel pretty silly.",
+        "url": "https://www.newyorker.com/magazine/2001/12/24/puppy",
+        "creativity_scores": [
+            "3",
+            "5"
+        ],
+        "fine_grained_edits": [
+            {
+                "span": "churned with relentless energy",
+                "category": "Cliche",
+                "modelEdited": "bustled continuously"
+            },
+            {
+                "span": "a tapestry of modernity threaded with the hum of traffic, the glow of digital billboards, and the unceasing flow of pedestrians",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "a constant blur of traffic, digital billboards, and pedestrians"
+            },
+            {
+                "span": "a chaotic mixture of reports and coffee cups",
+                "category": "Cliche",
+                "modelEdited": "cluttered with reports and used coffee cups"
+            },
+            {
+                "span": "contrasted sharply with the sleek orderliness of the cityscape",
+                "category": "Cliche",
+                "modelEdited": "stood in stark contrast to the city's sleek order"
+            },
+            {
+                "span": "an inexplicable disconnection",
+                "category": "Cliche",
+                "modelEdited": "detached"
+            },
+            {
+                "span": "depicting simpler times – wooden houses, dirt paths, faces etched with stories of a bygone era",
+                "category": "Cliche",
+                "modelEdited": "showing wooden houses, dirt paths, and familiar faces from the past"
+            },
+            {
+                "span": "the intangible warmth of community gatherings under open skies, unhurried conversations, and the tangible reality of a slower pace",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "simple community gatherings and unhurried conversations of a slower pace"
+            },
+            {
+                "span": "in the heart of progress",
+                "category": "Cliche",
+                "modelEdited": ""
+            },
+            {
+                "span": "detached from the legacy beneath the steel and concrete",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "feeling disconnected from his roots"
+            },
+            {
+                "span": "his own inclinations buried beneath the layers of modernity",
+                "category": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "modelEdited": "feeling a sense of loss for the authenticity of his simpler past"
+            }
+        ],
+        "split": "test",
+        "lev_ratio": 0.6871401151631478,
+        "AI-edited": "Jackson leaned back in his office chair, staring out through the expansive glass windows of the high-rise building. Below him, the city bustled continuously, a constant blur of traffic, digital billboards, and pedestrians. His desk, cluttered with reports and used coffee cups, stood in stark contrast to the city's sleek order. Despite the apparent advancement that framed his daily life, Jackson felt detached. His mind often wandered to an untouched box of old photographs at home, showing wooden houses, dirt paths, and familiar faces from the past. Those images spoke to him more than the polished chrome and glass now surrounding him. He couldn’t help but yearn for simple community gatherings and unhurried conversations of a slower pace. Here, he was a mere observer, feeling disconnected from his roots and a sense of loss for the authenticity of his simpler past.",
+        "edited_by": "AI"
+    },
+    {
+        "instruction": "Reflect on an early childhood memory that significantly shaped your perspective on life and the emotional connections with your parents, particularly focusing on any moments of misunderstanding or unasked questions.",
+        "source": "claude3.5-sonnet",
+        "type": "Personal Experience",
+        "preedit": "I was five when my father brought home a cardboard box, its sides punctured with tiny holes. Inside, a small turtle peered up at me, its shell gleaming under the kitchen lights. I named him Speedy, a joke that made my parents laugh. For weeks, I diligently cared for Speedy, talking to him as I cleaned his tank and offered him lettuce leaves. One morning, I found the tank empty. My mother explained that Speedy had \"gone to live in a pond,\" her voice gentle but firm. I nodded, accepting her words, but a part of me knew something was off. I never asked where this pond was or why we didn't visit. Instead, I internalized the unspoken lesson: some losses were meant to be borne in silence. Years later, I realized my parents had likely released Speedy into the wild, thinking it was best. That moment of unquestioning acceptance shaped how I approached future uncertainties, teaching me to read between the lines of adult explanations and to seek answers in the spaces where words failed.",
+        "postedit": "I was five when my father brought home a cardboard box, its sides punctured with tiny holes. Inside, a small turtle peered up at me, its shell leaving grooved, damp spots at the bottom of the box. I named him Speedy, a joke that made my parents laugh. For weeks, I diligently cared for Speedy, talking to him as I cleaned his tank and offering him lettuce leaves. One morning, I found the tank empty. My mother explained that Speedy had \"gone to live in a pond.\" I nodded, accepting her words, but a part of me knew something was off. I never asked where this pond was or why we didn't visit. In that house, I knew there were some things not to ask. Like what those crashes were in their bedroom at night or why we had to move neighborhoods so often. Years later, I realized my parents had likely released Speedy into the wild, thinking it was best. I just wish they knew what was best for themselves.",
+        "id": "stefan_batch1_14",
+        "fine_grained_edits": [
+            {
+                "categorization": "Cliche",
+                "originalText": "its shell gleaming under the kitchen lights",
+                "editedText": "its shell leaving grooved, damp spots at the bottom of the box",
+                "modelEdited": "its shell dark and mottled"
+            },
+            {
+                "categorization": "Tense Inconsistency",
+                "originalText": "offered ",
+                "editedText": "offering",
+                "modelEdited": " offering "
+            },
+            {
+                "categorization": "Cliche",
+                "originalText": "her voice gentle but firm",
+                "editedText": "",
+                "modelEdited": "firm but gentle"
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "Instead, I internalized the unspoken lesson: some losses were meant to be borne in silence.",
+                "editedText": "In that house, I knew there were somethings not to ask. Like what those crashes were in their bedroom at night. Or why he had to move neighborhoods so often.",
+                "modelEdited": "I learned that sometimes, you just have to accept things without asking questions."
+            },
+            {
+                "categorization": "Purple Prose (Unnecessary ornamental and overly verbose)",
+                "originalText": "That moment of unquestioning acceptance shaped how I approached future uncertainties, teaching me to read between the lines of adult explanations and to seek answers in the spaces where words failed.",
+                "editedText": "I just wish they knew what was best for themselves.",
+                "modelEdited": "This experience taught me to look for hidden meanings in what adults said, and to find answers even when they weren't clear."
+            }
+        ],
+        "url": "https://www.newyorker.com/magazine/2009/12/14/all-that",
+        "Human-Written": "The toy cement mixer is the origin of the religious feeling that has informed most of my adult life. The question, which I (sadly) never did ask, was what my father proposed to do with the Tooth Fairy if he were ever successful in catching it. Possibly, though, another cause for the sadness was that I realized, on some level, that my parents, when they watched me trying to devise schemes for observing the drum’s rotation, were wholly wrong about what they were seeing—that the world they saw and suffered over was wholly different from the childhood world in which I existed. I wept for them far more than any of the three of us knew at the time.",
+        "creativity_scores": [
+            "3",
+            "7"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7885835095137421,
+        "AI-edited": "I was five when my father brought home a cardboard box, its sides punctured with tiny holes. Inside, a small turtle peered up at me, its shell dark and mottled. I named him Speedy, a joke that made my parents laugh. For weeks, I diligently cared for Speedy, talking to him as I cleaned his tank and offering him lettuce leaves. One morning, I found the tank empty. My mother explained that Speedy had \"gone to live in a pond,\" firm but gentle. I nodded, accepting her words, but a part of me knew something was off. I never asked where this pond was or why we didn’t visit. I learned that sometimes, you just have to accept things without asking questions. Years later, I realized my parents had likely released Speedy into the wild, thinking it was best. This experience taught me to look for hidden meanings in what adults said and to find answers even when they weren't clear.",
+        "edited_by": "Human"
+    },
+    {
+        "instruction": "Describe a scene where a character gets out of bed in the middle of the night, feeling stiff and thirsty, and takes a series of actions, accompanied by their cat, while grappling with an overwhelming noise coming from a neighbor that invades their space and thoughts.",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "preedit": "Sarah's eyes snapped open, her mouth dry as sandpaper. The digital clock's red digits glared 3:17 AM. She groaned, joints creaking as she swung her legs over the side of the bed. The floorboards felt cool against her bare feet. Mr. Whiskers, her tabby, chirped a greeting and wound between her ankles as she shuffled towards the kitchen. The faucet's stream filled her glass, the water's coolness momentarily soothing her parched throat. A dull thudding penetrated the walls, growing louder with each beat. Mrs. Kowalski's TV again, Sarah realized with a sigh. The noise seemed to reverberate inside her skull, making coherent thought impossible. She leaned against the counter, fingers drumming an unconscious counter-rhythm. Mr. Whiskers meowed, pawing at the treat jar. Sarah obliged, the dry kibble clattering into his bowl. As she watched him eat, Sarah found herself swaying to the muffled bass. Her irritation slowly morphed into a strange, disconnected calm. She returned to bed, leaving the glass half-full on the nightstand. As she drifted off, the persistent thudding merged with her heartbeat, an oddly comforting lullaby in the pre-dawn quiet.",
+        "postedit": "Sarah peeled her heavy eyelids open just enough to read the glaring red digits on her bedside clock: 3:17 a.m. As much as she wanted to remain asleep, her dangerously dry throat had other plans. She groaned, joints creaking as she swung her legs over the side of the bed. The floorboards felt cool against her bare feet. Mr. Whiskers, her tabby, chirped a greeting and wound between her ankles as she shuffled toward the kitchen. The faucet's stream filled her glass, which she quickly guzzled in an attempt to soothe her parched throat. A dull thudding penetrated the walls, growing louder with each beat. Mrs. Kowalski's TV again, Sarah realized with a sigh. The noise seemed to reverberate inside her skull, making coherent thought impossible. She leaned against the counter, fingers drumming an unconscious counter-rhythm. Her irritation slowly morphed into a strange, disconnected calm. After all, the noise just meant that she wasn't the only one awake at this hour. She soon returned to bed, leaving her half-full glass at her bedside. As she drifted off, the persistent thudding merged with her heartbeat, an oddly comforting lullaby in the pre-dawn quiet.",
+        "id": "imani_batch1_18",
+        "fine_grained_edits": [
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "Sarah's eyes snapped open, her mouth dry as sandpaper. The digital clock's red digits glared 3:17 AM",
+                "editedText": "Sarah peeled her heavy eyelids open just enough to read the glaring, red digits on her bedside clock: 3:17 am. As much as she wanted to remain asleep, her dangerously dry throat had other plans.",
+                "modelEdited": "Sarah's eyes snapped open. Her mouth was dry as sandpaper. The digital clock glared 3:17 AM in angry red digits"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "the water's coolness momentarily soothing her parched throat",
+                "editedText": "which she quickly guzzled in an attempt to sooth her parched throat.",
+                "modelEdited": "momentarily soothing her parched throat"
+            },
+            {
+                "categorization": "Unnecessary/Redundant Exposition",
+                "originalText": "Mr. Whiskers meowed, pawing at the treat jar. Sarah obliged, the dry kibble clattering into his bowl. As she watched him eat, Sarah found herself swaying to the muffled bass.",
+                "editedText": "",
+                "modelEdited": "Sarah fed Mr. Whiskers, finding herself swaying to the muffled bass."
+            },
+            {
+                "categorization": "Lack of Specificity and Detail",
+                "originalText": "Her irritation slowly morphed into a strange, disconnected calm",
+                "editedText": "Her irritation slowly morphed into a strange, disconnected calm. After all, the noise just meant that she wasn't the only one awake at this hour.",
+                "modelEdited": "Her irritation slowly morphed into a strange, disconnected calm. The repetitive thump-thump-thump became almost hypnotic, lulling her into a trance-like state"
+            },
+            {
+                "categorization": "Poor Sentence Structure",
+                "originalText": "She returned to bed, leaving the glass half-full on the nightstand",
+                "editedText": "She soon returned to bed, leaving her half-full glass at her bedside.",
+                "modelEdited": "Returning to bed, she left the glass half-full on the nightstand"
+            }
+        ],
+        "Human-Written": "She eases herself off the bed and stands up. The cat watches her. She is stiff and her mouth is dry and she thinks she will brush her teeth and find her earplugs. When she turns to leave the cat makes a furious protest, and then leaps out to join her. She walks along the corridor in the gloom, not daring to turn on any lights, to the bathroom, wary of the wall, imagining that it is bulging with sound, like the skin of a drum, though of course it is doing nothing of the sort. But this is so loud. She is still half asleep, and she knows that she is, but this is so loud, this is not what she had expected, surely it can’t be this loud? The cat is mewling behind her, following her all the way into the bathroom—no rules tonight, bauble—and she splashes her face and brushes her teeth and rummages in the drawer for her earplugs, which are many years old, and all the while there is the throb of next door at her back, a boom and press of bass, like a heat against the wall, like a fire, and sometimes the haze, the flick of other things on top of it, singing and instruments and melody, things jumping and spitting on a pan. And the voices, all the voices boiling together, people having to shout to make themselves heard, shouting out, and you might think they’re dying in there if it was not for the laughter, the huge bursts of laughter that come every few seconds, which punch through the wall as if directed at her personally. She stands in the bathroom staring astonished at her own face in the mirror and just listens. The cat at her legs.",
+        "url": "https://www.newyorker.com/magazine/2021/05/24/the-party",
+        "creativity_scores": [
+            "4",
+            "6"
+        ],
+        "split": "test",
+        "lev_ratio": 0.7827586206896552,
+        "AI-edited": "Sarah's eyes snapped open. Her mouth was dry as sandpaper. The digital clock glared 3:17 AM in angry red digits. She groaned, joints creaking as she swung her legs over the side of the bed. The floorboards felt cool against her bare feet. Mr. Whiskers, her tabby, chirped a greeting and wound between her ankles as she shuffled toward the kitchen. The faucet's stream filled her glass, momentarily soothing her parched throat. A dull thudding penetrated the walls, growing louder with each beat. Mrs. Kowalski's TV again, Sarah realized with a sigh. The noise seemed to reverberate inside her skull, making coherent thought impossible. She leaned against the counter, fingers drumming an unconscious counter-rhythm. Sarah fed Mr. Whiskers, finding herself swaying to the muffled bass. Her irritation slowly morphed into a strange, disconnected calm. The repetitive thump-thump-thump became almost hypnotic, lulling her into a trance-like state. Returning to bed, she left the glass half-full on the nightstand. As she drifted off, the persistent thudding merged with her heartbeat, an oddly comforting lullaby in the pre-dawn quiet.",
+        "edited_by": "Human"
+    }
+]

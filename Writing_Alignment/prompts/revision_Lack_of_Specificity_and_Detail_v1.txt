@@ -1,0 +1,121 @@
+You are given a paragraph of writing, and spans that have been identified as problematic, according the the category 'Lack of Specificity and Detail'. Your goal is to propose a revision for each span that corrects the issue.
+
+You should take inspiration from the following 20 examples of problematic spans, and how they were each revised.
+
+Examples:
+Example 1:
+Context:  unspecified threat and evacuation procedures. **But something felt off - her eyes** kept darting to the left, 
+Input: {"span_id": 1, "span": "But something felt off - her eyes"}
+Output: {"span_id": 1, "revision": "I felt afraid watching her eyes"}
+
+Example 2:
+Context:  part that would always belong **to the house with the creaky floorboards and the father who loved her more than words could express.**
+Input: {"span_id": 2, "span": "to the house with the creaky floorboards and the father who loved her more than words could express."}
+Output: {"span_id": 2, "revision": "to the house with the creaky floorboards and the father who loved her more than words could express—was this liberation? She found she could not answer "yes" and yet, she could not, and would not, answer "no" either."}
+
+Example 3:
+Context:  around her and feeling the **weight of unresolved history pressing in from all sides.**
+Input: {"span_id": 3, "span": "weight of unresolved history pressing in from all sides."}
+Output: {"span_id": 3, "revision": "decades and generations of shared memories weighing on her bones."}
+
+Example 4:
+Context:  since the night we argued **and she** stormed off in the rain. 
+Input: {"span_id": 4, "span": "and she"}
+Output: {"span_id": 4, "revision": "We both said some nasty things, old wounds reopened from childhood, and when it was over she"}
+
+Example 5:
+Context:  by a strange, suffocating quiet. **The sterile white walls seemed to close in on him, making the world outside feel like a distant memory**. The other residents shuffled through 
+Input: {"span_id": 5, "span": "The sterile white walls seemed to close in on him, making the world outside feel like a distant memory"}
+Output: {"span_id": 5, "revision": "The facility was housed in a round building with a hallway that circled in on itself, so that a walk always ended where it began"}
+
+Example 6:
+Context:  every corner of the property. **In that moment, as their eldest sibling wrapped an arm around their shoulders and pointed to a distant eagle soaring overhead, the world seemed to stand stil**l. A sense of belonging, of 
+Input: {"span_id": 6, "span": "In that moment, as their eldest sibling wrapped an arm around their shoulders and pointed to a distant eagle soaring overhead, the world seemed to stand stil"}
+Output: {"span_id": 6, "revision": "The two youngest children from both families, Oscar and Skye, held each other's shoulders, both of them fourteen, both just out of middle school with so many stories to share"}
+
+Example 7:
+Context:  myself talking to Spiker more, **as if he somehow held pieces of Uncle Leo within him.** The house now felt like 
+Input: {"span_id": 7, "span": "as if he somehow held pieces of Uncle Leo within him."}
+Output: {"span_id": 7, "revision": "as if he held pieces of Uncle Leo inside him, or Uncle Leo could hear me through his ears"}
+
+Example 9:
+Context:  emotionally with their toddler. Arabella **grappled with guilt over her own ambivalence, wondering if the distance between them was of her own making.** She longed for the ease 
+Input: {"span_id": 9, "span": "grappled with guilt over her own ambivalence, wondering if the distance between them was of her own making."}
+Output: {"span_id": 9, "revision": "grappled with her own ambivalence, wondering if this was all due to her own apathy."}
+
+Example 10:
+Context:  her since the night we **argued** and she stormed off in 
+Input: {"span_id": 10, "span": "argued"}
+Output: {"span_id": 10, "revision": "fought about placing our father in a care home after Mom's passing."}
+
+Example 11:
+Context:  his way, no questions asked, **just a silent agreement that this was their exchange—a gesture of dignity for a fleeting moment of warmth**. The sunglasses’ reflection glinted, capturing 
+Input: {"span_id": 11, "span": "just a silent agreement that this was their exchange—a gesture of dignity for a fleeting moment of warmth"}
+Output: {"span_id": 11, "revision": "and at once a wave of gratitude and of self-consciousness rushed through him. He could smell the dirt rising off his layers of clothing"}
+
+Example 12:
+Context:  voices carrying across the parched landscape**. As the family embraced, exchanging stories and memories, the youngest sibling stood back, taking it all in**. The familiar scent of sage 
+Input: {"span_id": 12, "span": ". As the family embraced, exchanging stories and memories, the youngest sibling stood back, taking it all in"}
+Output: {"span_id": 12, "revision": "As everyone embraced, the siblings' two dads, Jerry and Garcia, stood watching from the doorway"}
+
+Example 13:
+Context:  her eyes misty with emotion. **The cousins tumbled** out of the back seat, 
+Input: {"span_id": 13, "span": "The cousins tumbled"}
+Output: {"span_id": 13, "revision": "The two cousins, Jeremiah and Skye, tumbled"}
+
+Example 14:
+Context:  She hadn't voiced these thoughts, **fearing that acknowledging them might make them irreversible**, yet they colored every interaction, 
+Input: {"span_id": 14, "span": "fearing that acknowledging them might make them irreversible"}
+Output: {"span_id": 14, "revision": "fearing their resolution"}
+
+Example 15:
+Context:  he was nothing more than **a speck in the distance.** The unfamiliar streets of her 
+Input: {"span_id": 15, "span": "a speck in the distance."}
+Output: {"span_id": 15, "revision": "a speck in the distance, only then did Kay think, maybe, that she might be able to imagine that he was crying."}
+
+Example 16:
+Context:  demands of parenthood had revealed **aspects of his character she hadn't anticipated** - his tendency to retreat 
+Input: {"span_id": 16, "span": "aspects of his character she hadn't anticipated"}
+Output: {"span_id": 16, "revision": "just how much of a loser he was"}
+
+Example 17:
+Context:  a speck in the distance. **The unfamiliar streets of her new neighborhood seemed to mock her uncertainty, but Kay steeled herself, determined to embrace the challenges that lay ahead.** As she unpacked her boxes 
+Input: {"span_id": 17, "span": "The unfamiliar streets of her new neighborhood seemed to mock her uncertainty, but Kay steeled herself, determined to embrace the challenges that lay ahead."}
+Output: {"span_id": 17, "revision": "It was a long drive and it felt longer. She stopped at a Waffle House off the highway and watched two men order and eat waffle after waffle. A ludicrous amount of waffles. Eventually, the drive ended. Abruptly. A new building. A new apartment."}
+
+Example 18:
+Context:  up a cloud of dust, **the siblings** rushed out the front door, 
+Input: {"span_id": 18, "span": "the siblings"}
+Output: {"span_id": 18, "revision": "the three siblings"}
+
+Example 19:
+Context:  Jae-hoon, his voice unexpectedly soft. **Their conversation began awkwardly, with stilted small talk about the weather and the matchmaker's peculiar choice of decor.** As they relaxed, Min found 
+Input: {"span_id": 19, "span": "Their conversation began awkwardly, with stilted small talk about the weather and the matchmaker's peculiar choice of decor."}
+Output: {"span_id": 19, "revision": "The conversation began awkwardly. They talked, for want of anything better, of the weather. Then, when that topic was exhausted, she mentioned with panic the matchmaker's unusual home decor."}
+
+Example 20:
+Context:  between guilt and possessiveness, while **Roscoe attempts to maintain a cordial relationship with both women**, unaware of the complexities between 
+Input: {"span_id": 20, "span": "Roscoe attempts to maintain a cordial relationship with both women"}
+Output: {"span_id": 20, "revision": "Roscoe, a bumbling people-pleaser, delicately avoids the roommates' obviously simmering tension"}
+
+
+
+Now perform the task for the paragraph given below, and the spans that have been identified as problematic.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Identified Spans:
+[[SPANS]]
+
+Rules:
+- [Format] You should output your revision for each span in the following JSON format:
+{"revisions":
+    [
+        {"span_id": "...", "revision": "..."},
+        ...
+    ]
+}
+- [Span ID] The span_id should match the span_id provided in the "Identified Spans" section.
+- [Single Revision] You must provide one revision suggestion for each span in the "Identified Spans" section.
+- [Paragraph Appropriateness] Your revision should be appropriate and fit within the paragraph given.

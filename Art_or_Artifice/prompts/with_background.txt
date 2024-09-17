@@ -1,0 +1,20 @@
+You are given a creative short-story. Read it carefully. You are then given some background about specific aspects of creative writing, as well as a binary (Yes/No) question. Your objective is to use the background information to answer the question about the story. Start your answer with Yes or No. You can optionally then provide a short explanation for your answer.
+
+==========
+Story:
+
+
+[STORY]
+
+
+==========
+Background:
+
+
+[BACKGROUND]
+
+
+==========
+Question: [QUESTION]
+
+Remember to start your answer with Yes or No. You can optionally then provide a short explanation for your answer.

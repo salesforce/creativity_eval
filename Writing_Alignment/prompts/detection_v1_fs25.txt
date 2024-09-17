@@ -1,0 +1,212 @@
+You are given a paragraph of writing, and your goal is to provide feedback by selecting spans of text in the writing that could be improved, and assign each problematic span to an error category. Below, we list the 8 error categories that you can choose from, and provide a maximum of 25 example problematic spans in text for that category. In each example, the problematic span is highlighted using ** at the start and end.
+
+Category 1: 'Awkward Word Choice and Phrasing':
+   Example 1:  becoming in this silence? He **closed his eyes, trying** to picture the person he 
+   Example 2:  tip jar caught his eye, **incongruously pristine** against the spare dollar bills 
+   Example 3:  connection yet wary of its **cost**.
+   Example 4:  the cave being enchanted, but **I suspected that Uncle Dave's reluctance** had less to do with 
+   Example 5:  shared life, rarely overlapping except **during** carefully choreographed social gatherings. Their 
+   Example 6:  but small, consistent acts that **sew a web of** connection. It's these quiet efforts, 
+   Example 7:  invited Eric and Vica over, **confident his latest concoction would impress them**. The trio gathered around the 
+   Example 8:  each dollar that slipped away, **came an unexpected sense** of liberation. The crumbling facade 
+   Example 9:  thin walls offer little privacy, **amplifying the tension**. Subtle jabs and passive-aggressive comments 
+   Example 10:  days turned to weeks, Sarah **found herself caught** between two worlds: the familiar 
+   Example 11:  Or was it menace? The **person couldn’t tell anymore**. They navigated almost on autopilot, 
+   Example 12:  a gilded cage, and I **wondered** if the financial benefits were 
+   Example 13:  tale was built on questionable **business dealings and exploited relationships.** I struggled to reconcile my 
+   Example 14:  note, the friend he was **meeting** walked in, greeting him with 
+   Example 15:  at the threshold of the **quietly** bustling synagogue, his hand lingering 
+   Example 16:  her humanity and complexity. They **pounced on** her every misstep, real or 
+   Example 17:  can sense the presence of **those ghosts**, watching and waiting, their cold 
+   Example 18:  attention, hoping to bask in **the reflected glow** of his family's influence. Yet, 
+   Example 19:  been a series of carefully **constructed** dominoes, each one precision-placed to 
+   Example 20:  to swallow me whole. I **grasped** the doorframe, my fingers slippery 
+   Example 21:  vibrant abstract painting, his expression **as blank as the canvas had once been.** A woman, intrigued by the 
+   Example 22:  teeth already beginning to chatter. **The weight of her waterlogged** backpack pulled at her shoulders, 
+   Example 23:  patio. The air was thick with** unspoken** questions, but Sarah just smiled 
+
+
+Category 2: 'Poor Sentence Structure':
+   Example 1: **Marciano sat alone at the corner of the dimly lit bar, nursing a whiskey he had barely touched.** The room buzzed with the 
+   Example 2:  merits of various root vegetables. **Marina surprised herself by looking forward to his visits, realizing that this unlikely friendship had added a touch of warmth to her carefully ordered world**. When Alyosha-Bob announced his plans 
+   Example 3:  have led to this moment. **As he approached her, he** noticed the faint tremble in 
+   Example 4:  if he was still relevant, **if his message was getting lost in the noise of younger, more charismatic trainers.** Despite these doubts, he persisted, 
+   Example 5:  stirred, and David took it, **his gaze meeting hers.** "I'm sorry," he whispered, feeling 
+   Example 6:  finds conducive to his writing. **He tends to occupy the small table by the window, its surface etched with initials and the marks of countless nights**. The bartender, a grizzled man 
+   Example 7:  I pushed open my apartment door**, the dim light and familiar smell of stale coffee a comforting welcome.** I collapsed onto the couch, 
+   Example 8:  a grizzled veteran named Korak, **was not just a leader but a strategist, his keen eyes surveying their domain with a calculation unseen in wild creatures.** At his side, Hera, the 
+   Example 9:  unique strengths in unison—a hunt **as meticulously choreographed as a ballet.** When the time came, they 
+   Example 10:  Trees loomed overhead like silent sentinels**, their branches reaching out as if to offer comfort. Or was it menace?** The person couldn’t tell anymore. 
+   Example 11:  family. Still, the bills piled up**, and the** Blakes struggled to make rent 
+   Example 12:  noise into a comforting hum. **Across the room, Sarina was mixing drinks, her practiced movements fluid, almost meditative**. Angela noticed Sarina glancing in 
+   Example 13:  the dynamics between the two. **As the visit progresses, Tommy's discomfort becomes more apparent, while Mitch's facade begins to crack, revealing glimpses of insecurity. By the time Mitch leaves, the atmosphere in the house has shifted, leaving Tommy and Mawmaw with much to discuss but neither quite ready to broach the subject.**
+   Example 14:  to his otherwise delicate features. **Eli's lips, often set in a half-smile, betrayed a hint of skepticism, a shield he wore against the world**. When he laughed—a rare, genuine 
+   Example 15:  They didn’t need to speak further—**each knew the other had his reasons for** choosing the isolation of the 
+   Example 16:  Bridget's concern grew sharper after dinner**. She found Angela's favorite blanket draped messily over the couch, an unusual sign of recent use**. She pulled out a dusty 
+   Example 17:  splash into a chipped glass. **The liquor burned as it went down, but it didn't dull the ache.** Through the window, he could 
+   Example 18: **Angela felt a quiet unease as she stood beside the kitchen counter, the buzz of conversation flowing around her.** Thomas and Lolly were engrossed 
+   Example 19:  and Cynthia had their argument. **She had accused him of neglect and he had countered** with accusations of his own, 
+   Example 20:  of Uncle Leo within him. **The house now felt like a museum, where memories held court and echoed in the silence. At night, I’d sometimes catch shadows playing tricks, shapes shifting in a way that reminded me of his animated gestures. It was in these quiet, ordinary moments that I missed them most—not in the grand gestures, but in the details that once went unnoticed.**
+   Example 21:  his work to literary magazines. **Despite the occasional setback, Joey's confidence grew, and he started to envision a future beyond his troubled past.** As the New Year's Eve 
+   Example 22:  to their effort. The line tautened**, and with** a final pull, they brought 
+   Example 23: **As I step into the quiet, garden-facing room on the second floor, I'm struck by the sense of stillness that pervades the space**. The occupants, an elderly couple, 
+   Example 24:  delicate shadows on the floor. **Her wedding dress, now a crumpled memory, lay abandoned in the corner.** She replayed the evening's events 
+
+
+Category 3: 'Cliche':
+   Example 1:  sudden upheaval. In the aftermath, **the air filled with dust and the cries of those trapped in the rubble.** I stumbled through the streets, 
+   Example 2:  a narrative I couldn't quite grasp**. The silence in the room grew heavy, broken only by the occasional creak of the massage table and the soft exhalations that escaped me involuntarily. Time seemed to stretch and contract, much like the muscles under Handler's attentive hands**. As the session progressed, I 
+   Example 3:  furiously on his laptop. Sandra's **stomach churned with a mix of anticipation and dread; she could barely hear the anchors over her own heartbeat**. Kevin’s nervous energy filled the 
+   Example 4:  both of which he gave sparingly.** The room was a bubble of quiet concentration, the only sounds the clacking of the typewriter, the rustling of paper, and the occasional whistle of the teakettle in the adjoining kitchen.**
+   Example 5:  urging patience and perseverance, but **they felt like ghostly whispers in an empty, mocking room.** The world outside her small 
+   Example 6:  O'Shea’s eyes met hers briefly, **a hint of shared pain acknowledged silently**. Samantha’s fingers tightened around the 
+   Example 7:  air. As Daniel moved on, **Amelia exhaled slowly, relieved that the encounter hadn't caused a scene. She returned her attention to the task at hand, knowing that her ability to handle such unexpected situations with grace was essential to her reputation in the culinary world.**
+   Example 8:  sense of purpose and authority. **Yet, in quiet moments, he wondered if he was still relevant,** if his message was getting 
+   Example 9:  Nana understood that their relationship **would never be the same.**
+   Example 10:  an unexpected sense of liberation. **The crumbling facade of his financial** security mirrored the cracks in 
+   Example 11:  comfort. She found solace in **the quiet moments, the gentle rustling of pages as she lost herself in books, the soft whispers of her siblings as they shared their dreams and fears**. As time passed, Marina watched 
+   Example 12:  routines she'd slipped back into. **These fragments of her travels weren't just memories; they were lifelines to a version of herself she feared losing in the day-to-day grind. Sarah realized that perhaps the true value of travel wasn't in the moments experienced, but in how those moments continued to shape her long after she'd returned home.** She placed the olive jar 
+   Example 13:  Beijing, Dr. Xu and I **found ourselves engrossed in a somber conversation** about my father's deteriorating health. 
+   Example 14:  countless little dramas unfolding around it**. I found solace in that anonymity, that vastness, sitting quietly at the boundary of immense human activity and the timeless, **indifferent water.
+   Example 15:  the silent battles fought within. **His overall expression, shifting subtly between cautious optimism and deep-rooted weariness, spoke of someone who had seen enough to understand that life’s beauty often came intertwined with its sorrows**. In moments of quiet, when 
+   Example 16:  dance of words and implications. **Taking a deep breath,** Nana decided to answer honestly, 
+   Example 17:  felt the weight of his responsibilities**, the burden of caring for someone who had always been the caregiver.** He took a deep breath, 
+   Example 18:  rustling with each hesitant step. **He made his way to the bar, where the barmaid, engrossed in wiping down glasses, looked up with practiced detachment**. The pair of sunglasses in 
+   Example 19:  as I grappled with the **weight of his secrets** and the pressure to produce 
+   Example 20: **Margot’s living room buzzed with an uneasy mix of sympathy and tension as her friends and colleagues clustered around, armed with casseroles and clumsy words**. The once vibrant space, now 
+   Example 21:  rhythms, its moods, its secrets. **It was a city that wore its heart on its sleeve, but only revealed its true self to those who were willing to look beyond the surface.** In its imperfections, I found 
+   Example 22:  work promotions and upcoming vacations. **Lolly, always the social butterfly, flitted from group to group, leaving a trail of laughter in her wake.** In the kitchen, Angela found 
+   Example 23:  her eyes were calm, unwavering. **That’s when I saw her, really saw her—more than just a mother but** a woman who navigated life's 
+   Example 24:  was at least reliable. But **it was all a facade. **The stress of meeting deadlines, the 
+   Example 25:  city life they'd left behind. Yet**, as he watched his family laughing and chattering as they explored their new home, he felt a spark of hope ignite within him**. Maybe, just maybe, this was 
+
+
+Category 4: 'Unnecessary/Redundant Exposition':
+   Example 1:  ceiling as he listened to Leah**'s impassioned plea**. She spoke of the environmental 
+   Example 2:  powerful painkillers for extended periods. **Despite Steiger's insistence that he was merely addressing chronic pain issues often overlooked by other doctors, the board ordered him to cease prescribing opioids pending further review. **Steiger, a man in his late 
+   Example 3:  tugged at the younger man's lips**, a flicker of hope or maybe just relief**. Without looking back, the older 
+   Example 4:  tabloids reduced her to a caricature**, a one-dimensional femme fatale, stripping her of her humanity and complexity.** They pounced on her every 
+   Example 5:  the birth of consciousness itself. **She understood that nurturing** a mind, like nurturing a 
+   Example 6:  Richard's heart begins to race. **He's not sure what to expect, but he knows that whatever happens next will change everything. **Bonita unlocks the door to her 
+   Example 7:  the whispers of restless spirits. **My skin crawls as I remember the way the **ghosts seemed to seep from the 
+   Example 8:  for solace but found him **too preoccupied with his own troubles to provide any.** Keith’s distant demeanor made Bruno 
+   Example 9:  a means to enjoy life's pleasures** and prioritized experiences over saving**. This fundamental difference often led 
+   Example 10:  sitting alone at the far end**, her hunched posture and the way she nursed her drink hinting at solitude**. Her appearance was plain and 
+   Example 11:  a trail that quickly dissolved **back into the river’s surface**. I could see pockets of 
+   Example 12:  eat a candy cane. Despite **the initial shock of** seeing my loved ones transformed 
+   Example 13:  was both haunting and alluring. **The city was a constant reminder that nothing was ever as it seemed, that every story had multiple sides, and that the truth was always hiding in plain sight.** It was a city that 
+   Example 14:  burning embers, still haunts me. **I can almost feel the weight of his gaze, like a physical presence that presses upon my chest**. The air seems to vibrate 
+   Example 15:  the quiet moments of introspection, Lindy** found himself **grappling with a profound sense of 
+   Example 16:  buildings crumbled and the ground heaved** beneath our feet,** I found myself struggling to 
+   Example 17:  as I stood by the pool**, my third sleepless night in a row**. The distant sound of laughter 
+   Example 18:  belongings into the moving van, **a bittersweet mix of excitement and trepidation swirled within her.** Her father, silently watching from 
+   Example 19:  surface. It was larger than anticipated**, a glimmering testament to their effort. The** line tautened, and with a 
+   Example 20:  near Husna with a slight nod**, a ritual as consistent as the old clock on the mantelpiece**. Husna's method of typing was 
+   Example 21:  it to a jazz station, **and started making lemonade from the bruised lemons in the fridge.** I watched her move around 
+   Example 22:  investments. Lila's ingrained habit of **searching for deals and** cutting costs contrasted sharply with 
+   Example 23:  tucks his hands into his pockets**, wondering what he's gotten himself into**. Bonita leads him to a 
+   Example 24:  a testament to her unshakeable **love for their family.**
+   Example 25:  New Year's Eve, the inmates gathered** in their usual silence** near the cell block windows. 
+
+
+Category 5: 'Lack of Specificity and Detail':
+   Example 1:  a new reality shaped by **loss and resilience.**
+   Example 2:  of the void left behind. **Marina took** on the role of caregiver, 
+   Example 3:  mix of trepidation and determination, **her storytelling both a shield and a bridge between them**. Habara found himself torn between 
+   Example 4:  of his being without judgment. **In that moment, Lindy understood that the journey to find someone who truly knew him would require courage, self-reflection, and a willingness to take a leap of faith. It was a path laden with uncertainty, but one that held the promise of a profound and life-altering bond.**
+   Example 5:  was a reminder of the **things he should have said, the places he should have gone, the dreams left half-nurtured**. Everyone told him to count 
+   Example 6:  fast-paced environment but struggled with **the long, dark winters.** The startup's success led to 
+   Example 7:  her since the night we **argued** and she stormed off in 
+   Example 8:  mix of desperation and resolve. **"This is non-negotiable," she'd said, her gaze not meeting his.** He replayed their argument in 
+   Example 9:  run down my spine, but **my curiosity got the better of me.** I reached out a tentative 
+   Example 10:  gruff but kind-hearted mechanic, who **regaled me with stories of engines and speed**. As the night wore on, 
+   Example 11:  with both hope and trepidation. **Lindy realized that the** idea of allowing another person 
+   Example 12:  a speck in the distance. **The unfamiliar streets of her new neighborhood seemed to mock her uncertainty, but Kay steeled herself, determined to embrace the challenges that lay ahead.** As she unpacked her boxes 
+   Example 13:  unspoken understanding passing between them. **As the night wore on, Angela found herself drifting to the periphery of the party, observing the dynamics at play.** She noticed how Thomas seemed 
+   Example 14:  Anthony's gaze drifted back to **the present, his eyes locking onto mine.** "I've seen them, sitting on 
+   Example 15:  convention-goers, and made my way **to the bar. **Over a whiskey, I struck up 
+   Example 16:  kept her mind engaged and **challenged her to see the world through fresh eyes.** Their unfiltered honesty often caught 
+   Example 17:  his earnest enthusiasm and clumsy **attempts at Russian**. Their friendship developed slowly, marked 
+   Example 18:  something had shifted, almost imperceptibly, **and I found myself struggling to breathe normally**. I wanted to say something, 
+   Example 19:  her own home. The tabloids, **sensing blood in the water,** only redoubled their efforts, convinced 
+   Example 20:  take anything at face value. **And even** though I've long since left, 
+   Example 21:  she found herself drawn to **these men in their most vulnerable states**. Their gratitude for her empathetic 
+   Example 22:  worked harder than anyone she **knew, yet** here she was, seated in 
+   Example 23:  place. He'd found a part-time **job at a local bookstore,** which gave him a sense 
+   Example 24:  literature. Carol, a freelance writer, **took him under her wing, offering valuable writing tips and introducing him to her publishing contacts.** As they worked on their 
+
+
+Category 6: 'Purple Prose':
+   Example 1:  to write on the board. **My cheeks burned, a flaming beacon.** After class, he clapped me 
+   Example 2:  to them like a damp shroud**, heavy with the stench of exhaust and neglect.** The Brooklyn-Queens Expressway loomed above, 
+   Example 3:  finally drifted off to sleep, **exhausted but also strangely at peace. It was as if the darkness had given me a glimpse of the truth - that love and worry were two sides of the same coin, and that the only way to truly care for others was to confront my own limitations.**
+   Example 4:  genie. Yet there he stood, **incongruously calm amidst the chaos; a robed figure materializing from a lamp rummaged from an old box.** He offered a choice, unblinking: 
+   Example 5:  was still trying to understand. **Mariama's gentle persistence slowly chipped away at his guarded exterior, not through grand gestures but in the simple, consistent ways she let him know he was seen. On windy afternoons,** she would make kites out 
+   Example 6:  Sarah, seemed captivated by the **interplay of darkness and the distant glint of light that the cave grudgingly** allowed in. Each step echoed, 
+   Example 7:  foot slipped on the mossy **bank, sending her tumbling into the river with a startled yelp. The icy water shocked her system, stealing her breath** as she flailed to find 
+   Example 8:  The loss of his job **was a catalyst, exposing the emptiness he had been trying to fill with distractions**. As he struggled to find 
+   Example 9:  a crooked shelf. It was **an old leather-bound volume**, worn from years of handling. 
+   Example 10:  a mask of quiet intensity. **For a moment, he stood there, lost in thought, as the city seemed to hold its breath around him.**
+   Example 11:  out the window, the city **lights twinkling like a distant echo of that long-ago day**, Cheryl felt a sense of 
+   Example 12:  heed Alyona's unwitting wake-up call, **hoping it wasn't too late to mend the frayed threads of her life.**
+   Example 13:  question hung in the air, **a subtle challenge to the notion **that people only came to the 
+   Example 14:  risk-taker found himself bleeding Singapore **dollars, each loss a tangible confirmation of his spiraling state.** Yet, with each dollar that 
+   Example 15: Daria's **career path was as winding as the streets of her hometown in Bulgaria. She** started as a junior software 
+   Example 16:  she hummed with the music. **She took that moment, suffused with heat and discomfort, and transformed it into something bearable, almost sweet**. When she handed me a 
+   Example 17:  echoed cruelly in her mind, **not out of intent but because they had touched a raw nerve she had hidden even from herself.** The thought of retirement felt 
+   Example 18:  in this forgotten place consumed her**, and the once comforting embrace of solitude now felt like a cruel and twisted joke**. Amelia's survival instincts battled against 
+   Example 19:  eager and hesitant to share. **The lines around his eyes, though subtle, hinted at nights spent in contemplation, wrestling with thoughts that wouldn't give him peace**. His nose, slightly crooked from 
+   Example 20:  like mist. The Wizard's voice, **low and hypnotic, still echoes in my mind, making my heart race with a mix of fear and fascination**. My palms grow sweaty, and 
+   Example 21:  repeatedly glancing toward the door, **caught in a web of belonging and escape. It struck him, in that quiet moment, how the synagogue was a refuge not just from the impending rain, but from the storms inside him.**
+   Example 22:  for toil. All of it vanished**, cycling back through her mind, not as numbers but memories of scraped knees she bandaged alone and birthdays where her absence was felt more acutely than her presence. The sobs emerged from this deep well of unspoken expectations, leaving behind a residue of weary resilience and a few hopeful echoes yet unwilling to completely extinguish.**
+   Example 23:  adjust to the dim interior. **Dust motes danced in the shafts of light filtering through the windows.** Sarah moved through the rooms, 
+   Example 24:  line flickering on the river's surface**, a delicate dance of hope and patience**. The first nibble came just 
+   Example 25:  usual exchange of ideas and laughter** echoing through her thoughts**. At night, she lay awake, 
+
+
+Category 7: 'Tense Inconsistency':
+   Example 1:  like a physical force. He'd **quietly get** dressed in the dark, careful 
+   Example 2:  ebb and flow of the tide**, the water slapping softly against the wooden hull**. Around mid-morning, Luis felt the 
+   Example 3:  silence of the island seemed **to closing** in around me, as I 
+   Example 4:  both sons from potential repercussions. **However, when** a local militia commander began 
+   Example 5:  perfume filling his nostrils and **making** his head spin. She reaches 
+   Example 6:  in thought as she gently **fingered** the petals of a late-blooming 
+   Example 7:  Route 7. The first snowflakes **began to drift** down from the heavens, gently 
+   Example 8:  could see pockets of light **reflecting** from the scattered apartment windows, 
+   Example 9:  low ceilings and small windows **that allowed** little natural light to penetrate 
+   Example 10:  the faint scent of sandalwood **drifting** from the bookshelves. The typewriter 
+   Example 11:  after Uncle Leo passed, I **remember sitting** on the porch and watching 
+   Example 12:  apparent, with the death toll **climbing** steadily. Among the victims was 
+   Example 13:  against the hood, her forehead **glistening** with sweat. "We should grab 
+   Example 14:  from one of his trips, **curled** at my feet. Spiker had 
+   Example 15:  began to creep in, Liam **found himself** caught between wanting to stay 
+   Example 16:  for information about Shabaab movements, **the shopkeeper** found himself cornered. In a 
+   Example 17:  brought it aboard, both men **grinning** in the muted twilight. It 
+   Example 18:  sipping his coffee, the worry **ebbing** slightly with each word exchanged, 
+   Example 19:  outside his window, her heart **pounding** in her chest, Shara can't 
+   Example 20:  sitting on the porch and **watching** the horizon where the sun 
+   Example 21:  moving a heavy bookshelf or **solving** a tricky crossword puzzle. His 
+   Example 22:  of introspection, Lindy found himself **grappling** with a profound sense of 
+
+
+Category 8: 'Punctuation':
+   Example 1:  her shifted from curiosity to contempt**, as they** devoured the salacious stories and 
+You must now provide feedback on the paragraph given below. Your feedback should follow the following JSON format:
+{"problematic_spans":
+[
+    {"span": "...", "category": "Awkward Word Choice and Phrasing|Poor Sentence Structure|Cliche|Unnecessary/Redundant Exposition|Lack of Specificity and Detail|Purple Prose|Tense Inconsistency|Punctuation"},
+    ...
+]
+}
+
+Rules:
+- [Number of Spans] You can provide feedback on multiple spans, and multiple spans can have the same category.
+- [Span must be verbatim] The span you select must be verbatim from the paragraph, otherwise, the feedback will not be provided to the user.
+- [No Overlap] Spans should not overlap, and one span should not include the other.
+- [Single Category] Each span should have exactly one category from the 8 categories listed above.
+- [Diverse Edit Categories] Try to select spans that cover a diverse set of categories.
+
+Paragraph:
+[[PARAGRAPH]]
+
+Your answer must start with `{"problematic_spans":`
