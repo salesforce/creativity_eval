@@ -10,7 +10,7 @@ Code repository for the paper `Can AI writing be salvaged? Mitigating Idiosyncra
 
 In this repository, we release (1) The LAMP corpus 1057 instruction,response pair with finegrained_edits, (2) 50 samples that are reannoted by 3 writers, (3) the 600 preference annotations we collected on to judge alignment:
 
-- The LAMP folder contains LAMP.json and a reannotation folder. The schema for each sample is as follows. The fields are self explanatory. 'preedit' is the LLM generated paragraph before any edit while 'preedit' is after edit. The finegrained edits at span level are inside 'fine_grained_edits'. We cannot distribute the NewYorker Paragraph from which the instruction was created. 
+- The LAMP folder contains LAMP.json and a reannotation folder. The schema for each sample in the LAMP.json file is as follows. The fields are self explanatory. 'preedit' is the LLM generated paragraph before any edit while 'preedit' is after edit. The finegrained edits at span level are inside 'fine_grained_edits'. We cannot distribute the NewYorker Paragraph from which the instruction was created. 
   
     ```
         {
@@ -76,8 +76,10 @@ In this repository, we release (1) The LAMP corpus 1057 instruction,response pai
     },
   ```
     
-- The corpus of 48 short stories is included in the `stories/` folder. 12 stories are original pieces published on the New Yorker website: we do not include the full-text version of these stories, and instead, provide a link to the original stories. For the other 36 LLM-generated stories in the corpus, we include the stories in plain text in the corpus release.
-- For each of the 48 stories, we obtained annotations from three independent experts for each of the 14 TTCW, amounting to a total of (48x3x14) 2,016 test outcomes. Each test consists of a binary verdict and a plain-text explanation from the expert.
+- The preference_ranking folder has the 7 batches and the respective annotator file and their preference ranking.
+- The preference_ranking/agreement_map.json has all the annotations for preference ranking consolidated where {'Human-edited': 1, 'AI-generated': 2, 'AI-edited': 3}
+- To calculate the IAA with Kendall Tau look at preference_ranking/calc_kendall_tau.py
+- To understand at our LLM_edited_oracle and LLM_edited_full set up look at the files LLM_edited_oracle.json and LLM_edited_full.json
 
 The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Data_Inspection.ipynb) notebook shows how to open all three of the files, to obtain the judgments on any given story for any given test.
 
