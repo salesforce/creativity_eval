@@ -79,7 +79,7 @@ In this repository, we release (1) The LAMP corpus 1057 instruction,response pai
 - The preference_ranking folder has the 7 batches and the respective annotator file and their preference ranking.
 - The preference_ranking/agreement_map.json has all the annotations for preference ranking consolidated where {'Human-edited': 1, 'AI-generated': 2, 'AI-edited': 3}
 - To calculate the IAA with Kendall Tau look at preference_ranking/calc_kendall_tau.py
-- To understand at our LLM_edited_oracle and LLM_edited_full set up look at the files LLM_edited_oracle.json and LLM_edited_full.json
+- To understand at our `LLM_edited_oracle' and LLM_edited_full set up look at the files LLM_edited_oracle.json and LLM_edited_full.json
 
 The [Data_Inspection.ipynb](https://github.com/salesforce/creativity_eval/blob/main/Data_Inspection.ipynb) notebook shows how to open all three of the files, to obtain the judgments on any given story for any given test.
 
