@@ -10,7 +10,69 @@ Code repository for the paper `Can AI writing be salvaged? Mitigating Idiosyncra
 
 In this repository, we release (1) The LAMP corpus 1057 instruction,response pair with finegrained_edits, (2) 50 samples that are reannoted by 3 writers, (3) the 600 preference annotations we collected on to judge alignment:
 
-- The 14 TTCW tests are included in the `tests/` folder, which includes information on the Torrance dimension, the question formulation of the test, and the full prompt containing additional context about the test.
+- The LAMP folder contains LAMP.json and a reannotation folder. The schema for each sample is as follow
+        {
+        "instruction": "What happens when she goes outside to smoke a menthol cigarette and starts thinking about Shirley?",
+        "preedit": "She steps out into the crisp evening air, [......]",
+        "postedit": "The first drag fills her lungs, [.....]",
+        "id": "W1_batch1",
+        "source": "claude3.5-sonnet",
+        "type": "Literary Fiction",
+        "fine_grained_edits": [
+                        {
+                            "originalText": "She steps out into the crisp evening air, cigarette in hand.",
+                            "editedText": "",
+                            "categorization": "Unnecessary/Redundant Exposition"
+                        },
+                        {
+                            "originalText": "damp chill.",
+                            "editedText": "damp evening chill, or maybe it's just the menthols.",
+                            "categorization": "Lack of Specificity and Detail"
+                        },
+                        {
+                            "originalText": "like they always seem to lately",
+                            "editedText": "as they often have in these difficult months",
+                            "categorization": "Awkward Word Choice and Phrasing"
+                        },
+                        {
+                            "originalText": "as",
+                            "editedText": "and",
+                            "categorization": "Awkward Word Choice and Phrasing"
+                        },
+                        {
+                            "originalText": "But the good memories are fleeting, replaced by their last fight",
+                            "editedText": "Yet again, the good memories subsumed the wound of their last fight",
+                            "categorization": "Poor Sentence Structure"
+                        },
+                        {
+                            "originalText": "biting",
+                            "editedText": "vicious",
+                            "categorization": "Awkward Word Choice and Phrasing"
+                        },
+                        {
+                            "originalText": "She",
+                            "editedText": "Through the dense, pungent smoke, she",
+                            "categorization": "Lack of Specificity and Detail"
+                        },
+                        {
+                            "originalText": "now. She stubs it out and",
+                            "editedText": "and",
+                            "categorization": "Unnecessary/Redundant Exposition"
+                        },
+                        {
+                            "originalText": "cigarette",
+                            "editedText": "stub",
+                            "categorization": "Awkward Word Choice and Phrasing"
+                        }
+                ],
+        "url": "https://www.newyorker.com/magazine/2012/12/24/shirley-temple-three",
+        "creativity_scores": [
+            "3",
+            "5"
+        ],
+        "split": "test",
+    },
+  
 - The corpus of 48 short stories is included in the `stories/` folder. 12 stories are original pieces published on the New Yorker website: we do not include the full-text version of these stories, and instead, provide a link to the original stories. For the other 36 LLM-generated stories in the corpus, we include the stories in plain text in the corpus release.
 - For each of the 48 stories, we obtained annotations from three independent experts for each of the 14 TTCW, amounting to a total of (48x3x14) 2,016 test outcomes. Each test consists of a binary verdict and a plain-text explanation from the expert.
 
