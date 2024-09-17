@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Text Span</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+        }
+        .main-container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .toggle-button {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .dropdowns-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .dropdown-label {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .dropdown {
+            flex: 1;
+            margin: 0 10px;
+        }
+        #loadingSpinner {
+            display: none;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container mt-5">
+        <h1 style="font-size: 25px;">{{ data.instruction }}</h1><br><br>
+        <p id="text-paragraph" onmouseup="showModal()">
+            {{ data.paragraph }}
+        </p><br><br>
+
+        <div class="toggle-button">
+            <button class="btn btn-secondary" id="toggleHighlight" onclick="toggleHighlight()">Highlight Cliches</button>
+            <button class="btn btn-danger" id="undoEdit" onclick="undoLastEdit()">Undo Last Edit</button>
+        </div>
+
+        <input type="hidden" id="paraid" name="paraid">{{ data.id }}</input>
+
+        <div id="loadingSpinner">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <div class="dropdowns-container">
+            <div class="dropdown">
+                <label for="creativityPreEdit" class="dropdown-label">Creativity Pre Edit:</label>
+                <select class="form-select" id="creativityPreEdit" name="creativityPreEdit">
+                    <option value="" selected disabled>Choose...</option>
+                    {% for i in range(1, 11) %}
+                        <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            <div class="dropdown">
+                <label for="creativityPostEdit" class="dropdown-label">Creativity Post Edit:</label>
+                <select class="form-select" id="creativityPostEdit" name="creativityPostEdit">
+                    <option value="" selected disabled>Choose...</option>
+                    {% for i in range(1, 11) %}
+                        <option value="{{ i }}">{{ i }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </div><br><br>
+
+        <form id="nextPageForm" action="/page/{{ data.id }}" method="post" onsubmit="return validateDropdowns()">
+            <input type="hidden" name="action" value="next_page">
+            <input type="hidden" name="creativityPreEdit" id="hiddenCreativityPreEdit">
+            <input type="hidden" name="creativityPostEdit" id="hiddenCreativityPostEdit">
+	    <center><button type="submit" class="btn btn-primary">Next Page</button></center><br><br>
+	    <strong> DISCLAIMER: <i> <mark>When you edit, if you choose a single word which occurs multiple times the system can't handle it. E.g for the sentence "The cat was running after the mouse" instead of replacing "the" with "a" , choose a unique substring "the mouse" ---> "a mouse"</mark> </i> </strong>
+	</form>
+    </div>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Text Edit and Categorization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editForm">
+                        <input type="hidden" name="action" value="save_edit">
+                        <div class="mb-3">
+                            <label for="selectedText" class="col-form-label">Selected Text:</label>
+                            <textarea class="form-control" id="selectedText" readonly></textarea>
+                        </div>
+                        <div class="mb-3">
+                            <label for="categorization" class="col-form-label">Categorization:</label>
+                            <select class="form-select" id="categorization" name="categorization" onchange="handleCategorizationChange()">
+                                <option value="" selected disabled>Choose...</option>
+                                <option value="Cliche">Cliche</option>
+                                <option value="Unnecessary/ Redundant Exposition">Unnecessary/ Redundant Exposition</option>
+                                <option value="Lack of Specificity and Detail">Lack of Specificity and Detail</option>
+                                <option value="Word Choice and Phrasing">Word Choice and Phrasing</option>
+                                <option value="Sentence Structure">Sentence Structure</option>
+                                <option value="Tense Consistency">Tense Consistency</option>
+                                <option value="Purple Prose (Unnecessary ornamental and overly verbose)">Purple Prose (Unnecessary ornamental and overly verbose)</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <input type="text" class="form-control mt-2" "name"="otherCategorization" id="otherCategorization" style="display:none;" placeholder="Enter custom category">
+                        </div>
+                        <div class="mb-3">
+                            <label for="suggestedEdit" class="col-form-label">Suggested Edit:</label>
+                            <textarea class="form-control" id="suggestedEdit"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="submitEdit()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <script>
+        function getSelectedText() {
+            if (window.getSelection) {
+                return window.getSelection();
+            } else if (document.selection && document.selection.type != "Control") {
+                return document.selection.createRange();
+            }
+            return '';
+        }
+
+        function showModal() {
+            var selection = getSelectedText();
+            var selectedText = selection.toString();
+            if (selectedText) {
+                document.getElementById('selectedText').value = selectedText;
+                $('#categorization').val('');
+                $('#suggestedEdit').val('');
+                document.getElementById('otherCategorization').style.display = 'none';
+                var myModal = new bootstrap.Modal(document.getElementById('editModal'), {
+                    keyboard: true
+                });
+                myModal.show();
+
+                $('.modal-dialog').draggable({
+                    handle: ".modal-header"
+                });
+
+                setTimeout(() => {
+                    var modalElement = document.getElementById('editModal');
+                    var modalRect = modalElement.getBoundingClientRect();
+                    if (modalRect.bottom > window.innerHeight) {
+                        modalElement.scrollIntoView({ behavior: "smooth", block: "end" });
+                    }
+                }, 10);
+            }
+        }
+
+        function handleCategorizationChange() {
+            var categorizationSelect = document.getElementById('categorization');
+            var otherCategorizationInput = document.getElementById('otherCategorization');
+            if (categorizationSelect.value === 'Other') {
+                otherCategorizationInput.style.display = 'block';
+            } else {
+                otherCategorizationInput.style.display = 'none';
+            }
+        }
+
+        function submitEdit() {
+            var editedText = $('#suggestedEdit').val();
+            var originalText = $('#selectedText').val();
+            var categorization = $('#categorization').val();
+            var otherCategorization = $('#otherCategorization').val();
+            var paragraphElement = document.getElementById('text-paragraph');
+             
+	    if (!categorization || (categorization === 'Other' && !otherCategorization)) {
+            	alert('Please choose a categorization or enter a custom category.');
+            	return;
+        	}
+            if (categorization === 'Other' && otherCategorization) {
+                categorization = otherCategorization;
+            }
+
+            var paragraph = paragraphElement.innerText;
+
+            $.ajax({
+                type: "POST",
+                url: "/page/" + {{ data.id }},
+                data: {
+                    action: 'save_edit',
+                    categorization: categorization,
+                    originalText: originalText,
+                    editedText: editedText,
+                    fullTextPreEdit: paragraph,
+                    fullTextPostEdit: paragraph.replace(originalText, editedText)
+                },
+                success: function (response) {
+                    console.log("Response received:", response);
+                    $('#editModal').modal('hide');
+                    sessionStorage.setItem('lastEdit', JSON.stringify({
+                        originalText: originalText,
+                        editedText: editedText
+                    }));
+                    var htmlContent = paragraphElement.innerHTML;
+                    var highlightedText = '<span style="background-color: yellow;">' + editedText + '</span>';
+                    paragraphElement.innerHTML = htmlContent.replace(originalText, highlightedText);
+
+                },
+                error: function (xhr, status, error) {
+                    console.log("Error in submission:", error);
+                }
+            });
+        }
+
+        function undoLastEdit() {
+            var paragraphElement = document.getElementById('text-paragraph');
+
+            $.ajax({
+                type: "POST",
+                url: "/undo_last_edit",
+                success: function (response) {
+                    if (response.status === "success") {
+
+                        var lastEdit = response.lastEdit;
+                        var originalText = lastEdit.originalText;
+                        var editedText = lastEdit.editedText;
+
+                        var htmlContent = paragraphElement.innerHTML;
+                        var regex = new RegExp('<span style="background-color: yellow;">' + editedText + '</span>', "g");
+                        paragraphElement.innerHTML = htmlContent.replace(regex, originalText);
+
+                        console.log("Last edit undone successfully");
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log("Error in undoing last edit:", error);
+                }
+            });
+        }
+
+        function toggleHighlight() {
+            var button = document.getElementById('toggleHighlight');
+            var paragraphElement = document.getElementById('text-paragraph');
+            var spinner = document.getElementById('loadingSpinner');
+            var identifier = document.getElementById('paraid');
+
+            if (button.textContent === "Highlight Cliches") {
+                spinner.style.display = "block";
+                var originalText = paragraphElement.innerText;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/highlight_cliches/" + {{ data.id }},
+                    data: { text: originalText },
+                    success: function (response) {
+                        var cliches = response.cliches;
+                        var highlightedHtml = originalText;
+
+                        cliches.forEach(function (cliche) {
+                            var regex = new RegExp(`(${escapeRegExp(cliche)})`, "gi");
+                            highlightedHtml = highlightedHtml.replace(regex, '<span style="background-color: lightblue;">$1</span>');
+                        });
+
+                        paragraphElement.innerHTML = highlightedHtml;
+                        button.textContent = "Remove Cliche Highlighting";
+                        spinner.style.display = "none";
+                    },
+                    error: function (xhr, status, error) {
+                        console.log("Error in highlighting cliches:", error);
+                        spinner.style.display = "none";
+                    }
+                });
+            } else {
+                var htmlContent = paragraphElement.innerHTML.replace(/<span style="background-color: lightblue;">(.*?)<\/span>/g, "$1");
+                paragraphElement.innerHTML = htmlContent;
+                button.textContent = "Highlight Cliches";
+            }
+        }
+
+        function escapeRegExp(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function validateDropdowns() {
+            var preEditValue = document.getElementById('creativityPreEdit').value;
+            var postEditValue = document.getElementById('creativityPostEdit').value;
+
+            if (preEditValue === "" || postEditValue === "") {
+                alert("Please select a value for both 'Creativity Pre Edit' and 'Creativity Post Edit'.");
+                return false;
+            }
+
+            document.getElementById('hiddenCreativityPreEdit').value = preEditValue;
+            document.getElementById('hiddenCreativityPostEdit').value = postEditValue;
+
+            return true;
+        }
+    </script>
+</body>
+</html>
+
