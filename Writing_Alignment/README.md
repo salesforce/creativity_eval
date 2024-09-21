@@ -10,6 +10,12 @@ Code repository for the paper `Can AI writing be salvaged? Mitigating Idiosyncra
 
 In this repository, we release (1) The LAMP corpus 1057 instruction,response pair with finegrained_edits, (2) 50 samples that are reannoted by 3 writers, (3) the 600 preference annotations we collected on to judge alignment:
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=NQtyE4tCp5k" target="_blank">
+    <img src="https://img.youtube.com/vi/NQtyE4tCp5k/0.jpg" alt="Watch the video" style="width:80%; height:auto;">
+  </a>
+</p>
+
 - The LAMP folder contains LAMP.json and a reannotation folder. The schema for each sample in the LAMP.json file is as follows. The fields are self explanatory. 'preedit' is the LLM generated paragraph before any edit while 'preedit' is after edit. The finegrained edits at span level are inside 'fine_grained_edits'. We cannot distribute the NewYorker Paragraph from which the instruction was created. 
   
     ```
