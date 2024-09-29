@@ -99,11 +99,10 @@ If you are curious about the syntactic idiosyncrasies look at the respective fol
 
 If you use this code or data please cite
 ```
-@article{chakrabarty2024alignment,
-  title={Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI
-Alignment in the Writing Process through Edits},
-  author={Chakrabarty, Tuhin and Laban, Philippe and and Wu, Chien-Sheng},
-  journal={arXiv preprint arXiv:2309.14556},
-  year={2024}
-}
+  @article{chakrabarty2024can,
+    title={Can AI writing be salvaged? Mitigating Idiosyncrasies and Improving Human-AI Alignment in the Writing Process through Edits},
+    author={Chakrabarty, Tuhin and Laban, Philippe and Wu, Chien-Sheng},
+    journal={arXiv preprint arXiv:2409.14509},
+    year={2024}
+  }
 ```
