@@ -1,3 +1,6 @@
+Welcome to the repo for "AI-Slop to AI-Polish? Aligning Language Models through Edit-Based Writing Rewards and Test-time Computation"
+Read our paper https://arxiv.org/pdf/2504.07532
+
 The data for the Writing Qualiity Benchmark can be found in the respective folder. We have given individual splits as well as combined splits
 
 Code for training can be found inside training folders. Its organized as
