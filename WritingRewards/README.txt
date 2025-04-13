@@ -15,3 +15,6 @@ Code for training can be found inside training folders. Its organized as
           - lamp-PR-exp-predict
 
       - ModernBert
+
+
+To train an Edit COT model, you can use same sft.py code. Data for training it can be found in edit folder
