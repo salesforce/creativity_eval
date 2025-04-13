@@ -21,10 +21,10 @@ To train an Edit COT model, you can use same sft.py code. Data for training it c
 
 If you use our code and data please cite us
 
-                        @article{chakrabarty2025ai,
-                          title={AI-Slop to AI-Polish? Aligning Language Models through Edit-Based Writing Rewards and Test-time Computation},
-                          author={Chakrabarty, Tuhin and Laban, Philippe and Wu, Chien-Sheng},
-                          journal={arXiv preprint arXiv:2504.07532},
-                          year={2025}
-                        }
+            @article{chakrabarty2025ai,
+                  title={AI-Slop to AI-Polish? Aligning Language Models through Edit-Based Writing Rewards and Test-time Computation},
+                  author={Chakrabarty, Tuhin and Laban, Philippe and Wu, Chien-Sheng},
+                  journal={arXiv preprint arXiv:2504.07532},
+                  year={2025}
+            }
 
