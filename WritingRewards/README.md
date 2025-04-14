@@ -4,7 +4,7 @@ Read our paper https://arxiv.org/pdf/2504.07532
 The data for the Writing Qualiity Benchmark can be found in the respective folder. We have given individual splits as well as combined splits
 
 Code for training can be found inside training folders. Its organized as
-      - Llama3
+- Llama3
 
         - sft.py
         - inference.py
@@ -17,7 +17,8 @@ Code for training can be found inside training folders. Its organized as
           - lamp-P-exp-predict
           - lamp-PR-exp-predict
 
-      - ModernBert
+- ModernBert
+        - train_wqrm_mbert.py
 
 
 To train an Edit COT model, you can use same sft.py code. Data for training it can be found in edit folder
