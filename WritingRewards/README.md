@@ -2,6 +2,7 @@ Welcome to the repo for "AI-Slop to AI-Polish? Aligning Language Models through 
 Read our paper https://arxiv.org/pdf/2504.07532
 
 Download WQRM models from Huggingface
+
         - WQRM [https://huggingface.co/Salesforce/WQRM] (Just trained on LAMP PR)
         - WQRM-PRE [https://huggingface.co/Salesforce/WQRM-PRE]  (Trained on LAMP PR+ extended data of 100 Expert and 83 MFA paragraphs)
         
