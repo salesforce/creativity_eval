@@ -24,6 +24,15 @@ Code for training can be found inside training folders. Its organized as
 
 To train an Edit COT model, you can use same sft.py code. Data for training it can be found in edit folder
 
+The file WQRM_annotations.json is the human annotations vs WQRM on <first draft, random cot, best cot> experiment
+
+The final calibration experiment for "How does content affect writing quality?" is in content_quality_experiment.
+
+          - lamp_PRE_train.json ( Contains MFA written 83 and Exper written 100 paragraphs with scores 7.5 and 10 to train a new WQRM)
+          - lamp_PRE_val.json
+
+
+
 If you use our code and data please cite us
 
             @article{chakrabarty2025ai,
