@@ -30,6 +30,8 @@ The final calibration experiment for "How does content affect writing quality?" 
 
           - lamp_PRE_train.json ( Contains MFA written 83 and Exper written 100 paragraphs with scores 7.5 and 10 to train a new WQRM)
           - lamp_PRE_val.json
+          - reward_calibration_less_content.json 
+          - reward_calibration_nore_content.json
 
 
 
