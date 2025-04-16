@@ -4,6 +4,7 @@ import numpy as np
 from transformers import AutoModel, AutoTokenizer
 from torch.utils.data import DataLoader
 from typing import List, Dict, Any
+from huggingface_hub import hf_hub_download
 
 def load_data(filename: str) -> List[Dict[str, Any]]:
     with open(filename, "r") as f:
@@ -53,24 +54,62 @@ class MBertWQRM(nn.Module):
         super().__init__()
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
         
-        if os.path.isdir(model_name):
-            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-            self.nlu = AutoModel.from_pretrained(model_name)
-            state_dict = torch.load(os.path.join(model_name, 'heads.pth'), map_location=self.device, weights_only=True)
-            
-            hidden_size = self.nlu.config.hidden_size
-            self.regression_head = self._create_regression_head(hidden_size)
-            self.regression_head.load_state_dict(state_dict['regression_head'])
-        else:
-            self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-            self.nlu = AutoModel.from_pretrained(model_name)
-            
-            hidden_size = self.nlu.config.hidden_size
-            self.regression_head = self._create_regression_head(hidden_size)
+        # Load tokenizer and NLU model for both local and online sources
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.nlu = AutoModel.from_pretrained(model_name)
+        hidden_size = self.nlu.config.hidden_size
+        
+        # Create regression head
+        self.regression_head = self._create_regression_head(hidden_size)
+        
+        # Initialize weights
+        self._init_weights(self.regression_head)
+        
+        # Try to load the custom heads from the model
+        self._load_custom_heads(model_name)
         
         self.regression_scale = 10.0  # Scale factor for regression output
         self.to(self.device)
-    
+
+    def _load_custom_heads(self, model_name: str):
+        """Load custom heads from local or online models"""
+        # Check if model_name is a local path or an online model
+        if os.path.exists(model_name):
+            # Local path
+            heads_path = os.path.join(model_name, 'heads.pth')
+            if os.path.exists(heads_path):
+                heads_state = torch.load(heads_path, map_location=self.device)
+                self.regression_head.load_state_dict(heads_state['regression_head'])
+        else:
+            try:
+                # Use huggingface_hub to download with built-in caching
+                repo_id = model_name
+                filename = "heads.pth"
+                
+                # Download the file (will use cache if available)
+                cached_file = hf_hub_download(
+                    repo_id=repo_id,
+                    filename=filename,
+                    cache_dir=None,  # Use default HF cache directory
+                    resume_download=True
+                )
+                
+                # Load the heads from the cached path
+                if os.path.exists(cached_file):
+                    heads_state = torch.load(cached_file, map_location=self.device)
+                    self.regression_head.load_state_dict(heads_state['regression_head'])
+                else:
+                    print(f"Warning: Could not find custom heads at {cached_file}")
+            except Exception as e:
+                print(f"Error loading custom heads: {e}")
+
+    def reload_weights(self, path):
+        """DEPRECATED: Use load_model instead.
+        Loads only the regression head weights."""
+        import warnings
+        warnings.warn("reload_weights is deprecated; use load_model instead", DeprecationWarning)
+        self.regression_head.load_state_dict(torch.load(path))
+
     def _create_regression_head(self, hidden_size):
         return nn.Sequential(
             nn.Dropout(0.1),
@@ -222,6 +261,11 @@ class MBertWQRM(nn.Module):
             'regression_head': self.regression_head.state_dict()
         }
         torch.save(heads_state, os.path.join(save_dir, 'heads.pth')) 
+    
+    @classmethod
+    def load_model(cls, model_path):
+        model = cls(model_path)
+        return model
 
 if __name__ == "__main__":
     # Short snippet from the New Yorker
@@ -231,14 +275,14 @@ if __name__ == "__main__":
     paragraph2 = """From my position by the store window, I watched intently as the two figures outside displayed what seemed to be conflicting emotions, their faces caught between joy and distress at their encounter. Manager stood beside me, her usual businesslike demeanor softening as she observed my careful attention to the scene unfolding before us. "You notice everything, don't you, Klara?" she remarked, her voice carrying a hint of admiration. The pair outside continued their awkward dance of emotions, their body language speaking volumes about their complicated history. After they departed, Manager's gaze lingered on the now-empty sidewalk, and she mused that they must have been separated for years before this chance meeting. Her voice took on an unusually contemplative tone, quite different from her typical practical manner, and I noticed how her eyes seemed to look beyond the street, perhaps into her own past. The moment revealed not just the complexity of human reunions but also how such encounters could stir deep memories in unexpected observers, making me wonder about Manager's own story of lost connections."""
 
 
-    model_folder = "models/WQRM/" # Change this to wherever the folder is
-    model_folder = "models/WQRM-PRE/" # Change this to wherever the folder is
+    # model_folder = "models/WQRM/" # Change this to wherever the folder is
+    # model_folder = "models/WQRM-PRE/" # Change this to wherever the folder is
 
+    model_folder = "Salesforce/WQRM-PRE"
 
     model = MBertWQRM(model_folder)
 
-    print("Pair-preference prediction (1 is New Yorker, 2 is GPT-4o)")
-    print(model.predict_pair(paragraph1, paragraph2))
+    print(f"Pair-preference prediction (1 is New Yorker, 2 is GPT-4o): {model.predict_pair(paragraph1, paragraph2)}")
 
     print("WQRM Score of each paragraph")
     print("Paragraph 1: ", model.predict_regression(paragraph1))
