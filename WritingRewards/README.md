@@ -40,6 +40,8 @@ The final calibration experiment for "How does content affect writing quality?" 
 - reward_calibration_less_content.json
 - reward_calibration_nore_content.json
 
+You can also look at https://github.com/tuhinjubcse/Author-Style-Personalization/tree/main/data which has preference data for the Style Mimic section of WQRM benchmark
+
 ## Citation
 
 If you use our code and data, please cite us:
@@ -52,3 +54,4 @@ If you use our code and data, please cite us:
       year={2025}
 }
 ```
+
